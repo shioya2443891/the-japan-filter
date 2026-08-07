@@ -1,0 +1,182 @@
+---
+interface Spec { label: string; value: string; }
+interface Origin {
+  brandCountry: string;
+  madeIn: string | null;
+  officialSeller: string | null;
+}
+interface Ratings {
+  stars: number | null;
+  reviewCount: number | null;
+  badge: string | null;
+  verifiedAt: string;
+}
+interface AmazonData {
+  url: string;
+  asin: string | null;
+  affiliateTag: string | null;
+  imageUrl: string | null;
+}
+interface Product {
+  id: string;
+  award: string | null;
+  name: string;
+  priceTier: '$' | '$$' | '$$$';
+  priceNote: string | null;
+  setContents: string;
+  specs: Spec[];
+  origin: Origin;
+  usNotes: string[];
+  whyPicked: string[];
+  ratings: Ratings;
+  amazon: AmazonData;
+  ctaLabel: string;
+}
+
+interface Props { product: Product; }
+const { product } = Astro.props;
+const { award, name, priceTier, priceNote, setContents, specs, origin, usNotes, whyPicked, ratings, amazon, ctaLabel } = product;
+---
+
+<article class="my-10 overflow-hidden border border-line" id={product.id}>
+
+  <!-- Award strip — 朱色のアクセント帯、受賞ラベルを検品タグ風に表示 -->
+  {award && (
+    <div class="flex items-center gap-3 border-b border-seal/25 bg-seal/[0.05] px-5 py-2">
+      <span class="font-data text-[9px] text-seal" aria-hidden="true">▲</span>
+      <span class="font-data text-[10px] uppercase tracking-wide2 text-seal">{award}</span>
+    </div>
+  )}
+
+  <!-- Product header -->
+  <div class="border-b border-line px-5 py-5">
+    <!-- 将来: amazon.imageUrl が設定されたらここに画像を表示 -->
+    {amazon.imageUrl && (
+      <img
+        src={amazon.imageUrl}
+        alt={name}
+        class="mb-4 h-32 w-auto object-contain"
+        loading="lazy"
+      />
+    )}
+
+    <h3 class="font-display text-xl leading-snug text-indigo">{name}</h3>
+
+    <div class="mt-2 flex flex-wrap items-baseline gap-x-3 gap-y-1">
+      <span class="font-data text-sm font-medium text-ink/80">{priceTier}</span>
+      {priceNote && (
+        <span class="font-body text-[12px] italic text-ink/50">{priceNote}</span>
+      )}
+    </div>
+
+    <p class="mt-1.5 font-data text-[10px] uppercase tracking-wide2 text-ink/45">
+      {setContents}
+    </p>
+  </div>
+
+  <!-- 3カラム: Specifications / Origin & Seller / Why We Picked It -->
+  <div class="grid grid-cols-1 divide-y divide-line border-b border-line md:grid-cols-3 md:divide-x md:divide-y-0">
+
+    <!-- Specifications -->
+    <div class="px-5 py-4">
+      <p class="mb-3 font-data text-[10px] uppercase tracking-wide2 text-ink/40">Specifications</p>
+      <dl class="space-y-2">
+        {specs.map(s => (
+          <div class="flex justify-between gap-4">
+            <dt class="font-data text-[11px] text-ink/45">{s.label}</dt>
+            <dd class="font-data text-[11px] text-right text-ink/80">{s.value}</dd>
+          </div>
+        ))}
+      </dl>
+    </div>
+
+    <!-- Origin & Seller -->
+    <div class="px-5 py-4">
+      <p class="mb-3 font-data text-[10px] uppercase tracking-wide2 text-ink/40">Origin & Seller</p>
+      <ul class="space-y-2">
+        <li class="flex items-start gap-2">
+          <span class="shrink-0 font-data text-[11px] font-medium text-seal">✓</span>
+          <span class="font-data text-[11px] text-ink/80">{origin.brandCountry} Brand</span>
+        </li>
+        {origin.madeIn ? (
+          <li class="flex items-start gap-2">
+            <span class="shrink-0 font-data text-[11px] font-medium text-seal">✓</span>
+            <span class="font-data text-[11px] text-ink/80">Made in {origin.madeIn}</span>
+          </li>
+        ) : (
+          <li class="flex items-start gap-2">
+            <span class="shrink-0 font-data text-[11px] text-ink/30">·</span>
+            <span class="font-data text-[11px] text-ink/40">Manufacturing location: not confirmed</span>
+          </li>
+        )}
+        {origin.officialSeller && (
+          <li class="flex items-start gap-2">
+            <span class="shrink-0 font-data text-[11px] font-medium text-seal">✓</span>
+            <span class="font-data text-[11px] text-ink/80">Official US Seller: {origin.officialSeller}</span>
+          </li>
+        )}
+      </ul>
+    </div>
+
+    <!-- Why We Picked It -->
+    <div class="px-5 py-4">
+      <p class="mb-3 font-data text-[10px] uppercase tracking-wide2 text-ink/40">Why We Picked It</p>
+      <ul class="space-y-2">
+        {whyPicked.map(reason => (
+          <li class="flex items-start gap-2">
+            <span class="shrink-0 font-data text-[11px] text-indigo/40">→</span>
+            <span class="font-body text-[13px] leading-snug text-ink/75">{reason}</span>
+          </li>
+        ))}
+      </ul>
+    </div>
+
+  </div>
+
+  <!-- US Buyer Notes — 該当がある場合のみ表示 -->
+  {usNotes.length > 0 && (
+    <div class="border-b border-line bg-indigo/[0.02] px-5 py-3">
+      <p class="mb-1.5 font-data text-[10px] uppercase tracking-wide2 text-ink/40">For US Buyers</p>
+      <ul class="space-y-1">
+        {usNotes.map(note => (
+          <li class="font-body text-[12px] leading-relaxed text-ink/65">· {note}</li>
+        ))}
+      </ul>
+    </div>
+  )}
+
+  <!-- CTA フッター -->
+  <div class="flex flex-col gap-3 px-5 py-4 sm:flex-row sm:items-center sm:justify-between">
+
+    <!-- 評価バッジ: stars が null の間は badge のみ表示、badge もなければ検証日 -->
+    <div>
+      {ratings.stars !== null ? (
+        <span class="font-data text-[10px] uppercase tracking-wide2 text-ink/50">
+          {'★'.repeat(Math.round(ratings.stars))} {ratings.stars.toFixed(1)}
+          {ratings.reviewCount !== null && ` · ${ratings.reviewCount.toLocaleString()} reviews`}
+        </span>
+      ) : ratings.badge ? (
+        <span class="font-data text-[10px] uppercase tracking-wide2 text-indigo/60">{ratings.badge}</span>
+      ) : (
+        <span class="font-data text-[10px] uppercase tracking-wide2 text-ink/30">
+          Listing verified · {ratings.verifiedAt}
+        </span>
+      )}
+    </div>
+
+    <!-- Amazon CTA — 固定価格を含まない表記 -->
+    <div class="flex flex-col items-start gap-1 sm:items-end">
+      <a
+        href={amazon.url}
+        rel="nofollow sponsored noopener"
+        target="_blank"
+        class="whitespace-nowrap border border-seal px-4 py-2 font-data text-[11px] uppercase tracking-wide2 text-seal transition-colors hover:bg-seal hover:text-paper"
+      >
+        {ctaLabel} →
+      </a>
+      <span class="font-body text-[10px] italic text-ink/40">(paid link)</span>
+    </div>
+
+  </div>
+
+</article>
