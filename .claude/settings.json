@@ -1,0 +1,34 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(C:\\Users\\shioy\\Documents\\the-japan-filter\\**)",
+      "Edit(C:\\Users\\shioy\\Documents\\the-japan-filter\\**)",
+      "Write(C:\\Users\\shioy\\Documents\\the-japan-filter\\**)",
+      "Bash(git add*)",
+      "Bash(git commit*)",
+      "Bash(git push*)",
+      "Bash(git status*)",
+      "Bash(git diff*)",
+      "Bash(git log*)",
+      "Bash(git branch*)",
+      "Bash(git stash list*)",
+      "Bash(npm run build*)",
+      "Bash(npm run dev*)",
+      "Bash(powershell.exe*ExecutionPolicy Bypass*npm run build*)"
+    ],
+    "deny": [
+      "Bash(*git push --force*)",
+      "Bash(*git push -f *)",
+      "Bash(*git reset --hard*)",
+      "Bash(*git clean -f*)",
+      "Bash(*git rebase -i*)",
+      "Bash(rm *)",
+      "Bash(rm -*)",
+      "Bash(*rm -rf*)",
+      "Bash(*rm -r *)",
+      "Bash(del *)",
+      "Bash(rmdir *)",
+      "Bash(*Remove-Item*)"
+    ]
+  }
+}
