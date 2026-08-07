@@ -2,6 +2,8 @@
 import BaseLayout from './BaseLayout.astro';
 import HowWeResearched from '../components/HowWeResearched.astro';
 import ProductCard from '../components/ProductCard.astro';
+import JapanContext from '../components/JapanContext.astro';
+import FinalVerdict from '../components/FinalVerdict.astro';
 
 interface Spec { label: string; value: string; }
 interface Origin { brandCountry: string; madeIn: string | null; officialSeller: string | null; }
@@ -22,6 +24,12 @@ interface Product {
   amazon: AmazonData;
   ctaLabel: string;
 }
+interface JapanContextData { heading: string; body: string[]; }
+interface VerdictData {
+  rating: 'recommended' | 'conditional' | 'not-recommended';
+  summary: string;
+  bestPick: string | null;
+}
 
 interface Props {
   title: string;
@@ -33,14 +41,24 @@ interface Props {
   ogImage?: string;
   intro?: string;
   products?: Product[];
+  japanContext?: JapanContextData;
+  usBuyerNotes?: string[];
+  verdict?: VerdictData;
 }
 const {
   title, description, publishDate, researchSteps, sourcesChecked, lastVerified,
-  ogImage, intro, products,
+  ogImage, intro, products, japanContext, usBuyerNotes, verdict,
 } = Astro.props;
 
-const hasProducts = products && products.length > 0;
+const hasProducts      = products && products.length > 0;
+const hasUsBuyerNotes  = usBuyerNotes && usBuyerNotes.length > 0;
+
+// verdict.bestPick (ID) を商品名に解決
+const bestPickProduct = (verdict?.bestPick && products)
+  ? (products.find(p => p.id === verdict.bestPick) ?? null)
+  : null;
 ---
+
 <BaseLayout title={title} description={description} ogImage={ogImage}>
   <article class="mx-auto max-w-3xl px-5 py-14">
 
@@ -51,25 +69,101 @@ const hasProducts = products && products.length > 0;
       Published {publishDate.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}
     </p>
 
-    <!-- イントロ: frontmatter の intro フィールドがある場合に商品カードの前に表示 -->
+    <!-- 1. INTRO -->
     {intro && (
       <div class="mb-10 font-body text-[15px] leading-relaxed text-ink/80">
         <p>{intro}</p>
       </div>
     )}
 
-    <!-- 商品カード: products 配列がある記事のみ表示 -->
+    <!-- 2. PRODUCT CARDS -->
     {hasProducts && (
       <section aria-label="Product picks">
         {products.map(p => <ProductCard product={p} />)}
       </section>
     )}
 
-    <!-- 記事本文 (編集・解説セクション) -->
+    <!-- 3. EDITORIAL BODY (slot) — h2/h3 は下部の <style> で定義 -->
     <div class="prose-content font-body text-[15px] leading-relaxed text-ink/85">
       <slot />
     </div>
 
+    <!-- 4. JAPAN CONTEXT -->
+    {japanContext && (
+      <JapanContext heading={japanContext.heading} body={japanContext.body} />
+    )}
+
+    <!-- 5. WHAT US BUYERS SHOULD KNOW -->
+    {hasUsBuyerNotes && (
+      <aside class="my-10 overflow-hidden border border-line bg-paper">
+        <div class="border-b border-line bg-ink/[0.03] px-5 py-3">
+          <p class="font-data text-[9px] uppercase tracking-wide2 text-ink/45">Buying Guide</p>
+          <h2 class="mt-0.5 font-display text-lg text-indigo">What US Buyers Should Know</h2>
+        </div>
+        <ul class="divide-y divide-line">
+          {usBuyerNotes.map(note => (
+            <li class="flex gap-3 px-5 py-3.5">
+              <span class="mt-0.5 shrink-0 font-data text-[11px] font-medium text-seal">→</span>
+              <span class="font-body text-[14px] leading-relaxed text-ink/80">{note}</span>
+            </li>
+          ))}
+        </ul>
+      </aside>
+    )}
+
+    <!-- 6. HOW WE RESEARCHED -->
     <HowWeResearched steps={researchSteps} sourcesChecked={sourcesChecked} lastVerified={lastVerified} />
+
+    <!-- 7. FINAL VERDICT -->
+    {verdict && (
+      <FinalVerdict
+        rating={verdict.rating}
+        summary={verdict.summary}
+        bestPickName={bestPickProduct?.name ?? null}
+      />
+    )}
+
   </article>
 </BaseLayout>
+
+<style>
+  /* prose-content 内の見出し階層を明確化 */
+  .prose-content :global(h2) {
+    font-family: "Shippori Mincho", serif;
+    font-size: 1.35rem;
+    font-weight: 500;
+    color: #24405A;
+    margin-top: 2.5rem;
+    margin-bottom: 0.75rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid #E4E4E7;
+  }
+  .prose-content :global(h3) {
+    font-family: "Shippori Mincho", serif;
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #24405A;
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+  }
+  .prose-content :global(p) {
+    margin-bottom: 1rem;
+  }
+  .prose-content :global(ul),
+  .prose-content :global(ol) {
+    padding-left: 1.25rem;
+    margin-bottom: 1rem;
+  }
+  .prose-content :global(ul) { list-style: disc; }
+  .prose-content :global(ol) { list-style: decimal; }
+  .prose-content :global(li) {
+    margin-bottom: 0.25rem;
+  }
+  .prose-content :global(a) {
+    color: #24405A;
+    text-decoration: underline;
+  }
+  .prose-content :global(a:hover) {
+    color: #3D5B78;
+  }
+</style>

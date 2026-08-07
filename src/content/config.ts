@@ -44,6 +44,16 @@ const tableware = defineCollection({
     lastVerified: z.string(),
     ogImage: z.string().optional(),
     products: z.array(ProductSchema).optional(),
+    japanContext: z.object({
+      heading: z.string().default("How It's Viewed in Japan"),
+      body: z.array(z.string()),
+    }).optional(),
+    usBuyerNotes: z.array(z.string()).optional(),
+    verdict: z.object({
+      rating: z.enum(['recommended', 'conditional', 'not-recommended']),
+      summary: z.string(),
+      bestPick: z.string().nullable().default(null),
+    }).optional(),
   }),
 });
 

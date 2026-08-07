@@ -146,6 +146,39 @@ products:
     amazon:
       url: "https://www.amazon.com/s?k=Noritake+Colorwave+Graphite+Pasta+Salad+Set+5+Piece"
     ctaLabel: "Check on Amazon"
+japanContext:
+  body:
+    - >-
+      Noritake's origins are distinctly international. The Morimura Brothers began
+      importing Japanese ceramics to New York in 1876, and Nippon Toki Gomei Kaisha —
+      which later became Noritake — was established in Nagoya in 1904 specifically to
+      produce Western-style tableware for export. The brand has operated in the US
+      market from its founding, which is why its Japanese identity and its American
+      commercial presence developed simultaneously rather than sequentially.
+    - >-
+      In Japan, Noritake is classified as 洋食器 (Western-style tableware) rather
+      than traditional Japanese ceramics. It sits in the established gift-brand tier —
+      a reliable choice for wedding registries (結婚祝い) and return gifts (内祝い),
+      positioned between everyday domestic tableware and premium European porcelain
+      like Wedgwood or Meissen. The brand's Japanese market catalog skews heavily
+      toward fine china patterns; the casual Colorwave line is a smaller part of its
+      Japan-facing product range.
+    - >-
+      US buyers encountering Noritake through Colorwave are accessing the brand at
+      its most casual tier — the price point and product type that the Japanese market
+      would categorize as the brand's everyday entry range. The quality controls and
+      brand reliability carry over from the premium range, but the positioning in Japan
+      is quite different from how the same line is perceived in the US market. This gap
+      is the context US buyers rarely get from domestic review sources.
+usBuyerNotes:
+  - "Verify the seller reads 'Noritake U.S.A., Inc.' on the Amazon product page before purchasing — third-party listings for the same products exist alongside the official storefront"
+  - "Colorwave is an open-stock line: individual pieces can be purchased separately, which matters for replacing broken items and adding pieces after a registry closes"
+  - "Reviewers consistently report no significant glaze degradation after 12+ months of regular dishwasher use; load plates in designated slots to avoid rim chipping from pieces contacting each other"
+  - "Manufacturing location for the Colorwave line is not specified in official US listings — the brand is Japanese but specific production details are not confirmed in publicly available sources"
+verdict:
+  rating: "recommended"
+  summary: "Noritake Colorwave delivers verified Japanese brand quality through an official US storefront, at a price point that works for wedding and housewarming gifts across several budgets. Reviewers consistently report strong durability over time. For couples who host or want a more considered everyday set, the Colorscapes Navy is worth the premium; for everyone else, the Colorwave Graphite 20-piece covers the most ground."
+  bestPick: "colorwave-graphite-20pc"
 ---
 
 ## Who Should Register for Colorwave
@@ -155,16 +188,7 @@ or replacing mismatched everyday ware accumulated over the years. The open-stock
 availability of both lines means pieces can be added later — a practical advantage
 over sets that only exist as complete, fixed collections.
 
-If the couple hosts frequently and wants something that can move from a casual
+For couples who host frequently or want something that can move from a casual
 weeknight dinner to a more composed table setting, the Colorscapes Navy set is
-worth the step up in price. For everyone else, the Colorwave Graphite 20-piece
-is the recommendation that covers the most ground without requiring follow-up
-purchases.
-
-## A Note on Buying from the Official Storefront
-
-Both lines are sold by third-party sellers on Amazon alongside the official listing.
-To ensure warranty coverage and authenticity, verify the seller name reads
-"Noritake U.S.A., Inc." before adding to cart. All links in this guide point to
-Amazon search results — confirm the official seller on the product page before
-purchasing.
+worth the step up. For everyone else, the Colorwave Graphite 20-piece covers
+the most ground without requiring follow-up purchases.

@@ -1,0 +1,100 @@
+---
+// FinalVerdict.astro
+// 記事の最終判定。否定的な結論も堂々と出せる設計にする。
+// rating に応じてカラーを変え、判定の重みを視覚的に伝える。
+
+interface Props {
+  rating: 'recommended' | 'conditional' | 'not-recommended';
+  summary: string;
+  bestPickName?: string | null;
+}
+const { rating, summary, bestPickName } = Astro.props;
+
+const isRecommended   = rating === 'recommended';
+const isConditional   = rating === 'conditional';
+const isNotRecommended = rating === 'not-recommended';
+
+const icon  = isRecommended ? '✓' : isConditional ? '◆' : '✕';
+const label = isRecommended
+  ? 'Recommended'
+  : isConditional
+  ? 'Conditional'
+  : 'Not Recommended for US Buyers';
+---
+
+<section
+  class:list={[
+    'my-12 overflow-hidden border bg-paper',
+    isRecommended   && 'border-indigo',
+    isConditional   && 'border-line',
+    isNotRecommended && 'border-seal',
+  ]}
+>
+
+  <!-- ヘッダー: rating ごとに色が変わる帯 -->
+  <div
+    class:list={[
+      'flex items-center gap-4 px-5 py-4',
+      isRecommended   && 'bg-indigo',
+      isConditional   && 'bg-ink/[0.06]',
+      isNotRecommended && 'bg-seal',
+    ]}
+  >
+    <!-- アイコン -->
+    <span
+      class:list={[
+        'font-data text-2xl leading-none',
+        (isRecommended || isNotRecommended) && 'text-paper',
+        isConditional && 'text-ink/70',
+      ]}
+      aria-hidden="true"
+    >
+      {icon}
+    </span>
+
+    <!-- ラベル -->
+    <div>
+      <p
+        class:list={[
+          'font-data text-[9px] uppercase tracking-wide2',
+          (isRecommended || isNotRecommended) && 'text-paper/55',
+          isConditional && 'text-ink/40',
+        ]}
+      >
+        Final Verdict
+      </p>
+      <p
+        class:list={[
+          'font-data text-[13px] uppercase tracking-wide2',
+          (isRecommended || isNotRecommended) && 'text-paper',
+          isConditional && 'text-ink',
+        ]}
+      >
+        {label}
+      </p>
+    </div>
+  </div>
+
+  <!-- 要約 -->
+  <div class="px-5 py-6">
+    <p class="font-body text-[15px] leading-relaxed text-ink/85">{summary}</p>
+
+    <!-- Best Pick: bestPickName が設定されている場合のみ表示 -->
+    {bestPickName && (
+      <div class="mt-5 flex flex-wrap items-center gap-3 border-t border-line pt-4">
+        <span class="font-data text-[10px] uppercase tracking-wide2 text-ink/40">Best Pick</span>
+        <span
+          class:list={[
+            'font-body text-sm font-medium',
+            isRecommended   && 'text-indigo',
+            isConditional   && 'text-ink',
+            isNotRecommended && 'text-seal',
+          ]}
+        >
+          {bestPickName}
+        </span>
+      </div>
+    )}
+  </div>
+
+</section>

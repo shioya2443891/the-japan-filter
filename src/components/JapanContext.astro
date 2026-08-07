@@ -1,0 +1,34 @@
+---
+// JapanContext.astro
+// 日本市場での文脈・背景を示すセクション。
+// HowWeResearched（データ・検証記録）とは対照的に、より読み物的な構成にする。
+// 藍色ベースのトーンで「一次情報源からの文脈」であることを視覚的に示す。
+
+interface Props {
+  heading: string;
+  body: string[];
+}
+const { heading, body } = Astro.props;
+---
+
+<section class="my-12 overflow-hidden border border-indigo/25 bg-paper">
+
+  <!-- ヘッダー: 藍色の薄い背景で HowWeResearched の中立グレーと差別化 -->
+  <div class="border-b border-indigo/20 bg-indigo/[0.04] px-5 py-4">
+    <div class="mb-1 flex items-center gap-2.5">
+      <span class="font-data text-[10px] font-medium text-indigo/50">JP</span>
+      <span class="font-data text-[9px] uppercase tracking-wide2 text-indigo/45">Japan Context</span>
+    </div>
+    <h2 class="font-display text-xl text-indigo">{heading}</h2>
+  </div>
+
+  <!-- 本文: 段落形式で読み物として提示 -->
+  <div class="px-5 py-6">
+    <div class="space-y-4 border-l-2 border-indigo/15 pl-5">
+      {body.map(para => (
+        <p class="font-body text-[15px] leading-relaxed text-ink/80">{para}</p>
+      ))}
+    </div>
+  </div>
+
+</section>
