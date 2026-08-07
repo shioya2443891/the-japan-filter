@@ -38,7 +38,7 @@ const { product } = Astro.props;
 const { award, name, priceTier, priceNote, setContents, specs, origin, usNotes, whyPicked, ratings, amazon, ctaLabel } = product;
 ---
 
-<article class="my-10 overflow-hidden border border-line" id={product.id}>
+<article class="my-10 overflow-hidden border border-line bg-paper" id={product.id}>
 
   <!-- Award strip — 朱色のアクセント帯、受賞ラベルを検品タグ風に表示 -->
   {award && (

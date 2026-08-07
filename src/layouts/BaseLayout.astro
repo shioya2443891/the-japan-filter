@@ -27,10 +27,10 @@ const year = new Date().getFullYear();
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@500;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
 </head>
-<body class="bg-paper font-body text-ink">
+<body class="bg-tint font-body text-ink">
 
-  <!-- Header -->
-  <header>
+  <!-- Header: tint 背景から浮かせるために bg-paper を明示 -->
+  <header class="bg-paper">
     <!-- 検品ラインを思わせる朱色のヘアライン -->
     <div class="h-0.5 bg-seal"></div>
 
@@ -61,8 +61,8 @@ const year = new Date().getFullYear();
     <slot />
   </main>
 
-  <!-- Footer -->
-  <footer class="mt-20 border-t border-line">
+  <!-- Footer: header と対になる白背景でページを挟む -->
+  <footer class="mt-20 border-t border-line bg-paper">
 
     <!-- 3カラム本体 -->
     <div class="mx-auto max-w-4xl px-5 py-12">
