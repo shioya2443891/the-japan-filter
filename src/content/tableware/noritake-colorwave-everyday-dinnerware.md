@@ -17,6 +17,7 @@ sourcesChecked:
   - "Noritake official brand site"
   - "Customer review patterns (verified purchases, 4★ and below prioritized for durability signals)"
 lastVerified: "August 2026"
+ogImage: "/og/noritake-colorwave-everyday.png"
 ---
 
 Noritake's Colorwave line sits in an interesting position for the brand: it's casual

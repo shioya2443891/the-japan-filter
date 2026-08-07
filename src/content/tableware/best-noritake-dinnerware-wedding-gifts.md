@@ -15,6 +15,7 @@ sourcesChecked:
   - "Noritake official brand site"
   - "Customer review patterns"
 lastVerified: "August 2026"
+ogImage: "/og/noritake-wedding-gifts.png"
 ---
 
 Noritake has been making tableware in Nagoya since 1904, and it remains one of the

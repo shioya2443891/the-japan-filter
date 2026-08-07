@@ -9,10 +9,11 @@ interface Props {
   researchSteps: { label: string; detail: string }[];
   sourcesChecked: string[];
   lastVerified: string;
+  ogImage?: string;
 }
-const { title, description, publishDate, researchSteps, sourcesChecked, lastVerified } = Astro.props;
+const { title, description, publishDate, researchSteps, sourcesChecked, lastVerified, ogImage } = Astro.props;
 ---
-<BaseLayout title={title} description={description}>
+<BaseLayout title={title} description={description} ogImage={ogImage}>
   <article class="mx-auto max-w-3xl px-5 py-14">
     <p class="font-data text-[10px] uppercase tracking-wide2 text-indigo/60 mb-2">Tableware</p>
     <h1 class="font-display text-3xl md:text-4xl text-indigo mb-3">{title}</h1>

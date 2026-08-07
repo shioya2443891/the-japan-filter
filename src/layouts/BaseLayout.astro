@@ -2,16 +2,27 @@
 interface Props {
   title: string;
   description: string;
+  ogImage?: string;
 }
-const { title, description } = Astro.props;
+const { title, description, ogImage } = Astro.props;
+const siteUrl = Astro.site?.href ?? 'https://thejapanfilter.com/';
+const ogImageUrl = new URL(ogImage ?? '/og/og-default.png', siteUrl).toString();
+const fullTitle = `${title} | The Japan Filter`;
 ---
 <!doctype html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>{title} | The Japan Filter</title>
+  <title>{fullTitle}</title>
   <meta name="description" content={description} />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content={Astro.url.href} />
+  <meta property="og:title" content={fullTitle} />
+  <meta property="og:description" content={description} />
+  <meta property="og:image" content={ogImageUrl} />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:image" content={ogImageUrl} />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@500;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
 </head>

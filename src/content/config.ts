@@ -13,6 +13,7 @@ const tableware = defineCollection({
     researchSteps: z.array(z.object({ label: z.string(), detail: z.string() })),
     sourcesChecked: z.array(z.string()),
     lastVerified: z.string(),
+    ogImage: z.string().optional(),
   }),
 });
 
