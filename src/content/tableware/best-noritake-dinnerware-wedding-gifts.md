@@ -147,7 +147,7 @@ products:
       url: "https://www.amazon.com/s?k=Noritake+Colorwave+Graphite+Pasta+Salad+Set+5+Piece"
     ctaLabel: "Check on Amazon"
 japanContext:
-  body:
+  inJapan:
     - >-
       Noritake's origins are distinctly international. The Morimura Brothers began
       importing Japanese ceramics to New York in 1876, and Nippon Toki Gomei Kaisha —
@@ -156,20 +156,43 @@ japanContext:
       market from its founding, which is why its Japanese identity and its American
       commercial presence developed simultaneously rather than sequentially.
     - >-
-      In Japan, Noritake is classified as 洋食器 (Western-style tableware) rather
-      than traditional Japanese ceramics. It sits in the established gift-brand tier —
-      a reliable choice for wedding registries (結婚祝い) and return gifts (内祝い),
-      positioned between everyday domestic tableware and premium European porcelain
-      like Wedgwood or Meissen. The brand's Japanese market catalog skews heavily
-      toward fine china patterns; the casual Colorwave line is a smaller part of its
-      Japan-facing product range.
+      In Japan, Noritake is classified as 洋食器 (Western-style tableware) and sits in
+      the established gift-brand tier — a reliable choice for wedding registries
+      (結婚祝い) and return gifts (内祝い), positioned between everyday domestic tableware
+      and premium European porcelain like Wedgwood or Meissen. The Japanese domestic
+      catalog is weighted heavily toward bone china with decorative patterns, distributed
+      primarily through department store (百貨店) channels.
     - >-
-      US buyers encountering Noritake through Colorwave are accessing the brand at
-      its most casual tier — the price point and product type that the Japanese market
-      would categorize as the brand's everyday entry range. The quality controls and
-      brand reliability carry over from the premium range, but the positioning in Japan
-      is quite different from how the same line is perceived in the US market. This gap
-      is the context US buyers rarely get from domestic review sources.
+      The Colorwave and Colorscapes series are oriented primarily toward export markets.
+      At the time of research (August 2026), the color and set-size options available
+      through Amazon US were broader than what appeared in Japan domestic retail listings
+      for the same lines. Japan-facing Noritake retail emphasizes formal and gift-grade
+      china over the casual everyday stoneware that Colorwave represents.
+    - >-
+      On Japan domestic retail channels at the time of research (August 2026), Colorwave
+      products where available carried higher price points than equivalent Amazon US
+      listings. This is consistent with export-oriented products carrying a domestic
+      retail premium in their country of origin — the US market is the intended primary
+      market for these series.
+  forUsBuyers:
+    - >-
+      US buyers encountering Noritake through Colorwave are accessing the brand at its
+      most casual tier — the price point and product type that the Japanese market would
+      categorize as the brand's everyday entry range. The quality controls and brand
+      reliability carry over from the premium range, but the positioning in Japan is
+      quite different from how the same line is perceived in the US market. This gap is
+      the context US buyers rarely get from domestic review sources.
+    - >-
+      Because Colorwave is designed primarily for the US and export markets, Amazon US
+      represents the fullest selection of colors and set configurations. Buyers looking
+      to add pieces after a registry closes — or explore additional colorways — are better
+      served by the official US storefront than by sourcing from Japan, where the line
+      has a narrower presence.
+    - >-
+      The US Amazon price reflects the intended primary market price for Colorwave. The
+      pricing trend at time of research (August 2026) ran opposite to what US buyers
+      might assume — Japan domestic retail was not a lower-cost source for these products.
+      US buyers are not missing a price advantage by purchasing through Amazon US.
 usBuyerNotes:
   - "Verify the seller reads 'Noritake U.S.A., Inc.' on the Amazon product page before purchasing — third-party listings for the same products exist alongside the official storefront"
   - "Colorwave is an open-stock line: individual pieces can be purchased separately, which matters for replacing broken items and adding pieces after a registry closes"

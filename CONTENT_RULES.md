@@ -93,3 +93,61 @@ framing. Approved phrasing for evergreen mission statements:
   and manufacturer sources."
 - "Independent research and verification — not physical testing."
 - "Re-evaluated using domestic Japanese sources, not firsthand product use."
+
+---
+
+## 6. Master Article Template
+
+The Noritake Colorwave wedding gifts article (`best-noritake-dinnerware-wedding-gifts.md`)
+is the confirmed master template for all Japan Filter articles.
+
+**Standard article structure (in order):**
+
+1. **INTRO** — frontmatter `intro` field; one paragraph establishing the brand and why
+   it matters for US buyers
+2. **Product Cards** — frontmatter `products` array; rendered automatically by ArticleLayout
+3. **Editorial body** — markdown content in the article file; supplemental context,
+   use cases, buying scenarios
+4. **Japan Context** — frontmatter `japanContext`; two required subsections:
+   - **IN JAPAN**: documented facts about how the product/brand is positioned, sold,
+     or priced in the Japanese market, with verification date for any time-sensitive data
+   - **WHAT THAT MEANS FOR U.S. BUYERS**: explicit translation of each Japan-market fact
+     into a concrete US buyer implication
+5. **What US Buyers Should Know** — frontmatter `usBuyerNotes`; practical checklist
+   items specific to buying this product category as a US consumer
+6. **Final Verdict** — frontmatter `verdict`; rating, summary, and best pick with
+   Amazon CTA
+7. **How We Researched** — frontmatter `researchSteps`, `sourcesChecked`,
+   `lastVerified`; methodology transparency
+
+New articles must follow this structure. Deviating from the order or omitting sections
+requires documented justification.
+
+---
+
+## 7. Japan Context: prohibited reasoning patterns
+
+The Japan Context section exists to provide verifiable market intelligence — not to
+validate a purchase recommendation on the basis of popularity or cultural prestige.
+
+**Prohibited logic:**
+
+- "This product is popular in Japan, therefore it is good" — Japanese market popularity
+  does not transfer as product quality evidence for US buyers
+- "Japanese consumers prefer X, so US buyers should too" — preference differences between
+  markets are real; domestic Japanese preference is not a recommendation signal
+- "It sells well in Japan" — sales performance in one market does not indicate product
+  fit or value in another
+- Using the brand's Japanese origin as a standalone quality signal without specific,
+  verifiable evidence
+
+**The Japan Context section must:**
+- State verifiable facts about how the product is positioned, priced, or distributed
+  in Japan
+- Explicitly connect each Japan-market fact to a US buyer implication in the
+  "WHAT THAT MEANS FOR U.S. BUYERS" subsection
+- Include verification date for any market data (prices, availability, rankings)
+- Remain neutral: Japan-market context can support, qualify, or contradict a recommendation
+
+**Japan Context must never substitute for a verdict.** The Final Verdict section carries
+the recommendation; Japan Context provides supporting or qualifying evidence only.

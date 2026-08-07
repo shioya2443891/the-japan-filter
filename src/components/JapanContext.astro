@@ -1,19 +1,19 @@
 ---
 // JapanContext.astro
 // 日本市場での文脈・背景を示すセクション。
-// HowWeResearched（データ・検証記録）とは対照的に、より読み物的な構成にする。
-// 藍色ベースのトーンで「一次情報源からの文脈」であることを視覚的に示す。
+// IN JAPAN（日本の事実）→ WHAT THAT MEANS FOR U.S. BUYERS（米国購入者への含意）の2段構造。
 
 interface Props {
   heading: string;
-  body: string[];
+  inJapan: string[];
+  forUsBuyers: string[];
 }
-const { heading, body } = Astro.props;
+const { heading, inJapan, forUsBuyers } = Astro.props;
 ---
 
 <section class="my-12 overflow-hidden border border-indigo/25 bg-paper">
 
-  <!-- ヘッダー: 藍色の薄い背景で HowWeResearched の中立グレーと差別化 -->
+  <!-- ヘッダー -->
   <div class="border-b border-indigo/20 bg-indigo/[0.04] px-5 py-4">
     <div class="mb-1 flex items-center gap-2.5">
       <span class="font-data text-[10px] font-medium text-indigo/50">JP</span>
@@ -22,10 +22,24 @@ const { heading, body } = Astro.props;
     <h2 class="font-display text-xl text-indigo">{heading}</h2>
   </div>
 
-  <!-- 本文: 通常のセクション幅で堂々と読ませる。左ボーダーは視覚的アクセントのみ -->
+  <!-- IN JAPAN: 日本での事実・評価 -->
   <div class="border-l-2 border-indigo/20 px-5 py-6">
+    <p class="mb-4 font-data text-[9px] uppercase tracking-wide2 text-indigo/50">In Japan</p>
     <div class="space-y-4">
-      {body.map(para => (
+      {inJapan.map(para => (
+        <p class="font-body text-[15px] leading-relaxed text-ink/80">{para}</p>
+      ))}
+    </div>
+  </div>
+
+  <!-- 仕切り -->
+  <div class="border-t border-indigo/15"></div>
+
+  <!-- WHAT THAT MEANS FOR U.S. BUYERS: 米国購入者への含意 -->
+  <div class="border-l-2 border-indigo/35 bg-indigo/[0.025] px-5 py-6">
+    <p class="mb-4 font-data text-[9px] uppercase tracking-wide2 text-indigo/60">What That Means for U.S. Buyers</p>
+    <div class="space-y-4">
+      {forUsBuyers.map(para => (
         <p class="font-body text-[15px] leading-relaxed text-ink/80">{para}</p>
       ))}
     </div>

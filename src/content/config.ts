@@ -46,7 +46,8 @@ const tableware = defineCollection({
     products: z.array(ProductSchema).optional(),
     japanContext: z.object({
       heading: z.string().default("How It's Viewed in Japan"),
-      body: z.array(z.string()),
+      inJapan: z.array(z.string()),
+      forUsBuyers: z.array(z.string()),
     }).optional(),
     usBuyerNotes: z.array(z.string()).optional(),
     verdict: z.object({
