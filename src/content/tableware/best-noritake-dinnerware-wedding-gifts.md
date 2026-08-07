@@ -55,10 +55,10 @@ neutral against wood, stone, or white surfaces without the blandness of plain wh
 stoneware. At around $126 at time of research, this is strong value per piece for a
 set from a Japanese brand's official storefront.
 
-Dishwasher performance holds up well across reviews with 12+ months of use. The
-main failure mode reported is rim chipping from pieces knocking together in a full
-dishwasher load — load the plates in designated slots rather than free-stacking and
-this is a non-issue.
+Reviewers consistently report that dishwasher performance holds up well through
+12+ months of regular use. The main failure mode described is rim chipping from
+pieces knocking together in a full dishwasher load — reviewers who load the plates
+in designated slots rather than free-stacking report this is a non-issue.
 
 [View on Amazon →](https://www.amazon.com/s?k=Noritake+Colorwave+Graphite+20+Piece+Set)
 *(paid link — we earn a commission at no extra cost to you)*
