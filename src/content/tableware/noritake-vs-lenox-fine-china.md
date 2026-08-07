@@ -25,6 +25,7 @@ lastVerified: "August 2026"
 ogImage: "/og/og-default.png"
 products:
   - id: noritake-crestwood-platinum-5pc
+    brand: "Noritake"
     award: "BEST FORMAL NORITAKE"
     name: "Noritake Crestwood Platinum 5-Piece Place Setting"
     priceTier: "$$"
@@ -55,6 +56,7 @@ products:
       url: "https://www.amazon.com/s?k=Noritake+Crestwood+Platinum+5+Piece+Place+Setting"
 
   - id: lenox-opal-innocence-5pc
+    brand: "Lenox"
     award: "MOST RECOGNIZED LENOX PATTERN"
     name: "Lenox Opal Innocence 5-Piece Place Setting"
     priceTier: "$$"

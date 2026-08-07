@@ -25,6 +25,7 @@ lastVerified: "August 2026"
 ogImage: "/og/og-default.png"
 products:
   - id: noritake-colorwave-sky-16pc
+    brand: "Noritake"
     award: "BEST FOR BRAND ACCOUNTABILITY"
     name: "Noritake Colorwave Sky 16-Piece Set"
     priceTier: "$"
@@ -55,6 +56,7 @@ products:
       url: "https://www.amazon.com/s?k=Noritake+Colorwave+Sky+16+Piece+Set"
 
   - id: mikasa-swirl-white-16pc
+    brand: "Mikasa"
     award: "BEST FOR BUDGET BUYERS"
     name: "Mikasa Swirl White 16-Piece Dinnerware Set"
     priceTier: "$"

@@ -21,6 +21,7 @@ lastVerified: "August 2026"
 ogImage: "/og/og-default.png"
 products:
   - id: colorwave-graphite-20pc-cvcs
+    brand: "Noritake"
     award: "COLORWAVE FLAGSHIP"
     name: "Noritake Colorwave Graphite 20-Piece Set"
     priceTier: "$$"
@@ -53,6 +54,7 @@ products:
       url: "https://www.amazon.com/s?k=Noritake+Colorwave+Graphite+20+Piece+Set"
 
   - id: colorscapes-navy-16pc-cvcs
+    brand: "Noritake"
     award: "COLORSCAPES FLAGSHIP"
     name: "Noritake Colorscapes Navy 16-Piece Set"
     priceTier: "$$$"

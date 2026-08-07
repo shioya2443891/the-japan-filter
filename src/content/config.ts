@@ -2,6 +2,7 @@ import { defineCollection, z } from 'astro:content';
 
 const ProductSchema = z.object({
   id: z.string(),
+  brand: z.string().default(''),
   award: z.string().nullable().default(null),
   name: z.string(),
   priceTier: z.enum(['$', '$$', '$$$']),

@@ -21,6 +21,7 @@ lastVerified: "August 2026"
 ogImage: "/og/og-default.png"
 products:
   - id: colorwave-graphite-16pc-u100
+    brand: "Noritake"
     award: "BEST COMPLETE SET UNDER $100"
     name: "Noritake Colorwave Graphite 16-Piece Set"
     priceTier: "$"
@@ -51,6 +52,7 @@ products:
       url: "https://www.amazon.com/s?k=Noritake+Colorwave+Graphite+16+Piece+Set"
 
   - id: colorwave-pasta-5pc-u100
+    brand: "Noritake"
     award: "BEST UNDER $75"
     name: "Noritake Colorwave Graphite 5-Piece Pasta/Salad Set"
     priceTier: "$"
@@ -83,6 +85,7 @@ products:
       url: "https://www.amazon.com/s?k=Noritake+Colorwave+Graphite+Pasta+Salad+Set+5+Piece"
 
   - id: colorwave-4pc-setting-u100
+    brand: "Noritake"
     award: "BEST ENTRY POINT"
     name: "Noritake Colorwave 4-Piece Place Setting"
     priceTier: "$"

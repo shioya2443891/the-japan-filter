@@ -21,6 +21,7 @@ lastVerified: "August 2026"
 ogImage: "/og/noritake-wedding-gifts.png"
 products:
   - id: colorwave-graphite-20pc
+    brand: "Noritake"
     award: "BEST OVERALL"
     name: "Noritake Colorwave Graphite 20-Piece Set"
     priceTier: "$$"
@@ -52,6 +53,7 @@ products:
     ctaLabel: "Check on Amazon"
 
   - id: colorwave-blue-16pc
+    brand: "Noritake"
     award: "BEST STARTER SET"
     name: "Noritake Colorwave Blue 16-Piece Set"
     priceTier: "$"
@@ -82,6 +84,7 @@ products:
     ctaLabel: "Check on Amazon"
 
   - id: colorscapes-navy-16pc
+    brand: "Noritake"
     award: "SPLURGE PICK"
     name: "Noritake Colorscapes Navy 16-Piece Set"
     priceTier: "$$$"
@@ -115,6 +118,7 @@ products:
     ctaLabel: "Check on Amazon"
 
   - id: colorwave-graphite-pasta-5pc
+    brand: "Noritake"
     award: "BEST GIFT UNDER $75"
     name: "Noritake Colorwave Graphite 5-Piece Pasta/Salad Set"
     priceTier: "$"

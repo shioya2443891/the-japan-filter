@@ -1,0 +1,162 @@
+---
+import { getCollection } from 'astro:content';
+
+const allArticles = await getCollection('tableware');
+
+const rows = allArticles
+  .flatMap(article =>
+    (article.data.products ?? []).map(product => ({
+      product,
+      articleTitle: article.data.title,
+      articleUrl: `/tableware/${article.slug}/`,
+    }))
+  )
+  .sort((a, b) => {
+    const ba = a.product.brand || a.product.name.split(' ')[0];
+    const bb = b.product.brand || b.product.name.split(' ')[0];
+    if (ba !== bb) return ba.localeCompare(bb);
+    return a.product.name.localeCompare(b.product.name);
+  });
+
+const totalProducts = rows.length;
+const uniqueBrands = new Set(rows.map(r => r.product.brand || r.product.name.split(' ')[0]));
+const articlesWithProducts = new Set(rows.map(r => r.articleUrl));
+const missingAsin = rows.filter(r => !r.product.amazon.asin).length;
+const missingImage = rows.filter(r => !r.product.amazon.imageUrl).length;
+
+function amazonStatus(amazon: { asin: string | null; affiliateTag: string | null }) {
+  if (amazon.asin && amazon.affiliateTag) return { label: 'Affiliate link active', cls: 'bg-indigo/10 text-indigo' };
+  if (amazon.asin) return { label: 'ASIN set, tag missing', cls: 'bg-amber-100 text-amber-700' };
+  return { label: 'Search URL (pre-approval)', cls: 'bg-seal/10 text-seal' };
+}
+
+function imageStatus(imageUrl: string | null) {
+  return imageUrl
+    ? { label: 'Image set', cls: 'bg-indigo/10 text-indigo' }
+    : { label: 'No image (API pending)', cls: 'bg-ink/[0.06] text-ink/50' };
+}
+
+const generatedAt = new Date().toISOString().slice(0, 10);
+---
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="noindex, nofollow" />
+  <title>Product Inventory — The Japan Filter [INTERNAL]</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet" />
+</head>
+<body class="min-h-screen bg-tint font-body text-ink">
+
+  <header class="sticky top-0 z-10 border-b border-line bg-ink">
+    <div class="mx-auto flex max-w-screen-2xl items-center justify-between px-6 py-3">
+      <div class="flex items-center gap-3">
+        <span class="bg-seal px-2 py-0.5 font-data text-[10px] font-medium uppercase tracking-wide2 text-paper">INTERNAL</span>
+        <span class="font-data text-sm text-paper">Product Inventory · The Japan Filter</span>
+      </div>
+      <span class="font-data text-xs text-paper/30">jf24 · noindex · {generatedAt}</span>
+    </div>
+  </header>
+
+  <main class="mx-auto max-w-screen-2xl px-6 py-10">
+
+    <div class="mb-8 grid grid-cols-2 gap-3 sm:grid-cols-3 md:grid-cols-5">
+      <div class="border border-line bg-paper p-4">
+        <p class="mb-1 font-data text-[9px] uppercase tracking-wide2 text-ink/40">Total Products</p>
+        <p class="font-data text-3xl text-ink">{totalProducts}</p>
+      </div>
+      <div class="border border-line bg-paper p-4">
+        <p class="mb-1 font-data text-[9px] uppercase tracking-wide2 text-ink/40">Brands</p>
+        <p class="font-data text-3xl text-ink">{uniqueBrands.size}</p>
+        <p class="mt-1 font-data text-[10px] text-ink/40">{[...uniqueBrands].join(' · ')}</p>
+      </div>
+      <div class="border border-line bg-paper p-4">
+        <p class="mb-1 font-data text-[9px] uppercase tracking-wide2 text-ink/40">Articles w/ Products</p>
+        <p class="font-data text-3xl text-ink">{articlesWithProducts.size}</p>
+      </div>
+      <div class="border border-seal/40 bg-seal/[0.04] p-4">
+        <p class="mb-1 font-data text-[9px] uppercase tracking-wide2 text-seal/60">Amazon Links Pending</p>
+        <p class="font-data text-3xl text-seal">{missingAsin}</p>
+        <p class="mt-1 font-data text-[10px] text-seal/50">No ASIN set</p>
+      </div>
+      <div class="border border-ink/15 bg-ink/[0.03] p-4">
+        <p class="mb-1 font-data text-[9px] uppercase tracking-wide2 text-ink/40">Images Pending</p>
+        <p class="font-data text-3xl text-ink">{missingImage}</p>
+        <p class="mt-1 font-data text-[10px] text-ink/40">No imageUrl set</p>
+      </div>
+    </div>
+
+    <div class="overflow-x-auto border border-line bg-paper">
+      <table class="w-full min-w-[1120px] border-collapse text-sm">
+        <thead>
+          <tr class="border-b border-line bg-ink/[0.04]">
+            <th class="px-3 py-3 text-left font-data text-[9px] uppercase tracking-wide2 text-ink/50">Brand</th>
+            <th class="px-3 py-3 text-left font-data text-[9px] uppercase tracking-wide2 text-ink/50">Product Name</th>
+            <th class="px-3 py-3 text-left font-data text-[9px] uppercase tracking-wide2 text-ink/50">Price</th>
+            <th class="px-3 py-3 text-left font-data text-[9px] uppercase tracking-wide2 text-ink/50">Article</th>
+            <th class="px-3 py-3 text-left font-data text-[9px] uppercase tracking-wide2 text-ink/50">Award</th>
+            <th class="px-3 py-3 text-left font-data text-[9px] uppercase tracking-wide2 text-ink/50">Origin</th>
+            <th class="px-3 py-3 text-left font-data text-[9px] uppercase tracking-wide2 text-ink/50">Amazon Status</th>
+            <th class="px-3 py-3 text-left font-data text-[9px] uppercase tracking-wide2 text-ink/50">Image Status</th>
+            <th class="px-3 py-3 text-left font-data text-[9px] uppercase tracking-wide2 text-ink/50">Verified</th>
+          </tr>
+        </thead>
+        <tbody>
+          {rows.map(({ product, articleTitle, articleUrl }, i) => {
+            const amzn = amazonStatus(product.amazon);
+            const img = imageStatus(product.amazon.imageUrl);
+            const brandDisplay = product.brand || product.name.split(' ')[0];
+            return (
+              <tr class:list={['border-b border-line/60 transition-colors hover:bg-indigo/[0.025]', i % 2 !== 0 && 'bg-ink/[0.015]']}>
+                <td class="whitespace-nowrap px-3 py-3 font-data text-[11px] font-medium text-ink">{brandDisplay}</td>
+                <td class="px-3 py-3">
+                  <div class="font-body text-[13px] text-ink/85">{product.name}</div>
+                  <div class="mt-0.5 font-data text-[10px] text-ink/30">{product.id}</div>
+                </td>
+                <td class="whitespace-nowrap px-3 py-3 font-data text-[12px]">
+                  <span class="font-medium text-ink">{product.priceTier}</span>
+                  {product.priceNote && <div class="mt-0.5 text-[10px] text-ink/40">{product.priceNote}</div>}
+                </td>
+                <td class="max-w-[220px] px-3 py-3">
+                  <a href={articleUrl} class="font-body text-[12px] leading-snug text-indigo hover:underline" target="_blank">{articleTitle}</a>
+                </td>
+                <td class="px-3 py-3">
+                  {product.award
+                    ? <span class="font-data text-[10px] font-medium text-seal">{product.award}</span>
+                    : <span class="font-data text-[10px] text-ink/20">—</span>
+                  }
+                </td>
+                <td class="px-3 py-3 font-data text-[11px]">
+                  <div class="text-ink/70">{product.origin.brandCountry}</div>
+                  {product.origin.madeIn && <div class="mt-0.5 text-[10px] text-ink/40">Made in {product.origin.madeIn}</div>}
+                  {!product.origin.madeIn && <div class="mt-0.5 text-[10px] text-ink/25">madeIn not confirmed</div>}
+                  {product.origin.officialSeller && <div class="mt-0.5 text-[10px] text-indigo/60">{product.origin.officialSeller}</div>}
+                </td>
+                <td class="px-3 py-3">
+                  <span class:list={['inline-block rounded-sm px-1.5 py-0.5 font-data text-[10px]', amzn.cls]}>{amzn.label}</span>
+                </td>
+                <td class="px-3 py-3">
+                  <span class:list={['inline-block rounded-sm px-1.5 py-0.5 font-data text-[10px]', img.cls]}>{img.label}</span>
+                </td>
+                <td class="whitespace-nowrap px-3 py-3 font-data text-[11px] text-ink/50">{product.ratings.verifiedAt}</td>
+              </tr>
+            );
+          })}
+        </tbody>
+      </table>
+    </div>
+
+    <p class="mt-4 font-data text-[10px] text-ink/30">
+      Auto-aggregated from all tableware collection frontmatter
+      · {totalProducts} products across {articlesWithProducts.size} articles
+      · Build date: {generatedAt}
+    </p>
+
+  </main>
+
+</body>
+</html>
