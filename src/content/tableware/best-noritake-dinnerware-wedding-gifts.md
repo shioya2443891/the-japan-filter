@@ -156,18 +156,19 @@ japanContext:
       market from its founding, which is why its Japanese identity and its American
       commercial presence developed simultaneously rather than sequentially.
     - >-
-      In Japan, Noritake is classified as 洋食器 (Western-style tableware) and sits in
-      the established gift-brand tier — a reliable choice for wedding registries
-      (結婚祝い) and return gifts (内祝い), positioned between everyday domestic tableware
-      and premium European porcelain like Wedgwood or Meissen. The Japanese domestic
-      catalog is weighted heavily toward bone china with decorative patterns, distributed
-      primarily through department store (百貨店) channels.
+      In Japan, Noritake's product line falls under 洋食器 (Western-style tableware).
+      Across the Japanese retail and gift reference sources we reviewed (August 2026),
+      the brand appeared consistently in gift-giving contexts — including wedding registry
+      (結婚祝い) and return gift (内祝い) recommendations. The retail and brand materials
+      we reviewed showed a domestic catalog weighted toward bone china with decorative
+      patterns, with department store (百貨店) channels as a primary retail context.
     - >-
-      The Colorwave and Colorscapes series are oriented primarily toward export markets.
-      At the time of research (August 2026), the color and set-size options available
-      through Amazon US were broader than what appeared in Japan domestic retail listings
-      for the same lines. Japan-facing Noritake retail emphasizes formal and gift-grade
-      china over the casual everyday stoneware that Colorwave represents.
+      Based on the product availability we reviewed, the Colorwave and Colorscapes series
+      appear oriented primarily toward export markets. At the time of research
+      (August 2026), the color and set-size options available through Amazon US were
+      broader than what appeared in Japan domestic retail listings for the same lines.
+      In the Japan domestic retail channels we reviewed, formal and gift-grade china was
+      more prominently featured than the casual Colorwave stoneware.
     - >-
       On Japan domestic retail channels at the time of research (August 2026), Colorwave
       products where available carried higher price points than equivalent Amazon US
@@ -183,16 +184,17 @@ japanContext:
       quite different from how the same line is perceived in the US market. This gap is
       the context US buyers rarely get from domestic review sources.
     - >-
-      Because Colorwave is designed primarily for the US and export markets, Amazon US
-      represents the fullest selection of colors and set configurations. Buyers looking
-      to add pieces after a registry closes — or explore additional colorways — are better
-      served by the official US storefront than by sourcing from Japan, where the line
-      has a narrower presence.
+      Based on the product availability we reviewed, Amazon US appeared to offer the
+      fullest selection of Colorwave colors and set configurations among the retail
+      channels checked. Buyers looking to add pieces after a registry closes — or explore
+      additional colorways — are better served by the official US storefront than by
+      sourcing from Japan, where the line appeared to have a narrower presence.
     - >-
-      The US Amazon price reflects the intended primary market price for Colorwave. The
-      pricing trend at time of research (August 2026) ran opposite to what US buyers
+      The pricing trend at time of research (August 2026) ran opposite to what US buyers
       might assume — Japan domestic retail was not a lower-cost source for these products.
-      US buyers are not missing a price advantage by purchasing through Amazon US.
+      Based on the pricing we reviewed, US Amazon pricing for Colorwave appeared
+      consistent with primary market pricing. US buyers are not missing a price advantage
+      by purchasing through Amazon US.
 usBuyerNotes:
   - "Verify the seller reads 'Noritake U.S.A., Inc.' on the Amazon product page before purchasing — third-party listings for the same products exist alongside the official storefront"
   - "Colorwave is an open-stock line: individual pieces can be purchased separately, which matters for replacing broken items and adding pieces after a registry closes"

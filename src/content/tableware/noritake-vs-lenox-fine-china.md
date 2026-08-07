@@ -87,12 +87,13 @@ japanContext:
   heading: "Japan Market Visibility: The Recognition Gap"
   inJapan:
     - >-
-      In Japan's established gift-brand taxonomy, Noritake occupies a specific and
-      well-recognized tier. As a 洋食器 (Western-style tableware) brand founded in Nagoya
-      in 1904, Noritake sits alongside Wedgwood, Meissen, and Royal Copenhagen as
-      recognized Western-style fine china brands on Japanese department store gift floors.
-      The brand is a standard recommendation for wedding registries (結婚祝い) and
-      high-value return gifts (内祝い), with over a century of domestic market presence.
+      In Japan's product category framework, Noritake falls under 洋食器 (Western-style
+      tableware) — a distinct category from traditional Japanese ceramics. In the Japanese
+      retail channels and brand reference materials we reviewed during our research
+      (August 2026), Noritake appeared consistently in gift-floor contexts alongside
+      other established Western tableware brands. The brand's presence in Japanese gift
+      contexts — including wedding registries (結婚祝い) and formal return gifts (内祝い)
+      — was reflected across multiple retail and brand sources we checked.
     - >-
       Lenox has no comparable recognition in Japan. It is not sold through Japanese
       department store channels, does not appear in mainstream Japanese gift culture,
@@ -105,18 +106,18 @@ japanContext:
       does not arise — Lenox is not a known reference point.
   forUsBuyers:
     - >-
-      Noritake's Japan market presence means the brand operates under dual accountability:
-      its product claims and quality standards are also visible to a domestic Japanese
-      market that knows the brand and has used it for generations. Lenox, as a US-market
-      brand with no meaningful Japan presence, operates without that layer. For US buyers,
-      this does not make Lenox a worse product — but it does mean the accountability
-      structures are different.
+      Noritake's documented presence in the Japanese market means the brand's quality
+      positioning is visible to — and evaluated by — a domestic Japanese market that has
+      carried the brand for over a century. Based on the Japanese retail channels we
+      reviewed, Lenox does not appear to have that same domestic visibility, and therefore
+      lacks that additional accountability layer. For US buyers, this does not make
+      Lenox inferior — but the accountability structures are measurably different.
     - >-
-      For gift recipients in a US context, the recognition dynamic runs in the opposite
-      direction: Lenox is frequently the more familiar name — especially for older US
-      recipients familiar with its White House association and long department store
-      history. For younger recipients or those without a pre-formed brand preference,
-      the brand gap matters less than the pattern and price.
+      For gift recipients in a US context, Lenox's White House association and long US
+      department store history give it significant brand recognition among recipients
+      familiar with that history. Whether Lenox or Noritake registers as the more
+      familiar name for a specific recipient depends on that recipient's background —
+      neither brand's recognition should be assumed.
     - >-
       Neither brand's geographic origin is a quality signal in isolation. Japan-founded
       does not guarantee superior ceramics, and American-founded does not guarantee better
@@ -153,7 +154,7 @@ Both brands offer formal bone china with platinum trim, and both have casual eve
 
 The design languages differ. Noritake's formal patterns tend toward geometric restraint — Crestwood Platinum is a clean band, not an elaborate motif. Lenox's most recognized formal pattern, Opal Innocence, uses an organic soft-white motif that reads as more contemporary and fluid. Neither aesthetic is objectively superior; pattern preference is the dominant variable at this price tier.
 
-For casual everyday china, the comparison is Noritake's Colorwave (covered separately on this site) against Lenox's Butterfly Meadow. Butterfly Meadow is dishwasher and microwave safe — unlike both brands' formal fine china — and is the more practical pick for recipients who want fine china aesthetics with everyday functionality. Colorwave's durability record in verified reviews is stronger for plain stoneware longevity; Butterfly Meadow wins on pattern variety and broader color range.
+For casual everyday china, the comparison is Noritake's Colorwave (covered separately on this site) against Lenox's Butterfly Meadow. Butterfly Meadow is dishwasher and microwave safe — unlike both brands' formal fine china — and is the more practical pick for recipients who want fine china aesthetics with everyday functionality. Butterfly Meadow's distinguishing feature is its pattern variety across bold colorways; for Colorwave's durability record in verified reviews, see the dedicated Colorwave article on this site.
 
 ## The Storefront Question
 
@@ -165,6 +166,6 @@ This is not a disqualifying problem for Lenox — the brand is widely sold throu
 
 **Choose Noritake if:** Storefront accountability matters, the recipient has no pre-formed US brand preference, or the buyer wants a brand with verifiable Japan market credibility alongside its US presence. The official Amazon storefront and dual-market accountability are Noritake's practical differentiators.
 
-**Choose Lenox if:** The recipient specifically recognizes the Lenox name (particularly relevant for older US recipients), a specific Lenox pattern is the right aesthetic fit, or the American heritage story is meaningful for the gift. Lenox's White House association and long US department store history carry real social currency in a US gifting context.
+**Choose Lenox if:** The recipient specifically recognizes the Lenox name or requests a specific Lenox pattern, the American heritage story is meaningful for the gift, or a particular Lenox pattern is the right aesthetic fit. Lenox's White House association and long US department store history are core to the brand's positioning in US gift culture.
 
 The default pick in the absence of strong recipient preference is Noritake — not because it is a better brand in any absolute sense, but because its US storefront situation is cleaner. That is a practical sourcing advantage, not a verdict on quality.

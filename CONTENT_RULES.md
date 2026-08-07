@@ -151,3 +151,96 @@ validate a purchase recommendation on the basis of popularity or cultural presti
 
 **Japan Context must never substitute for a verdict.** The Final Verdict section carries
 the recommendation; Japan Context provides supporting or qualifying evidence only.
+
+---
+
+## 8. Evidence Strength Rule
+
+Do not conflate "not found in research" with "does not exist."
+Every claim must be calibrated to what was actually verified.
+
+---
+
+**LEVEL 1 — Confirmed from primary sources**
+
+Facts verifiable from official manufacturer documentation, official sales listings,
+corporate registration, official pricing, manufacturer warranty information, or
+well-established historical record.
+
+→ May be stated as fact without qualification.
+
+Examples: "Noritake U.S.A., Inc. is listed as the seller." / "The set contains 20 pieces
+per the manufacturer's official product description." / "Noritake was founded in Nagoya
+in 1904."
+
+---
+
+**LEVEL 2 — Corroborated market trends**
+
+Patterns observed across multiple reliable sources: retail listings, brand materials,
+verified review aggregates, or multiple retail channel checks.
+
+→ Use: "commonly" / "tends to" / "widely available" /
+"we found across multiple sources" / "in the channels we reviewed" /
+"the review pattern suggests" / "based on the sources reviewed"
+
+Examples: "Reviewers commonly describe the glaze as durable after 12+ months of
+dishwasher use." / "Across the sources we checked, this pattern appeared in top-tier
+gift contexts."
+
+---
+
+**LEVEL 3 — Not found within research scope**
+
+Information that was searched for but not confirmed. Absence of evidence within a
+research scope is not evidence of absence in the real world.
+
+→ Prohibited: "X is not sold in Japan" / "does not appear in Japanese gift culture" /
+"has no presence in the Japanese market" / "Japanese consumers do not recognize X"
+
+→ Required: "We did not find..." / "In the Japanese retailers we checked..." /
+"At the time of our research (Month Year)..." /
+"Our review of major Japanese retail channels found no evidence of..."
+
+Always specify the research scope and date. "We did not find X in [channels reviewed]
+during our research (August 2026)" is accurate; "X does not exist in Japan" is not.
+
+---
+
+**LEVEL 4 — Inference or speculation**
+
+Market positioning claims, brand perception assessments, consumer psychology, and
+popularity judgments not directly supported by verifiable data.
+
+→ Prohibited by default. If included, must be labeled as analysis or inference:
+"Based on available information, it appears..." / "This may reflect..." /
+"One interpretation of the available data..."
+
+Do not present inferences as facts. Do not omit the inference label because the
+conclusion seems obvious.
+
+---
+
+**Particularly sensitive negative claims — minimum LEVEL 3 treatment required**
+
+- "X is not sold in [country]"
+- "X has no presence in [market]"
+- "X is not popular in [country]"
+- "X is not recognized in [market]"
+- "Japanese consumers think / prefer / do not recognize X"
+- "X does not exist in [market]"
+
+Scope limitation is not weakness — it is accuracy. Stating "we did not find X in the
+channels we reviewed" is more credible than stating "X does not exist," and it is what
+a research-based publication should say.
+
+---
+
+**Process Log and How We Researched**
+
+The `researchSteps` and `sourcesChecked` frontmatter fields are a factual record of
+what was actually checked. Do not list a source in `sourcesChecked` that was not
+reviewed. Do not describe a research step in `researchSteps` that was not taken.
+
+If a source was checked but returned no usable results, that is still a valid entry:
+e.g., "Major Japanese retail channels checked — no Lenox listings found during review."
