@@ -1,0 +1,50 @@
+---
+// HowWeResearched.astro
+// Google E-E-A-T自己評価基準（誰が/どう調査したか）と
+// Amazon Associatesの「オリジナルコンテンツ」要件の両方に対応する
+// 標準開示ボックス。「検査記録」のトーンで、調査プロセスを事実として提示する。
+
+interface Step {
+  label: string;   // 例: "Cross-referenced Japan domestic rankings"
+  detail: string;  // 例: "Checked category rankings and review trends across 3 major Japanese retail and comparison sources."
+}
+
+interface Props {
+  steps: Step[];
+  sourcesChecked: string[]; // 例: ["Amazon.com listings", "Manufacturer spec sheets", "Rakuten category rankings"]
+  lastVerified: string;     // 例: "August 2026"
+}
+const { steps, sourcesChecked, lastVerified } = Astro.props;
+---
+
+<aside class="my-10 border border-line bg-indigo/[0.03]">
+  <div class="border-l-[3px] border-indigo px-6 py-6 md:px-8 md:py-7">
+    <p class="mb-1 font-data text-[10px] uppercase tracking-wide2 text-indigo/60">Process Log</p>
+    <h3 class="mb-5 font-display text-lg text-indigo">How We Researched This Guide</h3>
+
+    <ol class="mb-6 divide-y divide-line border-y border-line">
+      {steps.map((step, i) => (
+        <li class="flex gap-4 py-3">
+          <span class="shrink-0 font-data text-xs text-indigo/50">{String(i + 1).padStart(2, '0')}</span>
+          <div>
+            <p class="font-body text-sm font-medium text-ink">{step.label}</p>
+            <p class="mt-0.5 font-body text-[13px] leading-relaxed text-ink/65">{step.detail}</p>
+          </div>
+        </li>
+      ))}
+    </ol>
+
+    <div class="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
+      <div class="flex flex-wrap gap-2">
+        {sourcesChecked.map((source) => (
+          <span class="border border-line px-2 py-1 font-data text-[10px] uppercase tracking-wide2 text-ink/60">
+            {source}
+          </span>
+        ))}
+      </div>
+      <p class="font-data text-[10px] uppercase tracking-wide2 text-ink/40">
+        Last verified: {lastVerified}
+      </p>
+    </div>
+  </div>
+</aside>

@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>The Japan Filter — Component Preview</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@500;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+  tailwind.config = {
+    theme: {
+      extend: {
+        colors: {
+          paper: '#F7F4EC',
+          ink: '#22282E',
+          indigo: { DEFAULT: '#24405A', light: '#3D5B78' },
+          seal: '#B33A3A',
+          line: '#D8D2C2',
+        },
+        fontFamily: {
+          display: ['"Shippori Mincho"', 'serif'],
+          body: ['"IBM Plex Sans"', 'sans-serif'],
+          data: ['"IBM Plex Mono"', 'monospace'],
+        },
+        letterSpacing: { wide2: '0.12em' },
+      }
+    }
+  }
+</script>
+<style>
+  body { background-color: #F7F4EC; }
+</style>
+</head>
+<body class="font-body text-ink">
+
+<div class="mx-auto max-w-4xl px-5 py-14">
+
+  <!-- ブランドヘッダー -->
+  <header class="mb-14 border-b border-line pb-8">
+    <p class="font-data text-[10px] uppercase tracking-wide2 text-indigo/60 mb-2">Kitchen Cutlery &amp; Precision Tools</p>
+    <h1 class="font-display text-4xl text-indigo mb-3">The Japan Filter</h1>
+    <p class="font-body text-sm text-ink/60 max-w-md">Japan's best-reviewed products, re-verified for buyers outside Japan.</p>
+  </header>
+
+  <h2 class="font-display text-2xl text-indigo mb-4">The Best Japanese Santoku Knives You Can Actually Buy on Amazon (2026)</h2>
+  <p class="font-body text-sm text-ink/70 leading-relaxed mb-10 max-w-2xl">
+    We cross-checked domestic Japanese cutlery rankings against what's actually
+    sold — and shippable — on Amazon.com, then verified specs against each
+    manufacturer's own documentation.
+  </p>
+
+  <!-- ===== ComparisonTable ===== -->
+  <section class="my-12 border border-line bg-paper">
+    <header class="flex items-baseline justify-between border-b border-line px-5 py-4">
+      <h2 class="font-display text-xl text-indigo">Top-Rated Santoku Knives</h2>
+      <span class="font-data text-[11px] uppercase tracking-wide2 text-ink/50">4 products verified</span>
+    </header>
+
+    <div class="hidden md:block">
+      <div class="grid grid-cols-[2.5rem_1.7fr_1fr_0.8fr_0.8fr_1.2fr_1fr_1.2fr] gap-x-3 border-b border-line px-5 py-2 font-data text-[10px] uppercase tracking-wide2 text-ink/50">
+        <span>No.</span><span>Product</span><span>Price</span><span>Steel HRC</span><span>Blade</span><span>Material</span><span>Best For</span><span class="text-right">Action</span>
+      </div>
+
+      <!-- Row 1 -->
+      <div class="grid grid-cols-[2.5rem_1.7fr_1fr_0.8fr_0.8fr_1.2fr_1fr_1.2fr] items-center gap-x-3 border-b border-line px-5 py-4">
+        <span class="font-data text-lg text-ink/40">01</span>
+        <div class="flex items-center gap-1">
+          <div class="hidden lg:block shrink-0 scale-[0.55] origin-left -mx-3" style="transform: rotate(-4deg) scale(0.55);">
+            <div class="relative inline-flex h-20 w-20 items-center justify-center">
+              <svg viewBox="0 0 100 100" class="absolute inset-0 h-full w-full">
+                <circle cx="50" cy="50" r="46" fill="none" stroke="#B33A3A" stroke-width="1.5" stroke-dasharray="2.6 3.2"/>
+                <circle cx="50" cy="50" r="38" fill="none" stroke="#B33A3A" stroke-width="1"/>
+              </svg>
+              <span class="relative z-10 px-2 text-center font-display text-[11px] font-medium uppercase leading-tight tracking-wide2 text-seal">Best Overall</span>
+            </div>
+          </div>
+          <span class="font-body text-sm font-medium text-ink">Tojiro DP Santoku 170mm</span>
+        </div>
+        <span class="font-data text-sm text-ink/80">$$</span>
+        <span class="font-data text-sm text-ink/80">60-61</span>
+        <span class="font-data text-sm text-ink/80">170mm</span>
+        <span class="font-body text-xs text-ink/70">VG-10 core, 3-layer clad</span>
+        <span class="font-body text-xs text-ink/70">Everyday prep, beginners</span>
+        <div class="flex flex-col items-end gap-1">
+          <a href="#" class="whitespace-nowrap border border-seal px-3 py-1.5 text-center font-data text-[11px] uppercase tracking-wide2 text-seal hover:bg-seal hover:text-paper transition-colors">View Price on Amazon</a>
+          <span class="font-body text-[10px] italic text-ink/40">(paid link)</span>
+        </div>
+      </div>
+
+      <!-- Row 2 -->
+      <div class="grid grid-cols-[2.5rem_1.7fr_1fr_0.8fr_0.8fr_1.2fr_1fr_1.2fr] items-center gap-x-3 border-b border-line px-5 py-4">
+        <span class="font-data text-lg text-ink/40">02</span>
+        <span class="font-body text-sm font-medium text-ink pl-1">Miyabi Kaizen II Santoku</span>
+        <span class="font-data text-sm text-ink/80">$$$</span>
+        <span class="font-data text-sm text-ink/80">61-62</span>
+        <span class="font-data text-sm text-ink/80">180mm</span>
+        <span class="font-body text-xs text-ink/70">SG2 powder steel</span>
+        <span class="font-body text-xs text-ink/70">Experienced home cooks</span>
+        <div class="flex flex-col items-end gap-1">
+          <a href="#" class="whitespace-nowrap border border-seal px-3 py-1.5 text-center font-data text-[11px] uppercase tracking-wide2 text-seal hover:bg-seal hover:text-paper transition-colors">View Price on Amazon</a>
+          <span class="font-body text-[10px] italic text-ink/40">(paid link)</span>
+        </div>
+      </div>
+
+      <!-- Row 3 -->
+      <div class="grid grid-cols-[2.5rem_1.7fr_1fr_0.8fr_0.8fr_1.2fr_1fr_1.2fr] items-center gap-x-3 px-5 py-4">
+        <span class="font-data text-lg text-ink/40">03</span>
+        <span class="font-body text-sm font-medium text-ink pl-1">MAC Original Santoku</span>
+        <span class="font-data text-sm text-ink/80">$$</span>
+        <span class="font-data text-sm text-ink/80">58-59</span>
+        <span class="font-data text-sm text-ink/80">175mm</span>
+        <span class="font-body text-xs text-ink/70">High-carbon stainless</span>
+        <span class="font-body text-xs text-ink/70">Light weight, precision</span>
+        <div class="flex flex-col items-end gap-1">
+          <a href="#" class="whitespace-nowrap border border-seal px-3 py-1.5 text-center font-data text-[11px] uppercase tracking-wide2 text-seal hover:bg-seal hover:text-paper transition-colors">View Price on Amazon</a>
+          <span class="font-body text-[10px] italic text-ink/40">(paid link)</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== HowWeResearched ===== -->
+  <aside class="my-10 border border-line" style="background-color: rgba(36,64,90,0.03);">
+    <div class="border-l-[3px] border-indigo px-6 py-6 md:px-8 md:py-7">
+      <p class="mb-1 font-data text-[10px] uppercase tracking-wide2 text-indigo/60">Process Log</p>
+      <h3 class="mb-5 font-display text-lg text-indigo">How We Researched This Guide</h3>
+
+      <ol class="mb-6 divide-y divide-line border-y border-line">
+        <li class="flex gap-4 py-3">
+          <span class="shrink-0 font-data text-xs text-indigo/50">01</span>
+          <div>
+            <p class="font-body text-sm font-medium text-ink">Cross-referenced Japan domestic rankings</p>
+            <p class="mt-0.5 font-body text-[13px] leading-relaxed text-ink/65">Checked category rankings and review trends across major Japanese retail and comparison sources to identify which santoku knives are consistently well-regarded at home.</p>
+          </div>
+        </li>
+        <li class="flex gap-4 py-3">
+          <span class="shrink-0 font-data text-xs text-indigo/50">02</span>
+          <div>
+            <p class="font-body text-sm font-medium text-ink">Verified availability and specs on Amazon.com</p>
+            <p class="mt-0.5 font-body text-[13px] leading-relaxed text-ink/65">Confirmed each knife is actually sold and shippable to the US, and cross-checked steel type, hardness, and blade length against manufacturer documentation.</p>
+          </div>
+        </li>
+        <li class="flex gap-4 py-3">
+          <span class="shrink-0 font-data text-xs text-indigo/50">03</span>
+          <div>
+            <p class="font-body text-sm font-medium text-ink">Compared US buyer feedback patterns</p>
+            <p class="mt-0.5 font-body text-[13px] leading-relaxed text-ink/65">Reviewed recurring themes in English-language buyer feedback to flag differences from how each knife is perceived in Japan.</p>
+          </div>
+        </li>
+      </ol>
+
+      <div class="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
+        <div class="flex flex-wrap gap-2">
+          <span class="border border-line px-2 py-1 font-data text-[10px] uppercase tracking-wide2 text-ink/60">Amazon.com listings</span>
+          <span class="border border-line px-2 py-1 font-data text-[10px] uppercase tracking-wide2 text-ink/60">Manufacturer spec sheets</span>
+          <span class="border border-line px-2 py-1 font-data text-[10px] uppercase tracking-wide2 text-ink/60">Japan domestic rankings</span>
+        </div>
+        <p class="font-data text-[10px] uppercase tracking-wide2 text-ink/40">Last verified: August 2026</p>
+      </div>
+    </div>
+  </aside>
+
+  <footer class="mt-16 border-t border-line pt-6">
+    <p class="font-body text-[11px] text-ink/50">As an Amazon Associate I earn from qualifying purchases.</p>
+  </footer>
+
+</div>
+</body>
+</html>

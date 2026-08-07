@@ -1,0 +1,122 @@
+---
+// ComparisonTable.astro
+// Amazon商品画像を使わない前提の比較テーブル。
+// 「検品タグ／仕様書」のビジュアル言語（ヘアライン罫線・等幅数値・右揃え）で
+// 情報の信頼性を視覚的に補う。
+import VerifiedBadge from './VerifiedBadge.astro';
+
+interface Product {
+  rank: number;
+  name: string;           // 例: "Tojiro DP Santoku 170mm"
+  badgeLabel?: string;    // 例: "Best Overall"
+  priceTier: '$' | '$$' | '$$$'; // Amazon規約：価格の手動記載は不可のため価格帯のみ表示
+  material: string;       // 例: "VG-10 core, 3-layer clad"
+  hardnessHRC: string;    // 例: "60-61"
+  bladeLengthMm: string;  // 例: "170mm"
+  bestFor: string;        // 例: "Everyday prep, beginners"
+  amazonUrl: string;
+}
+
+interface Props {
+  title: string;
+  products: Product[];
+}
+const { title, products } = Astro.props;
+---
+
+<section class="my-12 border border-line bg-paper">
+  <header class="flex items-baseline justify-between border-b border-line px-5 py-4">
+    <h2 class="font-display text-xl text-indigo">{title}</h2>
+    <span class="font-data text-[11px] uppercase tracking-wide2 text-ink/50">
+      {products.length} products verified
+    </span>
+  </header>
+
+  <!-- デスクトップ：仕様書型グリッド -->
+  <div class="hidden md:block">
+    <div
+      class="grid grid-cols-[2.5rem_1.7fr_1fr_0.8fr_0.8fr_1.2fr_1fr_1.2fr] gap-x-3 border-b border-line px-5 py-2 font-data text-[10px] uppercase tracking-wide2 text-ink/50"
+    >
+      <span>No.</span>
+      <span>Product</span>
+      <span>Price</span>
+      <span>Steel HRC</span>
+      <span>Blade</span>
+      <span>Material</span>
+      <span>Best For</span>
+      <span class="text-right">Action</span>
+    </div>
+
+    {products.map((p) => (
+      <div class="grid grid-cols-[2.5rem_1.7fr_1fr_0.8fr_0.8fr_1.2fr_1fr_1.2fr] items-center gap-x-3 border-b border-line px-5 py-4 last:border-b-0">
+        <span class="font-data text-lg text-ink/40">{String(p.rank).padStart(2, '0')}</span>
+
+        <div class="flex items-center gap-3">
+          {p.badgeLabel && (
+            <div class="hidden lg:block shrink-0 scale-[0.55] origin-left -mx-3">
+              <VerifiedBadge label={p.badgeLabel} />
+            </div>
+          )}
+          <span class="font-body text-sm font-medium text-ink">{p.name}</span>
+        </div>
+
+        <span class="font-data text-sm text-ink/80">{p.priceTier}</span>
+        <span class="font-data text-sm text-ink/80">{p.hardnessHRC}</span>
+        <span class="font-data text-sm text-ink/80">{p.bladeLengthMm}</span>
+        <span class="font-body text-xs text-ink/70">{p.material}</span>
+        <span class="font-body text-xs text-ink/70">{p.bestFor}</span>
+
+        <div class="flex flex-col items-end gap-1">
+          <a
+            href={p.amazonUrl}
+            rel="nofollow sponsored noopener"
+            target="_blank"
+            class="whitespace-nowrap border border-seal px-3 py-1.5 text-center font-data text-[11px] uppercase tracking-wide2 text-seal transition-colors hover:bg-seal hover:text-paper"
+          >
+            View Price on Amazon
+          </a>
+          <span class="font-body text-[10px] italic text-ink/40">(paid link)</span>
+        </div>
+      </div>
+    ))}
+  </div>
+
+  <!-- モバイル：カード積み上げ -->
+  <div class="block md:hidden divide-y divide-line">
+    {products.map((p) => (
+      <div class="px-5 py-5">
+        <div class="mb-2 flex items-start justify-between gap-3">
+          <div class="flex items-center gap-2">
+            <span class="font-data text-sm text-ink/40">{String(p.rank).padStart(2, '0')}</span>
+            <h3 class="font-body text-sm font-medium text-ink">{p.name}</h3>
+          </div>
+          {p.badgeLabel && (
+            <div class="scale-[0.6] origin-top-right -mt-3 -mr-2 shrink-0">
+              <VerifiedBadge label={p.badgeLabel} />
+            </div>
+          )}
+        </div>
+
+        <dl class="mb-3 grid grid-cols-3 gap-y-1 font-data text-xs text-ink/70">
+          <dt class="text-ink/40">Price</dt>
+          <dd class="col-span-2">{p.priceTier}</dd>
+          <dt class="text-ink/40">Steel HRC</dt>
+          <dd class="col-span-2">{p.hardnessHRC}</dd>
+          <dt class="text-ink/40">Blade</dt>
+          <dd class="col-span-2">{p.bladeLengthMm}</dd>
+        </dl>
+        <p class="mb-3 font-body text-xs text-ink/70">{p.bestFor}</p>
+
+        <a
+          href={p.amazonUrl}
+          rel="nofollow sponsored noopener"
+          target="_blank"
+          class="block border border-seal px-3 py-2 text-center font-data text-[11px] uppercase tracking-wide2 text-seal"
+        >
+          View Price on Amazon
+        </a>
+        <span class="mt-1 block text-center font-body text-[10px] italic text-ink/40">(paid link)</span>
+      </div>
+    ))}
+  </div>
+</section>

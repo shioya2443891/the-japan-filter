@@ -1,0 +1,43 @@
+---
+interface Props {
+  title: string;
+  description: string;
+}
+const { title, description } = Astro.props;
+---
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{title} | The Japan Filter</title>
+  <meta name="description" content={description} />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@500;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body class="bg-paper font-body text-ink">
+  <header class="border-b border-line">
+    <div class="mx-auto flex max-w-4xl items-center justify-between px-5 py-5">
+      <a href="/" class="font-display text-xl text-indigo">The Japan Filter</a>
+      <nav class="font-data text-[11px] uppercase tracking-wide2 text-ink/60">
+        <a href="/tableware" class="hover:text-indigo">Tableware</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <slot />
+  </main>
+
+  <footer class="mt-16 border-t border-line">
+    <div class="mx-auto max-w-4xl px-5 py-8">
+      <p class="font-body text-[11px] text-ink/50">
+        As an Amazon Associate I earn from qualifying purchases.
+        <a href="/disclosure" class="underline">Learn more</a> ·
+        <a href="/privacy-policy" class="underline">Privacy Policy</a> ·
+        <a href="/about" class="underline">About</a>
+      </p>
+    </div>
+  </footer>
+</body>
+</html>

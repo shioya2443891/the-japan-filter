@@ -1,0 +1,24 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+
+const articles = await getCollection('tableware');
+---
+<BaseLayout
+  title="Japanese Tableware Guides"
+  description="Noritake and other trusted Japanese tableware brands, reviewed for buyers outside Japan."
+>
+  <section class="mx-auto max-w-3xl px-5 py-14">
+    <p class="font-data text-[10px] uppercase tracking-wide2 text-indigo/60 mb-2">Category</p>
+    <h1 class="font-display text-3xl text-indigo mb-8">Japanese Tableware</h1>
+
+    <div class="divide-y divide-line border-y border-line">
+      {articles.map((a) => (
+        <a href={`/tableware/${a.slug}`} class="block py-5 hover:bg-indigo/[0.02]">
+          <h2 class="font-body text-base font-medium text-ink mb-1">{a.data.title}</h2>
+          <p class="font-body text-sm text-ink/60">{a.data.description}</p>
+        </a>
+      ))}
+    </div>
+  </section>
+</BaseLayout>
