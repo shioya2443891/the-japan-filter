@@ -7,8 +7,9 @@ interface Props {
   rating: 'recommended' | 'conditional' | 'not-recommended';
   summary: string;
   bestPickName?: string | null;
+  bestPickUrl?: string | null;
 }
-const { rating, summary, bestPickName } = Astro.props;
+const { rating, summary, bestPickName, bestPickUrl } = Astro.props;
 
 const isRecommended   = rating === 'recommended';
 const isConditional   = rating === 'conditional';
@@ -81,18 +82,36 @@ const label = isRecommended
 
     <!-- Best Pick: bestPickName が設定されている場合のみ表示 -->
     {bestPickName && (
-      <div class="mt-5 flex flex-wrap items-center gap-3 border-t border-line pt-4">
-        <span class="font-data text-[10px] uppercase tracking-wide2 text-ink/40">Best Pick</span>
-        <span
-          class:list={[
-            'font-body text-sm font-medium',
-            isRecommended   && 'text-indigo',
-            isConditional   && 'text-ink',
-            isNotRecommended && 'text-seal',
-          ]}
-        >
-          {bestPickName}
-        </span>
+      <div class="mt-5 border-t border-line pt-4">
+        <div class="flex flex-wrap items-center justify-between gap-4">
+          <div class="flex flex-wrap items-center gap-3">
+            <span class="font-data text-[10px] uppercase tracking-wide2 text-ink/40">Best Pick</span>
+            <span
+              class:list={[
+                'font-body text-sm font-medium',
+                isRecommended   && 'text-indigo',
+                isConditional   && 'text-ink',
+                isNotRecommended && 'text-seal',
+              ]}
+            >
+              {bestPickName}
+            </span>
+          </div>
+
+          {bestPickUrl && (
+            <div class="flex flex-col items-end gap-1">
+              <a
+                href={bestPickUrl}
+                rel="nofollow sponsored noopener"
+                target="_blank"
+                class="whitespace-nowrap border border-seal px-4 py-2 font-data text-[11px] uppercase tracking-wide2 text-seal transition-colors hover:bg-seal hover:text-paper"
+              >
+                Check on Amazon →
+              </a>
+              <span class="font-body text-[10px] italic text-ink/40">(paid link)</span>
+            </div>
+          )}
+        </div>
       </div>
     )}
   </div>

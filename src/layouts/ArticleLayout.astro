@@ -111,17 +111,18 @@ const bestPickProduct = (verdict?.bestPick && products)
       </aside>
     )}
 
-    <!-- 6. HOW WE RESEARCHED -->
-    <HowWeResearched steps={researchSteps} sourcesChecked={sourcesChecked} lastVerified={lastVerified} />
-
-    <!-- 7. FINAL VERDICT -->
+    <!-- 6. FINAL VERDICT — 結論を先に読ませ、その直後に調査根拠が来る流れ -->
     {verdict && (
       <FinalVerdict
         rating={verdict.rating}
         summary={verdict.summary}
         bestPickName={bestPickProduct?.name ?? null}
+        bestPickUrl={bestPickProduct?.amazon.url ?? null}
       />
     )}
+
+    <!-- 7. HOW WE RESEARCHED -->
+    <HowWeResearched steps={researchSteps} sourcesChecked={sourcesChecked} lastVerified={lastVerified} />
 
   </article>
 </BaseLayout>

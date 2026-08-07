@@ -22,9 +22,9 @@ const { heading, body } = Astro.props;
     <h2 class="font-display text-xl text-indigo">{heading}</h2>
   </div>
 
-  <!-- 本文: 段落形式で読み物として提示 -->
-  <div class="px-5 py-6">
-    <div class="space-y-4 border-l-2 border-indigo/15 pl-5">
+  <!-- 本文: 通常のセクション幅で堂々と読ませる。左ボーダーは視覚的アクセントのみ -->
+  <div class="border-l-2 border-indigo/20 px-5 py-6">
+    <div class="space-y-4">
       {body.map(para => (
         <p class="font-body text-[15px] leading-relaxed text-ink/80">{para}</p>
       ))}
