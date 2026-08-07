@@ -18,7 +18,7 @@ sourcesChecked:
   - "Japan domestic price comparison sources (rice cooker category rankings, August 2026)"
   - "Official Zojirushi and Tiger product specification pages"
 lastVerified: "August 2026"
-status: draft
+status: published
 reviewLog:
   reviewedAt: "August 2026"
   verdict: "fixed"

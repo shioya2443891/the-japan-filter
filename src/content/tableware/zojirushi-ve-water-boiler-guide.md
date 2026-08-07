@@ -16,7 +16,7 @@ sourcesChecked:
   - "Amazon.com listings for CV-JAC, CV-DCC, and CV-DYC series water boilers"
   - "store.zojirushi.com official product pages"
 lastVerified: "August 2026"
-status: draft
+status: published
 reviewLog:
   reviewedAt: "August 2026"
   verdict: "fixed"

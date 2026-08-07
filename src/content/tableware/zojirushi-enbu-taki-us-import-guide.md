@@ -19,7 +19,7 @@ sourcesChecked:
   - "Zojirushi America Corporation official warranty policy (zojirushi.com)"
   - "Amazon.com third-party listings for 100V Japan-spec rice cookers"
 lastVerified: "August 2026"
-status: draft
+status: published
 reviewLog:
   reviewedAt: "August 2026"
   verdict: "fixed"

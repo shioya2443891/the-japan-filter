@@ -244,3 +244,67 @@ reviewed. Do not describe a research step in `researchSteps` that was not taken.
 
 If a source was checked but returned no usable results, that is still a valid entry:
 e.g., "Major Japanese retail channels checked — no Lenox listings found during review."
+
+---
+
+## 9. Not-Recommended 記事の終わり方
+
+`verdict.rating: "not-recommended"` の記事は、必ず「では何を買うべきか」で締めること。
+「米国では買えない」「おすすめしない」で終わる記事はユーザーを行き止まりに置く。
+
+**必須要素（両方なければならない）:**
+
+1. **本文末に「What to Buy Instead」セクション** — 代替品・代替手段を1段落以上で説明する
+2. **製品カードに代替モデルを掲載** — `award` フィールドに "BEST ALTERNATIVE" 等を設定し、
+   Amazon CTA で代替品に誘導する
+
+**`verdict` フィールドの書き方:**
+```yaml
+verdict:
+  rating: "not-recommended"
+  summary: "[なぜおすすめしないか] + [代替として何を買うべきか]"
+  bestPick: "[代替製品の product id]"
+```
+
+`bestPick` に `null` や `~` を入れることは、not-recommended 記事では認めない。
+代替品を指定できない場合は記事化自体を保留する。
+
+---
+
+## 10. Brand Profile（ブランドプロファイル）の運用ルール
+
+ブランドに関する調査済み情報は `src/data/brands/[brand-slug].md` に蓄積する。
+
+**新規記事を書く前に必ず行うこと:**
+
+1. 対象ブランドのプロファイルファイルが `src/data/brands/` に存在するか確認する
+2. 存在する場合: プロファイルに記載されている情報から使用可能な素材を確認する
+3. 不足している情報のみ追加調査する
+4. 追加調査で得た新情報はプロファイルに追記する（`profileUpdated` を更新）
+
+**プロファイルが存在しない場合:**
+
+brand-scout エージェントを使って初回調査を行い、プロファイルファイルを作成してから記事を書く。
+
+**プロファイルファイルの構成要素:**
+
+各項目には Evidence Strength Rule（ルール 8）の LEVEL 1〜3 を明記すること。
+
+- 一次情報で確認できた事実（LEVEL 1）
+- 日本国内でのブランドポジション（LEVEL 1〜3）
+- 米国での認知度・位置づけ（LEVEL 1〜2）
+- 主力商品ライン（LEVEL 1）
+- 米国での競合ブランド（LEVEL 1〜2）
+- 日米の価格傾向（LEVEL 2〜3、時点を必ず明記）
+- Japan Context として書ける独自視点（使用済み・未使用を区別して記録）
+- 調査記録（調査日・情報源）
+
+**Japan Context 使い回し防止:**
+
+プロファイル内の「Japan Context として書ける独自視点」セクションに使用済みの視点を記録し、
+新規記事では未使用の視点から選ぶこと（ルール 7 参照）。
+
+**現在のプロファイル一覧:**
+
+- `src/data/brands/noritake.md` — Noritake（ノリタケ）、食器、August 2026
+- `src/data/brands/zojirushi.md` — Zojirushi（象印マホービン）、キッチン家電、August 2026

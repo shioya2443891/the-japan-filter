@@ -16,7 +16,7 @@ sourcesChecked:
   - "Amazon.com listings for all three brands"
   - "US comparison media reporting insulation performance testing (prudentreviews.com, reviewed August 2026)"
 lastVerified: "August 2026"
-status: draft
+status: published
 reviewLog:
   reviewedAt: "August 2026"
   verdict: "fixed"

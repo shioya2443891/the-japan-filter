@@ -16,7 +16,7 @@ sourcesChecked:
   - "store.zojirushi.com and zojirushi.com official product pages"
   - "Zojirushi America Corporation official warranty policy (zojirushi.com)"
 lastVerified: "August 2026"
-status: draft
+status: published
 reviewLog:
   reviewedAt: "August 2026"
   verdict: "pass"
