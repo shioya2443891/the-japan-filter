@@ -3,7 +3,7 @@ import { getCollection } from 'astro:content';
 import ArticleLayout from '../../layouts/ArticleLayout.astro';
 
 export async function getStaticPaths() {
-  const articles = await getCollection('tableware');
+  const articles = (await getCollection('tableware')).filter(a => a.data.status === 'published');
   return articles.map((a) => ({ params: { slug: a.slug }, props: { article: a } }));
 }
 

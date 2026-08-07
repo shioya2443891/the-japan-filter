@@ -2,7 +2,7 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { getCollection } from 'astro:content';
 
-const articles = await getCollection('tableware');
+const articles = (await getCollection('tableware')).filter(a => a.data.status === 'published');
 ---
 <BaseLayout
   title="Japanese Tableware Guides"

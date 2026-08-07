@@ -56,6 +56,17 @@ const tableware = defineCollection({
       summary: z.string(),
       bestPick: z.string().nullable().default(null),
     }).optional(),
+    status: z.enum(['draft', 'published']).default('draft'),
+    reviewLog: z.object({
+      reviewedAt: z.string(),
+      verdict: z.enum(['pass', 'fail', 'fixed']),
+      checks: z.array(z.object({
+        item: z.string(),
+        result: z.enum(['pass', 'fail']),
+        note: z.string(),
+      })),
+      summary: z.string(),
+    }).nullable().default(null),
   }),
 });
 
