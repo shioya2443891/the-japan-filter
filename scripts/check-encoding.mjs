@@ -1,7 +1,20 @@
 /**
  * Pre-build encoding check.
- * Scans markdown bodies (after frontmatter) for non-ASCII characters.
- * Exits with code 1 and prints offending file:line if any are found.
+ * Scans markdown bodies (after frontmatter) for non-ASCII characters
+ * (codepoint > 127). Exits with code 1 and prints offending file:line.
+ *
+ * RULE: article body must be ASCII-only (codepoint 0x00-0x7F).
+ *
+ * EXCEPTION -- proper nouns with diacritics (e.g. Wüsthof, Ōsaka):
+ *   Do NOT write the raw non-ASCII character.
+ *   Use an HTML entity instead: W&uuml;sthof, &Ocirc;saka.
+ *   HTML entities are pure ASCII and pass this check.
+ *   Named entities (&uuml;) and numeric entities (&#252;) both work.
+ *
+ * BOM (U+FEFF, codepoint 65279) is caught by the same cp > 127 check.
+ *   If a file starts with BOM the frontmatter regex fails, the whole file
+ *   is treated as body, and the BOM at character 0 is flagged at line 1.
+ *   Always save article files without BOM (UTF-8, not UTF-8 with BOM).
  */
 import { readFileSync, readdirSync } from 'fs';
 import { join, resolve } from 'path';
