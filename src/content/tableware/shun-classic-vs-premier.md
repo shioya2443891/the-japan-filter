@@ -18,7 +18,7 @@ sourcesChecked:
   - "Multiple cutlery industry sources on tsuchime forging technique"
   - "shun.kaiusa.com warranty and product care pages"
 lastVerified: "August 2026"
-status: draft
+status: published
 reviewLog:
   reviewedAt: "August 2026"
   verdict: "pass"

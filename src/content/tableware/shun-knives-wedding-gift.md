@@ -16,7 +16,7 @@ sourcesChecked:
   - "shun.kaiusa.com official product and set pages"
   - "Williams Sonoma and Crate & Barrel retail listings for Shun products"
 lastVerified: "August 2026"
-status: draft
+status: published
 reviewLog:
   reviewedAt: "August 2026"
   verdict: "fixed"

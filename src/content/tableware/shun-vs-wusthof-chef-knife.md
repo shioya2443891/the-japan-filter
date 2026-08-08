@@ -19,7 +19,7 @@ sourcesChecked:
   - "Historical sources on Seki City and Solingen cutlery production"
   - "Multiple US cutlery review and comparison sources (August 2026)"
 lastVerified: "August 2026"
-status: draft
+status: published
 reviewLog:
   reviewedAt: "August 2026"
   verdict: "fixed"

@@ -15,7 +15,7 @@ sourcesChecked:
   - "shun.kaiusa.com official product and specification pages"
   - "Multiple Japanese culinary and cutlery sources on kiritsuke blade usage (August 2026)"
 lastVerified: "August 2026"
-status: draft
+status: published
 reviewLog:
   reviewedAt: "August 2026"
   verdict: "pass"

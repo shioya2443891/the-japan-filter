@@ -15,7 +15,7 @@ sourcesChecked:
   - "shun.kaiusa.com official product and handle specification pages"
   - "Multiple sources on traditional Japanese wa-handle (D-shaped handle) conventions"
 lastVerified: "August 2026"
-status: draft
+status: published
 reviewLog:
   reviewedAt: "August 2026"
   verdict: "fixed"

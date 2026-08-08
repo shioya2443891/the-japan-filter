@@ -19,7 +19,7 @@ sourcesChecked:
   - "Multiple sources confirming Miyabi's Zwilling ownership and Seki City manufacturing"
   - "Zwilling / Miyabi official product materials"
 lastVerified: "August 2026"
-status: draft
+status: published
 reviewLog:
   reviewedAt: "August 2026"
   verdict: "fixed"

@@ -19,7 +19,7 @@ sourcesChecked:
   - "Sources confirming Miyabi and MAC Professional's Seki City manufacturing"
   - "Yoshikin official materials on Tsubame-Sanjo manufacturing"
 lastVerified: "August 2026"
-status: draft
+status: published
 reviewLog:
   reviewedAt: "August 2026"
   verdict: "pass"

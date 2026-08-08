@@ -18,7 +18,7 @@ sourcesChecked:
   - "MAC official and retail product materials (mactheknife.co.jp and US retailers)"
   - "Multiple specialty cutlery retailer listings for both brands (August 2026)"
 lastVerified: "August 2026"
-status: draft
+status: published
 reviewLog:
   reviewedAt: "August 2026"
   verdict: "pass"

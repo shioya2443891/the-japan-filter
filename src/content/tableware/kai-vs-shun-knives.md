@@ -20,7 +20,7 @@ sourcesChecked:
   - "Kakaku.com (Seki Magoroku domestic pricing, August 2026)"
   - "Amazon.com Shun brand store"
 lastVerified: "August 2026"
-status: draft
+status: published
 reviewLog:
   reviewedAt: "August 2026"
   verdict: "pass"

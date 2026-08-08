@@ -15,7 +15,7 @@ sourcesChecked:
   - "shun.kaiusa.com/warranty official terms page"
   - "shun.kaiusa.com official product pages (Sora and Classic lines)"
 lastVerified: "August 2026"
-status: draft
+status: published
 reviewLog:
   reviewedAt: "August 2026"
   verdict: "fixed"
