@@ -4,6 +4,8 @@
       "Read(C:\\Users\\shioy\\Documents\\the-japan-filter\\**)",
       "Edit(C:\\Users\\shioy\\Documents\\the-japan-filter\\**)",
       "Write(C:\\Users\\shioy\\Documents\\the-japan-filter\\**)",
+      "WebFetch(*)",
+      "WebSearch(*)",
       "Bash(git add*)",
       "Bash(git commit*)",
       "Bash(git push*)",

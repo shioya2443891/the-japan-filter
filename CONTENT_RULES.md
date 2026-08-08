@@ -309,3 +309,42 @@ brand-scout エージェントを使って初回調査を行い、プロファ�
 - `src/data/brands/noritake.md` — Noritake（ノリタケ）、食器、August 2026
 - `src/data/brands/zojirushi.md` — Zojirushi（象印マホービン）、キッチン家電、August 2026
 - `src/data/brands/shun.md` — Shun（旬 / KAI Corporation）、刃物、August 2026
+
+---
+
+## 11. 文字化け防止（エンコーディング注意）
+
+### 症状
+
+記事生成時にダッシュ類が「窶・」という文字化けに変換されることがある。
+以下のパターンが観測されている:
+
+- `—`（em dash, U+2014）→ `窶・`
+- `–X`（en dash + 数字）→ `窶・`（数字が1文字消える）
+- `★`（黒星）→ `笘・`
+- `·`（中点）→ `ﾂｷ`（半角カタカナ）
+
+### 対処ルール
+
+1. **ダッシュは ASCII ハイフン `-` か、明示的な Unicode エンティティを使う**  
+   - 箇条書きの区切りは `-` または `—`（直接入力可）  
+   - 数値範囲は `–`（en dash, U+2013）または `–` を直接入力  
+   - em dash 代わりのコロン `:` や改行でも代替可
+
+2. **価格範囲の記載形式**  
+   - NG: `$30–50`（en dash が壊れやすい）  
+   - OK: `$30 to $50` または `$30–50`（直接入力の en dash は安全）
+
+3. **スター評価の記載**  
+   - NG: `4★ and below`（★が壊れやすい）  
+   - OK: `4-star and below`
+
+4. **記事生成後のチェック**  
+   - `grep "窶" src/content/**/*.md` でゼロ件を確認してからコミット  
+   - `grep "笘" src/content/**/*.md` も同様に確認
+
+### 発生した背景
+
+2026-08-08 生成の Noritake 記事 6 本（`noritake-colorwave-*`, `best-noritake-*`, `noritake-vs-*`）
+で発生。記事本文・frontmatter の両方に混入していた。
+2026-08-08 に一括修正済み。

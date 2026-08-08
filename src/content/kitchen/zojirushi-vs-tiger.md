@@ -232,7 +232,7 @@ Neither approach is objectively better — they solve different problems. Zojiru
 
 ## What Neither Brand Sells in the US
 
-Neither company's most Japan-oriented flagship tier was found in official US retail channels in the listings reviewed: Zojirushi's Enbu Taki and Tiger's donabe-inspired top line. If either brand's flagship comes up in your research, treat it as a Japan-market reference point rather than an available US option — see our [Enbu Taki import guide](/tableware/zojirushi-enbu-taki-us-import-guide) for the specific risks of trying to buy around that gap.
+Neither company's most Japan-oriented flagship tier was found in official US retail channels in the listings reviewed: Zojirushi's Enbu Taki and Tiger's donabe-inspired top line. If either brand's flagship comes up in your research, treat it as a Japan-market reference point rather than an available US option — see our [Enbu Taki import guide](/kitchen/zojirushi-enbu-taki-us-import-guide) for the specific risks of trying to buy around that gap.
 
 ## Which One to Buy
 

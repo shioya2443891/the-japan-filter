@@ -1,7 +1,16 @@
 ---
 import { getCollection } from 'astro:content';
 
-const allArticles = await getCollection('tableware');
+const [tablewareArticles, knivesArticles, kitchenArticles] = await Promise.all([
+  getCollection('tableware'),
+  getCollection('knives'),
+  getCollection('kitchen'),
+]);
+const allArticles = [
+  ...tablewareArticles.map(a => ({ ...a, _category: 'tableware' as const })),
+  ...knivesArticles.map(a => ({ ...a, _category: 'knives' as const })),
+  ...kitchenArticles.map(a => ({ ...a, _category: 'kitchen' as const })),
+];
 
 const publishedArticles = allArticles.filter(a => a.data.status === 'published');
 const draftArticles = allArticles.filter(a => a.data.status === 'draft');
@@ -11,7 +20,7 @@ const rows = publishedArticles
     (article.data.products ?? []).map(product => ({
       product,
       articleTitle: article.data.title,
-      articleUrl: `/tableware/${article.slug}/`,
+      articleUrl: `/${article._category}/${article.slug}/`,
     }))
   )
   .sort((a, b) => {
@@ -41,6 +50,35 @@ function imageStatus(imageUrl: string | null) {
 }
 
 const generatedAt = new Date().toISOString().slice(0, 10);
+
+// Brand freshness
+const brandModules = import.meta.glob('../data/brands/*.md', { eager: true });
+const brandProfiles = Object.entries(brandModules).map(([path, mod]: [string, any]) => {
+  const slug = path.split('/').pop()?.replace('.md', '') || '';
+  const fm = mod.frontmatter || {};
+  return {
+    slug,
+    brand: fm.brand || slug,
+    lastResearched: fm.lastResearched as string | null ?? null,
+    volatility: (fm.volatility || 'medium') as string,
+    refreshInterval: (fm.refreshInterval || 90) as number,
+  };
+});
+
+const today = new Date();
+function expiryDate(b: typeof brandProfiles[0]) {
+  if (!b.lastResearched) return null;
+  const d = new Date(b.lastResearched);
+  d.setDate(d.getDate() + b.refreshInterval);
+  return d;
+}
+const staleBrands  = brandProfiles.filter(b => { const e = expiryDate(b); return e && today > e; });
+const warningBrands = brandProfiles.filter(b => {
+  const e = expiryDate(b);
+  if (!e || today > e) return false;
+  const warn = new Date(e); warn.setDate(warn.getDate() - 14);
+  return today >= warn;
+});
 ---
 
 <!doctype html>
@@ -100,6 +138,61 @@ const generatedAt = new Date().toISOString().slice(0, 10);
       </div>
     </div>
 
+    <!-- Brand Freshness section -->
+    {(staleBrands.length > 0 || warningBrands.length > 0) && (
+      <section class="mb-8">
+        <div class="mb-3 flex items-center gap-3">
+          <h2 class="font-data text-[11px] uppercase tracking-wide2 text-seal">要再調査ブランド</h2>
+          {staleBrands.length > 0 && (
+            <span class="rounded-sm bg-seal/10 px-2 py-0.5 font-data text-[10px] font-medium text-seal">
+              {staleBrands.length} 期限切れ
+            </span>
+          )}
+          {warningBrands.length > 0 && (
+            <span class="rounded-sm bg-amber-100 px-2 py-0.5 font-data text-[10px] font-medium text-amber-700">
+              {warningBrands.length} 14日以内
+            </span>
+          )}
+        </div>
+        <div class="grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
+          {staleBrands.map(b => {
+            const e = expiryDate(b)!;
+            const daysOver = Math.floor((today.getTime() - e.getTime()) / 86400000);
+            return (
+              <div class="border border-seal/30 bg-seal/[0.04] p-4">
+                <div class="mb-2 flex items-center justify-between">
+                  <span class="font-data text-[12px] font-medium text-ink/85">{b.brand}</span>
+                  <span class="rounded-sm bg-seal/10 px-1.5 py-0.5 font-data text-[9px] font-medium uppercase tracking-wide2 text-seal">STALE</span>
+                </div>
+                <div class="space-y-0.5 font-data text-[10px] text-ink/50">
+                  <div>最終調査: {b.lastResearched}</div>
+                  <div>再調査間隔: {b.refreshInterval}日 · {b.volatility}</div>
+                  <div class="font-medium text-seal">{daysOver}日超過 → /next-brand {b.slug}</div>
+                </div>
+              </div>
+            );
+          })}
+          {warningBrands.map(b => {
+            const e = expiryDate(b)!;
+            const daysLeft = Math.floor((e.getTime() - today.getTime()) / 86400000);
+            return (
+              <div class="border border-amber-200 bg-amber-50/60 p-4">
+                <div class="mb-2 flex items-center justify-between">
+                  <span class="font-data text-[12px] font-medium text-ink/85">{b.brand}</span>
+                  <span class="rounded-sm bg-amber-100 px-1.5 py-0.5 font-data text-[9px] font-medium uppercase tracking-wide2 text-amber-700">SOON</span>
+                </div>
+                <div class="space-y-0.5 font-data text-[10px] text-ink/50">
+                  <div>最終調査: {b.lastResearched}</div>
+                  <div>再調査間隔: {b.refreshInterval}日 · {b.volatility}</div>
+                  <div class="font-medium text-amber-600">あと{daysLeft}日で期限</div>
+                </div>
+              </div>
+            );
+          })}
+        </div>
+      </section>
+    )}
+
     <!-- Pending Review section -->
     {draftArticles.length > 0 && (
       <section class="mb-10">
@@ -114,7 +207,7 @@ const generatedAt = new Date().toISOString().slice(0, 10);
                 <p class="font-body text-[13px] font-medium leading-snug text-ink/85">{article.data.title}</p>
                 <span class="shrink-0 rounded-sm bg-amber-200 px-1.5 py-0.5 font-data text-[9px] font-medium uppercase tracking-wide2 text-amber-800">DRAFT</span>
               </div>
-              <p class="mb-3 font-data text-[10px] text-ink/40">/tableware/{article.slug}/</p>
+              <p class="mb-3 font-data text-[10px] text-ink/40">/{article._category}/{article.slug}/</p>
               {article.data.reviewLog
                 ? (
                   <div class="border-t border-amber-200 pt-3">
@@ -224,7 +317,7 @@ const generatedAt = new Date().toISOString().slice(0, 10);
     </div>
 
     <p class="mt-4 font-data text-[10px] text-ink/30">
-      Auto-aggregated from published tableware articles
+      Auto-aggregated from published articles (tableware / knives / kitchen)
       · {totalProducts} products across {articlesWithProducts.size} articles
       · {allArticles.length} total articles ({publishedArticles.length} published, {draftArticles.length} draft)
       · Build date: {generatedAt}

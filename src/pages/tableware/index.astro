@@ -5,12 +5,13 @@ import { getCollection } from 'astro:content';
 const articles = (await getCollection('tableware')).filter(a => a.data.status === 'published');
 ---
 <BaseLayout
-  title="Japanese Tableware Guides"
-  description="Noritake and other trusted Japanese tableware brands, reviewed for buyers outside Japan."
+  title="Japanese Tableware Guides — Noritake"
+  description="Noritake dinnerware reviewed for US buyers — patterns, sets, and registry picks verified with Japan market context."
 >
   <section class="mx-auto max-w-3xl px-5 py-14">
     <p class="font-data text-[10px] uppercase tracking-wide2 text-indigo/60 mb-2">Category</p>
-    <h1 class="font-display text-3xl text-indigo mb-8">Japanese Tableware</h1>
+    <h1 class="font-display text-3xl text-indigo mb-4">Japanese Tableware</h1>
+    <p class="font-body text-[15px] text-ink/60 mb-10">Noritake dinnerware — patterns, everyday sets, and registry picks reviewed with Japan market context.</p>
 
     <div class="divide-y divide-line border-y border-line">
       {articles.map((a) => (

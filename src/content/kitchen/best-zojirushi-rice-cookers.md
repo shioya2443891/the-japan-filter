@@ -244,7 +244,7 @@ Zojirushi's US rice cooker catalog splits into three heating technologies, and t
 
 ## What's Missing From the US Lineup
 
-Japan's domestic market has a fourth tier above Pressure IH: Enbu Taki. As of this research (August 2026), Enbu Taki does not appear on either store.zojirushi.com or Amazon.com's official Zojirushi storefront. If a listing claims to sell an Enbu Taki model in the US, verify the seller and manufacturing details carefully before purchasing — see our [import and warranty guide](/tableware/zojirushi-enbu-taki-us-import-guide) for the specific risks involved.
+Japan's domestic market has a fourth tier above Pressure IH: Enbu Taki. As of this research (August 2026), Enbu Taki does not appear on either store.zojirushi.com or Amazon.com's official Zojirushi storefront. If a listing claims to sell an Enbu Taki model in the US, verify the seller and manufacturing details carefully before purchasing — see our [import and warranty guide](/kitchen/zojirushi-enbu-taki-us-import-guide) for the specific risks involved.
 
 ## Choosing a Tier for Your Kitchen
 

@@ -31,9 +31,7 @@ const ProductSchema = z.object({
   ctaLabel: z.string().default('Check on Amazon'),
 });
 
-const tableware = defineCollection({
-  type: 'content',
-  schema: z.object({
+const articleSchema = z.object({
     title: z.string(),
     description: z.string(),
     intro: z.string().optional(),
@@ -67,7 +65,10 @@ const tableware = defineCollection({
       })),
       summary: z.string(),
     }).nullable().default(null),
-  }),
 });
 
-export const collections = { tableware };
+const tableware = defineCollection({ type: 'content', schema: articleSchema });
+const knives    = defineCollection({ type: 'content', schema: articleSchema });
+const kitchen   = defineCollection({ type: 'content', schema: articleSchema });
+
+export const collections = { tableware, knives, kitchen };

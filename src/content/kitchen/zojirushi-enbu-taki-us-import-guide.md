@@ -188,4 +188,4 @@ These are worth treating as distinct issues, because they fail in different ways
 
 ## What to Buy Instead
 
-The Pressure IH tier, covered in more detail in our [full rice cooker tier guide](/tableware/best-zojirushi-rice-cookers), uses the same underlying pressure-cooking principle Enbu Taki builds on, without the import complications. It's manufactured for US specifications, carries Zojirushi America Corporation's warranty, and — based on the pricing reviewed — doesn't cost meaningfully more than an imported Enbu Taki unit once real-world costs are accounted for.
+The Pressure IH tier, covered in more detail in our [full rice cooker tier guide](/kitchen/best-zojirushi-rice-cookers), uses the same underlying pressure-cooking principle Enbu Taki builds on, without the import complications. It's manufactured for US specifications, carries Zojirushi America Corporation's warranty, and — based on the pricing reviewed — doesn't cost meaningfully more than an imported Enbu Taki unit once real-world costs are accounted for.
