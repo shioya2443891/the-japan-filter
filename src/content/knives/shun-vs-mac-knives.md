@@ -1,7 +1,7 @@
 ---
 title: "Shun vs. MAC Knives: Same Seki City, Two Different Markets"
-description: "Shun and MAC Professional are both manufactured in Seki City, but they were built for different customers — one for lifestyle and gift buyers, the other for working chefs. Here's how that shows up in the knives themselves."
-intro: "Shun and MAC Professional share a manufacturing city, but they've built their US presence around different customers. Shun is stocked at Crate & Barrel and Williams Sonoma and marketed heavily around gifting. MAC has built its US reputation primarily among working chefs and serious home cooks who found it through professional kitchen supply channels rather than lifestyle retail. Both are legitimate, well-regarded Seki City knife makers — this guide compares what that different market focus actually means for blade design and who each brand suits."
+description: "Shun and MAC Professional are both manufactured in Seki City, but they were built for different customers -- one for lifestyle and gift buyers, the other for working chefs. Here's how that shows up in the knives themselves."
+intro: "Shun and MAC Professional share a manufacturing city, but they've built their US presence around different customers. Shun is stocked at Crate & Barrel and Williams Sonoma and marketed heavily around gifting. MAC has built its US reputation primarily among working chefs and serious home cooks who found it through professional kitchen supply channels rather than lifestyle retail. Both are legitimate, well-regarded Seki City knife makers -- this guide compares what that different market focus actually means for blade design and who each brand suits."
 publishDate: 2026-08-08
 whySelected: "MAC Professional's growing recognition among serious home cooks and professionals in the US market makes it an increasingly common comparison point for Shun buyers, and both brands' shared Seki City manufacturing origin combined with very different market positioning provides a concrete Japan Context distinction."
 researchSteps:
@@ -82,7 +82,7 @@ products:
     award: "PROFESSIONAL KITCHEN MARKET"
     name: "MAC Professional 8-Inch Chef's Knife"
     priceTier: "$$"
-    priceNote: "Reference range $145–$165 based on listings reviewed (August 2026); verify current price on Amazon before purchasing"
+    priceNote: "Reference range $145-$165 based on listings reviewed (August 2026); verify current price on Amazon before purchasing"
     setContents: "1 chef's knife, per manufacturer specifications"
     specs:
       - label: "Steel"
@@ -112,7 +112,7 @@ japanContext:
     - >-
       MAC Professional's knives are manufactured at a factory in Seki City, Gifu
       Prefecture, with the company producing cutlery since 1964, according to
-      company and retail sources reviewed for this guide — while the company itself
+      company and retail sources reviewed for this guide -- while the company itself
       is headquartered in Sakai, Osaka Prefecture, a separate and independently
       well-known Japanese cutlery-producing region. This means MAC's corporate
       identity draws on one region's reputation (Sakai) while its actual production
@@ -128,7 +128,7 @@ japanContext:
       base: Shun through lifestyle and gift-oriented retailers, MAC primarily
       through professional kitchen supply and specialty cutlery channels. We did not
       find evidence that this reflects a formal difference in build quality between
-      the two brands — it appears to be a difference in target customer and
+      the two brands -- it appears to be a difference in target customer and
       marketing strategy.
   forUsBuyers:
     - >-
@@ -136,41 +136,41 @@ japanContext:
       broad retail availability is better served by Shun's established lifestyle
       retail presence. A buyer who wants a knife built for sustained daily
       professional-style use, with a thinner blade profile prioritizing cutting
-      performance over decorative finish, may find MAC a better match — even though
+      performance over decorative finish, may find MAC a better match -- even though
       both are manufactured in the same city.
     - >-
       MAC's narrower US retail footprint (specialty and professional channels rather
       than mainstream lifestyle stores) means it requires more deliberate searching
-      to find compared to Shun's presence at Crate & Barrel or Williams Sonoma —
+      to find compared to Shun's presence at Crate & Barrel or Williams Sonoma --
       a practical availability difference for a buyer weighing the two.
     - >-
       Neither brand's Seki City manufacturing is, by itself, a reason to prefer one
-      over the other — the more useful distinguishing factors are blade profile
+      over the other -- the more useful distinguishing factors are blade profile
       (thinner and function-focused for MAC vs. moderate thickness with decorative
       Damascus for Shun) and which retail context (gift-oriented vs.
       professional-oriented) matches the buyer's actual need.
 usBuyerNotes:
   - "MAC's thinner blade profile is generally associated with precision cutting tasks; confirm this matches your cutting style before choosing it over Shun's moderate-thickness Damascus-clad blade"
-  - "MAC is less commonly found at mainstream lifestyle retailers than Shun — check specialty cutlery or professional kitchen supply retailers if you don't see it through your usual shopping channels"
+  - "MAC is less commonly found at mainstream lifestyle retailers than Shun -- check specialty cutlery or professional kitchen supply retailers if you don't see it through your usual shopping channels"
   - "Verify the Amazon listing for either brand is sold by an authorized retailer before purchasing"
   - "If buying as a gift, Shun's established presence at gift-oriented retailers (Crate & Barrel, Williams Sonoma) may make packaging, registry integration, or return policies more straightforward than a MAC purchase"
 verdict:
   rating: "conditional"
-  summary: "Shun and MAC Professional are both legitimately manufactured in Seki City but built for different customers — Shun for lifestyle and gift buyers, MAC for cooks who prioritize a thin, function-focused blade and found the brand through professional or specialty channels. Buyers should choose based on blade profile preference and shopping context rather than assuming either brand is more \"authentic\" because of where it's made."
+  summary: "Shun and MAC Professional are both legitimately manufactured in Seki City but built for different customers -- Shun for lifestyle and gift buyers, MAC for cooks who prioritize a thin, function-focused blade and found the brand through professional or specialty channels. Buyers should choose based on blade profile preference and shopping context rather than assuming either brand is more \"authentic\" because of where it's made."
   bestPick: "shun-classic-8in-chef-mac"
 ---
 
 ## One City, Two Very Different Retail Stories
 
-Shun and MAC Professional both come out of Seki City's cutlery manufacturing base, but they've reached US buyers through almost entirely separate paths. Shun built its US presence through lifestyle retail — Crate & Barrel, Williams Sonoma, wedding registries. MAC built its reputation more quietly, through professional kitchen supply channels and specialty cutlery retailers, reaching working cooks before it reached general lifestyle shoppers.
+Shun and MAC Professional both come out of Seki City's cutlery manufacturing base, but they've reached US buyers through almost entirely separate paths. Shun built its US presence through lifestyle retail -- Crate & Barrel, Williams Sonoma, wedding registries. MAC built its reputation more quietly, through professional kitchen supply channels and specialty cutlery retailers, reaching working cooks before it reached general lifestyle shoppers.
 
 ## A Company Headquartered Elsewhere, Manufacturing in Seki City
 
-MAC Professional is headquartered in Sakai, Osaka Prefecture — itself a well-known Japanese cutlery region — but manufactures at a Gifu factory in Seki City, where the company has produced cutlery since 1964. That's a different structure than Shun, where KAI Corporation is headquartered in the same city where Shun is made. Both arrangements are legitimate; they just mean something different about each brand's relationship to the city on its marketing materials.
+MAC Professional is headquartered in Sakai, Osaka Prefecture -- itself a well-known Japanese cutlery region -- but manufactures at a Gifu factory in Seki City, where the company has produced cutlery since 1964. That's a different structure than Shun, where KAI Corporation is headquartered in the same city where Shun is made. Both arrangements are legitimate; they just mean something different about each brand's relationship to the city on its marketing materials.
 
 ## Blade Design Reflects the Different Priorities
 
-MAC's core chef's knife lines lean toward a thinner blade profile with minimal decorative finishing — a design generally associated with prioritizing cutting performance, common among knives built with working kitchens in mind. Shun's Classic line carries a moderate blade thickness and prominent decorative Damascus pattern, reflecting its position as both a functional knife and a considered retail object. Neither approach is wrong; they reflect different assumptions about what the buyer values most.
+MAC's core chef's knife lines lean toward a thinner blade profile with minimal decorative finishing -- a design generally associated with prioritizing cutting performance, common among knives built with working kitchens in mind. Shun's Classic line carries a moderate blade thickness and prominent decorative Damascus pattern, reflecting its position as both a functional knife and a considered retail object. Neither approach is wrong; they reflect different assumptions about what the buyer values most.
 
 ## What This Means When You're Choosing
 

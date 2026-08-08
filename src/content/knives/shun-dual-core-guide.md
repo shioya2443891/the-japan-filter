@@ -1,7 +1,7 @@
 ---
 title: "Is Shun Dual Core Worth $437? Understanding the Kiritsuke Factor"
 description: "Shun's flagship Dual Core line centers on a kiritsuke-shaped knife, a blade style with a specific role in Japanese kitchens. Here's what the construction and shape actually offer before spending $437."
-intro: "Shun's Dual Core line sits at the top of the brand's US lineup, with an 8-inch kiritsuke priced at $437 MSRP — nearly double the Classic tier. Before spending that much, it's worth understanding two separate things: what Dual Core's two-steel construction actually does differently, and what a kiritsuke-shaped blade is generally used for, since it's a different shape than the standard chef's knife most Shun buyers are used to. This guide covers both, based on manufacturer specifications and available research."
+intro: "Shun's Dual Core line sits at the top of the brand's US lineup, with an 8-inch kiritsuke priced at $437 MSRP -- nearly double the Classic tier. Before spending that much, it's worth understanding two separate things: what Dual Core's two-steel construction actually does differently, and what a kiritsuke-shaped blade is generally used for, since it's a different shape than the standard chef's knife most Shun buyers are used to. This guide covers both, based on manufacturer specifications and available research."
 publishDate: 2026-08-08
 whySelected: "Buyers researching Shun's most expensive line need construction specifics beyond \"premium steel\" to justify the price gap over Classic and Premier, and the kiritsuke blade shape at the center of Dual Core's lineup is different enough from a standard chef's knife to warrant explanation before purchase."
 researchSteps:
@@ -57,7 +57,7 @@ products:
       - label: "Construction"
         value: "71-layer Damascus cladding, per manufacturer specifications"
       - label: "Blade Shape"
-        value: "Kiritsuke — flat edge transitioning to an angled tip, per manufacturer specifications"
+        value: "Kiritsuke -- flat edge transitioning to an angled tip, per manufacturer specifications"
       - label: "Made In"
         value: "Seki City, Japan, per manufacturer and brand sources"
     origin:
@@ -65,7 +65,7 @@ products:
       madeIn: "Japan"
       officialSeller: "Kai USA Ltd. / authorized Amazon.com listings"
     usNotes:
-      - "The kiritsuke shape combines characteristics of a chef's knife and a slicing knife — it is not a direct drop-in replacement for a standard chef's knife in grip or cutting motion"
+      - "The kiritsuke shape combines characteristics of a chef's knife and a slicing knife -- it is not a direct drop-in replacement for a standard chef's knife in grip or cutting motion"
       - "Verify comfort with the shape before buying at this price point; it is a more specialized blade profile than Shun's standard chef's knife lines"
     whyPicked:
       - "Represents Shun's flagship construction tier and its most distinctive blade shape"
@@ -106,9 +106,9 @@ products:
 japanContext:
   inJapan:
     - >-
-      The kiritsuke blade shape — a flat cutting edge that angles up to a point near
+      The kiritsuke blade shape -- a flat cutting edge that angles up to a point near
       the tip, blending characteristics of a vegetable knife (usuba) and a slicing
-      knife (yanagiba) — has a specific place in Japanese professional kitchen
+      knife (yanagiba) -- has a specific place in Japanese professional kitchen
       culture. Multiple Japanese culinary and cutlery sources reviewed for this
       guide describe the kiritsuke as traditionally associated with a head chef or
       senior kitchen role in some professional settings. We were not able to confirm
@@ -118,14 +118,14 @@ japanContext:
       association rather than a confirmed fact.
     - >-
       Whatever the precise cultural weight of the shape in Japan, the kiritsuke
-      requires a different cutting motion than a standard Western chef's knife —
+      requires a different cutting motion than a standard Western chef's knife --
       it is generally described in the sources reviewed as suited to push cuts and
       precise slicing rather than the rocking motion common with a curved Western
       blade profile.
     - >-
       Shun's Dual Core line applies this traditionally specialized shape to a
       general-purpose export product sold to home cooks at any experience level,
-      rather than restricting it to a professional context — a marketing and
+      rather than restricting it to a professional context -- a marketing and
       product design decision by KAI Corporation, not a reflection of how the shape
       is used within Japan.
   forUsBuyers:
@@ -139,22 +139,22 @@ japanContext:
     - >-
       The steel and construction upgrade (SG2/VG-MAX alternating core, 71-layer
       Damascus) is a genuine, verifiable step up from Classic and Premier's
-      single-core VG-MAX construction — that part of the price increase is not in
+      single-core VG-MAX construction -- that part of the price increase is not in
       question. The blade shape is the separate variable that matters most for
       day-to-day usability.
     - >-
       Buyers drawn to Dual Core primarily for its price and "flagship" status,
       rather than a specific need for a kiritsuke shape, should consider whether
-      Shun's Premier tier — same VG-MAX-family steel philosophy, standard chef's
-      knife shape, lower price — better matches their actual cutting habits.
+      Shun's Premier tier -- same VG-MAX-family steel philosophy, standard chef's
+      knife shape, lower price -- better matches their actual cutting habits.
 usBuyerNotes:
-  - "The kiritsuke shape requires a different cutting technique (generally push cuts and precise slicing) than a standard curved chef's knife blade — expect an adjustment period if you haven't used one before"
-  - "Confirm whether Dual Core is available in a standard chef's knife shape if the kiritsuke profile isn't a good fit — check current Shun product listings, as line configurations change"
+  - "The kiritsuke shape requires a different cutting technique (generally push cuts and precise slicing) than a standard curved chef's knife blade -- expect an adjustment period if you haven't used one before"
+  - "Confirm whether Dual Core is available in a standard chef's knife shape if the kiritsuke profile isn't a good fit -- check current Shun product listings, as line configurations change"
   - "The SG2/VG-MAX alternating steel construction is a genuine upgrade over Classic and Premier's single-core steel, independent of the blade shape question"
   - "Verify the Amazon listing is sold by an authorized Shun retailer to preserve warranty and free-sharpening eligibility at this price point"
 verdict:
   rating: "conditional"
-  summary: "Shun Dual Core's $437 price reflects two separate upgrades — a genuine SG2/VG-MAX steel construction improvement, and a specialized kiritsuke blade shape with a cultural association some sources describe as tied to a senior kitchen role in Japan, though this could not be confirmed as a universal rule. Buyers should confirm they specifically want the kiritsuke shape and cutting style before paying the premium; those who don't should look at Premier instead."
+  summary: "Shun Dual Core's $437 price reflects two separate upgrades -- a genuine SG2/VG-MAX steel construction improvement, and a specialized kiritsuke blade shape with a cultural association some sources describe as tied to a senior kitchen role in Japan, though this could not be confirmed as a universal rule. Buyers should confirm they specifically want the kiritsuke shape and cutting style before paying the premium; those who don't should look at Premier instead."
   bestPick: "shun-classic-8in-chef-dualcore"
 ---
 
@@ -168,7 +168,7 @@ Dual Core's alternating SG2 and VG-MAX steel core, wrapped in 71 layers of Damas
 
 ## The Kiritsuke Shape Is the More Complicated Question
 
-The representative Dual Core model is a kiritsuke — a blade shape with a flat edge that angles up toward the tip, different from the curved profile of a standard chef's knife. Multiple Japanese culinary sources describe the kiritsuke as traditionally associated with a senior chef role in some professional kitchen settings, though this research was not able to confirm that association against a single authoritative primary source, so it's best understood as a commonly described pattern rather than a settled fact. What is more consistently described across sources is the practical point: a kiritsuke requires a different cutting motion — generally push cuts rather than the rocking motion typical of Western chef's knives — and a cook unfamiliar with the shape should expect an adjustment period.
+The representative Dual Core model is a kiritsuke -- a blade shape with a flat edge that angles up toward the tip, different from the curved profile of a standard chef's knife. Multiple Japanese culinary sources describe the kiritsuke as traditionally associated with a senior chef role in some professional kitchen settings, though this research was not able to confirm that association against a single authoritative primary source, so it's best understood as a commonly described pattern rather than a settled fact. What is more consistently described across sources is the practical point: a kiritsuke requires a different cutting motion -- generally push cuts rather than the rocking motion typical of Western chef's knives -- and a cook unfamiliar with the shape should expect an adjustment period.
 
 ## Who Actually Benefits From This Combination
 
@@ -176,4 +176,4 @@ A cook who specifically wants both the steel upgrade and the kiritsuke shape get
 
 ## Bottom Line
 
-Shun Dual Core's price is justified by real construction upgrades, but the kiritsuke shape that represents the line is a specialized tool, not simply a nicer version of a standard chef's knife. Buyers should be honest about whether they want that specific shape and cutting style before paying nearly double what Classic costs — if not, Premier offers a similar steel philosophy in a more familiar blade profile for less.
+Shun Dual Core's price is justified by real construction upgrades, but the kiritsuke shape that represents the line is a specialized tool, not simply a nicer version of a standard chef's knife. Buyers should be honest about whether they want that specific shape and cutting style before paying nearly double what Classic costs -- if not, Premier offers a similar steel philosophy in a more familiar blade profile for less.

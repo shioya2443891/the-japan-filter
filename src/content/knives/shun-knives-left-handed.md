@@ -1,9 +1,9 @@
 ---
 title: "Shun Knives for Left-Handed Cooks: What Actually Works"
 description: "Shun was designed for a Western grip, but its standard D-shaped handle is built right-handed by default across every line. Here's what left-handed buyers need to confirm before purchasing."
-intro: "Shun's D-shaped handle was designed in 2002 specifically to suit a Western hand — a deliberate departure from more traditional Japanese knife handle shapes. What doesn't come up in most product descriptions is that this Western-oriented design is still built right-handed by default across every Shun line, from Sora through Dual Core. A left-handed cook can still use these knives, but comfort and control tend to be affected, and true left-handed versions are limited. This guide covers what actually changes for a left-handed buyer and how to find the closest available fit."
+intro: "Shun's D-shaped handle was designed in 2002 specifically to suit a Western hand -- a deliberate departure from more traditional Japanese knife handle shapes. What doesn't come up in most product descriptions is that this Western-oriented design is still built right-handed by default across every Shun line, from Sora through Dual Core. A left-handed cook can still use these knives, but comfort and control tend to be affected, and true left-handed versions are limited. This guide covers what actually changes for a left-handed buyer and how to find the closest available fit."
 publishDate: 2026-08-08
-whySelected: "Left-handed cooks researching premium Japanese knives need specific handle-orientation information that general product listings and marketing rarely address, and the D-shaped handle's default right-handed construction — despite being designed for a Western grip generally — is a concrete, verifiable purchase consideration."
+whySelected: "Left-handed cooks researching premium Japanese knives need specific handle-orientation information that general product listings and marketing rarely address, and the D-shaped handle's default right-handed construction -- despite being designed for a Western grip generally -- is a concrete, verifiable purchase consideration."
 researchSteps:
   - label: "Confirmed Shun's standard handle design and orientation"
     detail: "Verified via shun.kaiusa.com official product pages that Shun's D-shaped PakkaWood handle, used across Classic and Premier lines, is built for right-handed use by default."
@@ -55,7 +55,7 @@ products:
       - label: "Steel"
         value: "AUS10A, per manufacturer specifications"
       - label: "Handle"
-        value: "PakkaWood handle, per manufacturer specifications — confirm current handle shape directly with retailer before purchasing, as configurations can vary by line"
+        value: "PakkaWood handle, per manufacturer specifications -- confirm current handle shape directly with retailer before purchasing, as configurations can vary by line"
     origin:
       brandCountry: "Japan"
       madeIn: "Japan"
@@ -115,26 +115,26 @@ japanContext:
       are also commonly built for a specific hand by default rather than
       symmetrically, according to multiple sources on Japanese knife-making
       conventions reviewed for this guide. Shun's Western-grip handle design and
-      the handedness constraint are two separate design choices — one addresses
-      grip shape, the other does not address handedness — and Shun's approach on
+      the handedness constraint are two separate design choices -- one addresses
+      grip shape, the other does not address handedness -- and Shun's approach on
       handedness echoes this broader convention even though the handle shape itself
       was built for Western hands specifically.
   forUsBuyers:
     - >-
       A left-handed buyer should not assume that Shun's "designed for Western
-      hands" positioning means the knife accommodates left-handed use by default —
+      hands" positioning means the knife accommodates left-handed use by default --
       the handle shape and hand orientation are separate design questions, and
       Shun's standard configuration addresses only the former.
     - >-
       Special-order left-handed handles exist but require direct contact with an
-      authorized Shun dealer — this is not something reliably available through a
+      authorized Shun dealer -- this is not something reliably available through a
       standard Amazon listing, and lead time and added cost should be confirmed
       before committing to a purchase based on the assumption that a left-handed
       version is readily available.
     - >-
       A right-handed-default D-shaped handle is usable by a left-handed cook, but
       tends to provide reduced knuckle clearance and control compared to a
-      left-handed-specific or symmetrical handle — based on how D-shaped handle
+      left-handed-specific or symmetrical handle -- based on how D-shaped handle
       geometry is designed to fit one hand orientation, the knife will function,
       but comfort is the likely tradeoff a left-handed buyer accepts without the
       special-order version.
@@ -145,26 +145,26 @@ usBuyerNotes:
   - "If handedness is the primary concern, compare against knife brands offering fully symmetrical Western-style handles as standard, rather than assuming any premium Japanese knife brand addresses this by default"
 verdict:
   rating: "conditional"
-  summary: "Shun's D-shaped handle was built for a Western grip generally, but not specifically for left-handed use — every standard configuration is right-handed by default, with left-handed versions available only through special order. Left-handed buyers should confirm special-order availability and cost with an authorized dealer before purchasing, or consider a knife with a standard symmetrical handle instead."
+  summary: "Shun's D-shaped handle was built for a Western grip generally, but not specifically for left-handed use -- every standard configuration is right-handed by default, with left-handed versions available only through special order. Left-handed buyers should confirm special-order availability and cost with an authorized dealer before purchasing, or consider a knife with a standard symmetrical handle instead."
   bestPick: "shun-classic-8in-chef-lefthand"
 ---
 
 ## A Western-Grip Handle That Still Assumes a Right Hand
 
-Shun's handle design gets credit for adapting to Western cooking habits, and that's accurate as far as it goes — the D-shaped PakkaWood handle was built in 2002 specifically for a Western grip, a real departure from more traditional Japanese knife handle conventions. What that design update didn't address is handedness. Every standard Shun configuration, across every line, is built right-handed by default.
+Shun's handle design gets credit for adapting to Western cooking habits, and that's accurate as far as it goes -- the D-shaped PakkaWood handle was built in 2002 specifically for a Western grip, a real departure from more traditional Japanese knife handle conventions. What that design update didn't address is handedness. Every standard Shun configuration, across every line, is built right-handed by default.
 
 ## Special Order Is the Only Path to a Left-Handed Version
 
-For a left-handed cook who wants a handle actually built for their grip, the option exists — but only through a special order placed with an authorized Shun dealer. It's not a stocked configuration available through a standard Amazon search, which means added lead time and likely added cost that isn't reflected in the standard listing price. Anyone planning to buy Shun specifically for a left-handed household should reach out to a dealer before assuming this option is readily available.
+For a left-handed cook who wants a handle actually built for their grip, the option exists -- but only through a special order placed with an authorized Shun dealer. It's not a stocked configuration available through a standard Amazon search, which means added lead time and likely added cost that isn't reflected in the standard listing price. Anyone planning to buy Shun specifically for a left-handed household should reach out to a dealer before assuming this option is readily available.
 
-## You Can Still Use a Right-Handed Shun — With Tradeoffs
+## You Can Still Use a Right-Handed Shun -- With Tradeoffs
 
-A left-handed cook can use a standard right-handed D-shaped handle; it isn't unusable. But the handle shape tends to reduce knuckle clearance and control on the side it wasn't built for — based on how the D-shape geometry is designed to fit one hand orientation. It's a real compromise, not a dealbreaker, and worth understanding rather than discovering after purchase.
+A left-handed cook can use a standard right-handed D-shaped handle; it isn't unusable. But the handle shape tends to reduce knuckle clearance and control on the side it wasn't built for -- based on how the D-shape geometry is designed to fit one hand orientation. It's a real compromise, not a dealbreaker, and worth understanding rather than discovering after purchase.
 
 ## The Broader Pattern This Reflects
 
-Shun's handedness constraint isn't unusual within Japanese knife-making more broadly — traditional single-bevel Japanese knives are also commonly built handed by default rather than symmetrically. Shun's Western-oriented handle shape solved one design problem (grip comfort for Western hands generally) without solving a second, separate one (handedness) — and that second gap is the detail most product listings skip.
+Shun's handedness constraint isn't unusual within Japanese knife-making more broadly -- traditional single-bevel Japanese knives are also commonly built handed by default rather than symmetrically. Shun's Western-oriented handle shape solved one design problem (grip comfort for Western hands generally) without solving a second, separate one (handedness) -- and that second gap is the detail most product listings skip.
 
 ## Bottom Line
 
-Left-handed buyers considering Shun should treat "designed for Western hands" and "designed for left-handed use" as two different claims — Shun only makes the first one by default. Confirm special-order availability directly with an authorized dealer if a properly oriented handle matters, or budget for the comfort tradeoff of using a standard right-handed configuration.
+Left-handed buyers considering Shun should treat "designed for Western hands" and "designed for left-handed use" as two different claims -- Shun only makes the first one by default. Confirm special-order availability directly with an authorized dealer if a properly oriented handle matters, or budget for the comfort tradeoff of using a standard right-handed configuration.

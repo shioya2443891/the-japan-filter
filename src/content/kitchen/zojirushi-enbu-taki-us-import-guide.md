@@ -8,7 +8,7 @@ researchSteps:
   - label: "Confirmed Enbu Taki's absence from official US retail channels"
     detail: "Checked store.zojirushi.com and Amazon.com's official Zojirushi brand storefront (August 2026) and found no Enbu Taki listings in either channel."
   - label: "Compared Japan domestic pricing against the top US-available tier"
-    detail: "Cross-referenced Japan price-comparison sources for Enbu Taki models (NW-FB10, NW-FC10) against Amazon.com pricing for the top US-available Pressure IH model, converting at approximately ¥150/$1 (August 2026 reference rate)."
+    detail: "Cross-referenced Japan price-comparison sources for Enbu Taki models (NW-FB10, NW-FC10) against Amazon.com pricing for the top US-available Pressure IH model, converting at approximately JPY 150/$1 (August 2026 reference rate)."
   - label: "Checked voltage specifications and warranty terms"
     detail: "Reviewed Zojirushi's official US warranty policy, which excludes products not manufactured to US/Canada market specifications, and confirmed that Japan domestic models are built for 100V household current versus the 120V standard in the US."
   - label: "Confirmed grey-market listings exist on Amazon.com"
@@ -61,7 +61,7 @@ products:
       - label: "Capacity"
         value: "5.5 cups uncooked / 1.0 liter"
       - label: "Made in Japan"
-        value: "Yes — confirmed in official Amazon product title"
+        value: "Yes -- confirmed in official Amazon product title"
       - label: "Voltage"
         value: "120V, built for US household current"
       - label: "Warranty"
@@ -71,7 +71,7 @@ products:
       madeIn: "Japan"
       officialSeller: "Zojirushi brand store / authorized Amazon.com listings"
     usNotes:
-      - "This is the highest tier Zojirushi sells through official US channels — one step below Enbu Taki in Japan's four-tier structure, but the practical ceiling for US buyers"
+      - "This is the highest tier Zojirushi sells through official US channels -- one step below Enbu Taki in Japan's four-tier structure, but the practical ceiling for US buyers"
       - "Manufactured in Japan and specified for US/Canada market use, which per official policy is required for Zojirushi America Corporation's warranty to apply"
     whyPicked:
       - "Confirmed Made in Japan manufacturing without the voltage and warranty complications of a grey-market Enbu Taki import"
@@ -104,8 +104,8 @@ products:
       madeIn: null
       officialSeller: "Zojirushi brand store / authorized Amazon.com listings"
     usNotes:
-      - "Largest capacity available in the top US-legal technology tier — avoids the voltage and warranty issues of importing a larger Japan-domestic unit"
-      - "Made in Japan labeling was not confirmed for this specific 10-cup variant during this research — check the individual listing before purchasing"
+      - "Largest capacity available in the top US-legal technology tier -- avoids the voltage and warranty issues of importing a larger Japan-domestic unit"
+      - "Made in Japan labeling was not confirmed for this specific 10-cup variant during this research -- check the individual listing before purchasing"
     whyPicked:
       - "10-cup Pressure IH capacity without stepping outside official US retail channels"
       - "Full US warranty coverage, which no imported Japan-domestic model carries"
@@ -120,8 +120,8 @@ japanContext:
     - >-
       Enbu Taki is priced at the top of Zojirushi's Japan domestic rice cooker lineup.
       Japan price-comparison sources reviewed (August 2026) show the NW-FB10 (10-cup)
-      starting around ¥118,000 (approximately $787 at a ¥150/$1 reference rate) and the
-      NW-FC10 (5.5-cup) starting around ¥96,723 (approximately $645). These are Japan
+      starting around JPY 118,000 (approximately $787 at a JPY 150/$1 reference rate) and the
+      NW-FC10 (5.5-cup) starting around JPY 96,723 (approximately $645). These are Japan
       domestic retail prices, not export or wholesale pricing.
     - >-
       Japan domestic rice cookers, including Enbu Taki models, are built for Japan's 100V
@@ -130,8 +130,8 @@ japanContext:
       purchase.
     - >-
       Zojirushi's official US warranty policy, reviewed on zojirushi.com, states that
-      products not manufactured to US/Canada market specifications — including units
-      imported by parties other than Zojirushi America Corporation — are not covered.
+      products not manufactured to US/Canada market specifications -- including units
+      imported by parties other than Zojirushi America Corporation -- are not covered.
       This applies regardless of whether the unit is authentic Zojirushi manufacturing.
     - >-
       Active third-party Amazon.com listings were identified during this research (August
@@ -142,14 +142,14 @@ japanContext:
   forUsBuyers:
     - >-
       Based on the pricing we reviewed, an imported Enbu Taki unit does not offer a cost
-      advantage over the top US-available Pressure IH model — the Japan domestic price
+      advantage over the top US-available Pressure IH model -- the Japan domestic price
       converts to roughly the same range or higher than US Pressure IH pricing, before
       accounting for shipping, customs, or currency fluctuation. The "buy it cheaper in
       Japan" assumption does not hold for this specific product line based on the prices
       checked.
     - >-
       A 100V Japan-spec unit run on US 120V current is a genuine electrical mismatch, not
-      a minor inconvenience — this is a manufacturing specification, and running one
+      a minor inconvenience -- this is a manufacturing specification, and running one
       without an appropriate voltage converter carries real risk to the appliance and,
       depending on the unit, potentially to the user. This is a separate problem from the
       warranty issue below and should be evaluated independently before any purchase.
@@ -157,13 +157,13 @@ japanContext:
       Per Zojirushi's official warranty policy, an imported Enbu Taki unit will not be
       covered by Zojirushi America Corporation regardless of the item's authenticity.
       Any defect, malfunction, or service need would have to be resolved through the
-      original Japan seller, if at all — a meaningfully different position than buying
+      original Japan seller, if at all -- a meaningfully different position than buying
       through official US channels.
 usBuyerNotes:
-  - "Check the seller name and country of origin disclosure carefully on any Zojirushi rice cooker listing — grey-market 100V Japan-spec units are sold openly alongside official US-market products"
-  - "A 100V Japan-spec appliance is not safely usable on US household current without an appropriate voltage converter rated for the unit's wattage — this is an electrical safety consideration, not just a warranty one"
+  - "Check the seller name and country of origin disclosure carefully on any Zojirushi rice cooker listing -- grey-market 100V Japan-spec units are sold openly alongside official US-market products"
+  - "A 100V Japan-spec appliance is not safely usable on US household current without an appropriate voltage converter rated for the unit's wattage -- this is an electrical safety consideration, not just a warranty one"
   - "Zojirushi America Corporation's warranty explicitly excludes units not manufactured to US/Canada specifications, regardless of authenticity or import source"
-  - "The Pressure IH tier is the practical ceiling for US buyers purchasing through official channels — Enbu Taki had not appeared in official US retail listings in the channels we checked, as of this research (August 2026)"
+  - "The Pressure IH tier is the practical ceiling for US buyers purchasing through official channels -- Enbu Taki had not appeared in official US retail listings in the channels we checked, as of this research (August 2026)"
 verdict:
   rating: "not-recommended"
   summary: "Importing an Enbu Taki unit does not clear the bar it would need to for most US buyers: based on the pricing reviewed, it isn't cheaper than the top US-available tier, it requires managing a genuine 100V-to-120V electrical mismatch, and it forfeits Zojirushi America Corporation's warranty entirely. Buyers drawn to Enbu Taki's reputation are better served by the Pressure IH tier available through official US channels, which shares the underlying pressure-cooking technology without the voltage or warranty complications."
@@ -172,20 +172,20 @@ verdict:
 
 ## Why Enbu Taki Comes Up in US Searches
 
-Enbu Taki sits at the top of Zojirushi's four-tier Japan domestic rice cooker hierarchy — above Micom, IH, and Pressure IH. It doesn't have an official US equivalent, so buyers who encounter references to it (through Japan-focused cooking communities, import forums, or direct comparisons to the brand's US Pressure IH line) sometimes go looking for a way to buy one anyway. Grey-market listings exist to meet that demand.
+Enbu Taki sits at the top of Zojirushi's four-tier Japan domestic rice cooker hierarchy -- above Micom, IH, and Pressure IH. It doesn't have an official US equivalent, so buyers who encounter references to it (through Japan-focused cooking communities, import forums, or direct comparisons to the brand's US Pressure IH line) sometimes go looking for a way to buy one anyway. Grey-market listings exist to meet that demand.
 
 ## The Price Comparison Doesn't Work the Way You'd Expect
 
-It's a reasonable assumption that a product exclusive to its home market would be cheaper to buy there. Based on the Japan domestic pricing and US Pressure IH pricing reviewed for this guide, that assumption doesn't hold here. Once converted to dollars, Enbu Taki's Japan retail price lands at or above what the top US-available Pressure IH model costs — before shipping, import handling, or any customs consideration is added. There's no price arbitrage to capture.
+It's a reasonable assumption that a product exclusive to its home market would be cheaper to buy there. Based on the Japan domestic pricing and US Pressure IH pricing reviewed for this guide, that assumption doesn't hold here. Once converted to dollars, Enbu Taki's Japan retail price lands at or above what the top US-available Pressure IH model costs -- before shipping, import handling, or any customs consideration is added. There's no price arbitrage to capture.
 
 ## Two Separate Problems: Voltage and Warranty
 
 These are worth treating as distinct issues, because they fail in different ways.
 
-**Voltage** is a hardware problem. A Japan-spec unit is built for 100V current; without a properly rated converter, running it on US 120V current is a genuine risk to the appliance's internal components — this isn't a setting you flip.
+**Voltage** is a hardware problem. A Japan-spec unit is built for 100V current; without a properly rated converter, running it on US 120V current is a genuine risk to the appliance's internal components -- this isn't a setting you flip.
 
-**Warranty** is a policy problem. Even a working, correctly-converted unit falls outside Zojirushi America Corporation's coverage under the company's official terms, because it wasn't manufactured to US/Canada market specifications. If something goes wrong — through misuse, defect, or ordinary failure — there's no official US recourse.
+**Warranty** is a policy problem. Even a working, correctly-converted unit falls outside Zojirushi America Corporation's coverage under the company's official terms, because it wasn't manufactured to US/Canada market specifications. If something goes wrong -- through misuse, defect, or ordinary failure -- there's no official US recourse.
 
 ## What to Buy Instead
 
-The Pressure IH tier, covered in more detail in our [full rice cooker tier guide](/kitchen/best-zojirushi-rice-cookers), uses the same underlying pressure-cooking principle Enbu Taki builds on, without the import complications. It's manufactured for US specifications, carries Zojirushi America Corporation's warranty, and — based on the pricing reviewed — doesn't cost meaningfully more than an imported Enbu Taki unit once real-world costs are accounted for.
+The Pressure IH tier, covered in more detail in our [full rice cooker tier guide](/kitchen/best-zojirushi-rice-cookers), uses the same underlying pressure-cooking principle Enbu Taki builds on, without the import complications. It's manufactured for US specifications, carries Zojirushi America Corporation's warranty, and -- based on the pricing reviewed -- doesn't cost meaningfully more than an imported Enbu Taki unit once real-world costs are accounted for.

@@ -1,9 +1,9 @@
 ---
 title: "Zojirushi vs Hydro Flask vs Stanley: Which Insulated Bottle Fits Your Bag?"
 description: "Three brands, three different design priorities. A side-by-side look at how Zojirushi's stainless bottles actually compare to Hydro Flask and Stanley on size, insulation, and daily carry."
-intro: "Hydro Flask, Stanley, and Zojirushi all sell insulated stainless bottles in the same rough price range, but they were not designed against the same brief. Hydro Flask and Stanley both grew out of US outdoor and bulk-hydration use cases; Zojirushi's bottles come out of Japan's commuter and desk-carry bottle market. That difference in origin shows up in measurable ways — diameter, lid mechanism, and insulation performance — not just in branding."
+intro: "Hydro Flask, Stanley, and Zojirushi all sell insulated stainless bottles in the same rough price range, but they were not designed against the same brief. Hydro Flask and Stanley both grew out of US outdoor and bulk-hydration use cases; Zojirushi's bottles come out of Japan's commuter and desk-carry bottle market. That difference in origin shows up in measurable ways -- diameter, lid mechanism, and insulation performance -- not just in branding."
 publishDate: 2026-08-08
-whySelected: "Zojirushi vs. Hydro Flask and Zojirushi vs. Stanley are established comparison searches, and the actual specification differences between the three brands are documented enough — diameter, insulation test results — to support a real comparison rather than a brand-preference piece."
+whySelected: "Zojirushi vs. Hydro Flask and Zojirushi vs. Stanley are established comparison searches, and the actual specification differences between the three brands are documented enough -- diameter, insulation test results -- to support a real comparison rather than a brand-preference piece."
 researchSteps:
   - label: "Compared official capacity and diameter specifications"
     detail: "Cross-referenced official product dimensions for a Zojirushi 20 oz stainless mug, an 18 oz Hydro Flask Standard Mouth bottle, and a 20 oz Stanley Quencher tumbler to document diameter differences at comparable capacities."
@@ -66,7 +66,7 @@ products:
       madeIn: null
       officialSeller: "Zojirushi brand store / authorized Amazon.com listings"
     usNotes:
-      - "One-touch lid opens with a single push, no unscrewing required — a functional difference from Hydro Flask's screw-cap Standard Mouth design"
+      - "One-touch lid opens with a single push, no unscrewing required -- a functional difference from Hydro Flask's screw-cap Standard Mouth design"
       - "Country of manufacture was not confirmed for this specific model during this research"
     whyPicked:
       - "Third-party comparison testing reviewed for this guide found Zojirushi's insulation outperformed Stanley and Hydro Flask by a wide margin on long-duration hot retention"
@@ -145,7 +145,7 @@ products:
     award: "BEST FOR ICE RETENTION AND LARGE SIPS"
     name: "Stanley Quencher H2.0 Travel Tumbler (20 oz)"
     priceTier: "$"
-    priceNote: "Around $35–45 based on listings reviewed (August 2026); verify current price on Amazon before purchasing"
+    priceNote: "Around $35-45 based on listings reviewed (August 2026); verify current price on Amazon before purchasing"
     setContents: "Insulated tumbler + straw lid + handle, per manufacturer specifications"
     specs:
       - label: "Capacity"
@@ -177,15 +177,15 @@ japanContext:
     - >-
       Japan domestic stainless bottle and mug market sources reviewed for our companion
       Zojirushi bottle guide document Japan's domestic bottle market as competing
-      specifically on insulation performance, slim profile, and lid mechanism refinement —
+      specifically on insulation performance, slim profile, and lid mechanism refinement --
       dimensions shaped by commuter and desk-carry use cases where bottles must fit bag
       side pockets and office desk cupholders rather than backpack water-bottle sleeves or
-      outdoor carry loops. Zojirushi's design priorities — narrow diameter, push-button or
-      flip lids, long-duration hot retention — reflect the requirements of that domestic
+      outdoor carry loops. Zojirushi's design priorities -- narrow diameter, push-button or
+      flip lids, long-duration hot retention -- reflect the requirements of that domestic
       market brief.
     - >-
       Hydro Flask and Stanley did not appear as participants in the Japan domestic stainless
-      bottle market sources reviewed for our companion bottle guide — this should be read as
+      bottle market sources reviewed for our companion bottle guide -- this should be read as
       a research scope limitation rather than a definitive characterization of their Japan
       presence. Thermos and Tiger are Zojirushi's documented domestic competitors in Japan
       based on those sources: both Japanese brands competing on the same commuter-market
@@ -193,8 +193,8 @@ japanContext:
       dimensions that shaped the Hydro Flask and Stanley designs compared in this guide.
   forUsBuyers:
     - >-
-      The specification differences documented in this guide — Zojirushi's narrower diameter,
-      precision lid mechanisms, and long-duration hot retention — are the measurable output
+      The specification differences documented in this guide -- Zojirushi's narrower diameter,
+      precision lid mechanisms, and long-duration hot retention -- are the measurable output
       of a Japan domestic market brief built around commuter and desk-carry use. US buyers
       whose daily bottle needs match that brief (bag-pocket fit, hot beverage retention
       through a workday, frequent one-handed access) are choosing a product developed for
@@ -204,17 +204,17 @@ japanContext:
     - >-
       Based on available information, Zojirushi's documented insulation performance lead in
       the third-party testing reviewed is consistent with a Japan domestic market where
-      insulation is a primary competitive axis against Thermos and Tiger — not a secondary
+      insulation is a primary competitive axis against Thermos and Tiger -- not a secondary
       feature. This consistency is an interpretive observation rather than a confirmed causal
       claim: other factors may also account for the performance difference.
 usBuyerNotes:
-  - "Compare diameter, not just capacity, if the bottle needs to fit a specific bag pocket, cupholder, or desk space — the three brands compared here differ meaningfully at similar volumes"
+  - "Compare diameter, not just capacity, if the bottle needs to fit a specific bag pocket, cupholder, or desk space -- the three brands compared here differ meaningfully at similar volumes"
   - "If long-duration hot retention is the priority, the third-party testing reviewed favors Zojirushi; if ice volume or cold retention over very long periods is the priority, check Stanley's stated specifications directly"
   - "Lid type is a real functional choice: one-touch and flip lids (Zojirushi) vs. wide-mouth screw caps (Hydro Flask) vs. straw lids (Stanley) suit different daily habits"
-  - "Country of manufacture was not confirmed for the specific Zojirushi models featured here — check the individual Amazon listing if this matters to your purchase"
+  - "Country of manufacture was not confirmed for the specific Zojirushi models featured here -- check the individual Amazon listing if this matters to your purchase"
 verdict:
   rating: "conditional"
-  summary: "There isn't a single best bottle across all three brands — the right choice depends on what the bottle needs to do. For long-duration hot beverage retention in a compact, bag-friendly profile, the Zojirushi models reviewed here have a documented performance edge. For trail use, ice, or easy deep-cleaning, Hydro Flask's wide mouth is the more practical design. For continuous sipping and one-hand carry, Stanley's straw-lid tumbler fits that habit best."
+  summary: "There isn't a single best bottle across all three brands -- the right choice depends on what the bottle needs to do. For long-duration hot beverage retention in a compact, bag-friendly profile, the Zojirushi models reviewed here have a documented performance edge. For trail use, ice, or easy deep-cleaning, Hydro Flask's wide mouth is the more practical design. For continuous sipping and one-hand carry, Stanley's straw-lid tumbler fits that habit best."
   bestPick: "zojirushi-sm-sf60"
 ---
 
@@ -224,9 +224,9 @@ A few tenths of an inch doesn't sound like much on paper, but it's the differenc
 
 ## Insulation Performance Isn't Evenly Matched
 
-The third-party testing reviewed for this guide is worth taking seriously: Zojirushi's hot-retention numbers were reported as meaningfully ahead of both Stanley and Hydro Flask over long periods. If the bottle's main job is holding coffee or tea hot from morning through a full workday without a reheat, that's a real, measured reason to favor the Zojirushi models over the other two — not just brand preference.
+The third-party testing reviewed for this guide is worth taking seriously: Zojirushi's hot-retention numbers were reported as meaningfully ahead of both Stanley and Hydro Flask over long periods. If the bottle's main job is holding coffee or tea hot from morning through a full workday without a reheat, that's a real, measured reason to favor the Zojirushi models over the other two -- not just brand preference.
 
-That doesn't make Zojirushi the better bottle in every scenario. Stanley's straw-lid tumbler and Hydro Flask's wide mouth solve for different daily habits — continuous sipping and easy ice/cleaning, respectively — that the Zojirushi lid designs don't prioritize.
+That doesn't make Zojirushi the better bottle in every scenario. Stanley's straw-lid tumbler and Hydro Flask's wide mouth solve for different daily habits -- continuous sipping and easy ice/cleaning, respectively -- that the Zojirushi lid designs don't prioritize.
 
 ## Matching the Bottle to the Actual Use Case
 
@@ -234,4 +234,4 @@ That doesn't make Zojirushi the better bottle in every scenario. Stanley's straw
 - **Trail, gym, or frequent ice refills:** Hydro Flask Standard Mouth
 - **Continuous sipping with a straw, car-cupholder use:** Stanley Quencher
 
-None of these are wrong choices — they're built for different daily patterns, and the specification differences documented above are real enough to use as a starting point rather than a marketing claim.
+None of these are wrong choices -- they're built for different daily patterns, and the specification differences documented above are real enough to use as a starting point rather than a marketing claim.

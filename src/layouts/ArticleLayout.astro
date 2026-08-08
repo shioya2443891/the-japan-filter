@@ -72,7 +72,7 @@ const bestPickProduct = (verdict?.bestPick && products)
     <p class="mb-2 font-data text-[10px] uppercase tracking-wide2 text-indigo/60"><a href={categoryHref} class="hover:text-indigo">{categoryLabel}</a></p>
     <h1 class="mb-3 font-display text-3xl text-indigo md:text-4xl">{title}</h1>
     <p class="mb-8 font-body text-sm text-ink/50">
-      Published {fmtDate(publishDate)}{updatedDate && ` · Updated ${fmtDate(updatedDate)}`}
+      Published {fmtDate(publishDate)}{updatedDate && <Fragment> &middot; Updated {fmtDate(updatedDate)}</Fragment>}
     </p>
 
     <!-- 1. INTRO -->

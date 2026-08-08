@@ -1,7 +1,7 @@
 ---
 title: "Zojirushi vs Tiger: Japan's Two Biggest Rice Cooker Makers, Compared"
-description: "Zojirushi and Tiger are direct domestic competitors in Japan, and that rivalry shows up as genuinely different technology priorities in their US rice cooker lineups — not just different logos."
-intro: "Zojirushi and Tiger are both Japanese companies, both sell Micom, IH, and premium rice cooker tiers in the US, and both get compared constantly in buying guides. What those guides usually skip is that the two companies are direct domestic competitors in Japan, and their competition there has pushed them toward different technology priorities — Zojirushi toward heating precision and pressure cooking, Tiger toward simultaneous side-dish cooking. That difference is more useful for a buying decision than either brand's country of origin."
+description: "Zojirushi and Tiger are direct domestic competitors in Japan, and that rivalry shows up as genuinely different technology priorities in their US rice cooker lineups -- not just different logos."
+intro: "Zojirushi and Tiger are both Japanese companies, both sell Micom, IH, and premium rice cooker tiers in the US, and both get compared constantly in buying guides. What those guides usually skip is that the two companies are direct domestic competitors in Japan, and their competition there has pushed them toward different technology priorities -- Zojirushi toward heating precision and pressure cooking, Tiger toward simultaneous side-dish cooking. That difference is more useful for a buying decision than either brand's country of origin."
 publishDate: 2026-08-08
 whySelected: "Zojirushi vs. Tiger is a common comparison search among buyers already committed to a Japanese rice cooker brand, and the two companies' domestic competitive relationship in Japan provides a concrete, verifiable basis for the comparison beyond general brand reputation."
 researchSteps:
@@ -89,7 +89,7 @@ products:
       - label: "Capacity"
         value: "5.5 cups uncooked / 1.0 liter"
       - label: "Made in Japan"
-        value: "Yes — confirmed in official Amazon product title"
+        value: "Yes -- confirmed in official Amazon product title"
     origin:
       brandCountry: "Japan"
       madeIn: "Japan"
@@ -118,7 +118,7 @@ products:
       - label: "Capacity"
         value: "5.5 cups"
       - label: "Made in Japan"
-        value: "Yes — confirmed in official Amazon product title"
+        value: "Yes -- confirmed in official Amazon product title"
       - label: "Side-Dish Cooking"
         value: "Tacook plate steams a side dish above the rice simultaneously, per manufacturer specifications"
     origin:
@@ -126,7 +126,7 @@ products:
       madeIn: "Japan"
       officialSeller: "Tiger Corporation brand store / authorized Amazon.com listings"
     usNotes:
-      - "Tacook is a genuine mechanical feature — a raised plate that lets a side dish steam above the rice using the same heat cycle — not just a marketing name"
+      - "Tacook is a genuine mechanical feature -- a raised plate that lets a side dish steam above the rice using the same heat cycle -- not just a marketing name"
       - "This feature is present even at Tiger's entry Micom tier, unlike Zojirushi's tier structure where added functionality tends to track with technology upgrades"
     whyPicked:
       - "Only one of the two brands compared here that includes simultaneous side-dish cooking at the entry price tier"
@@ -151,7 +151,7 @@ products:
       - label: "Capacity"
         value: "10 cups uncooked"
       - label: "Made in Japan"
-        value: "Yes — confirmed in official Amazon product title"
+        value: "Yes -- confirmed in official Amazon product title"
       - label: "Certification"
         value: "UL Certified, 120V, per manufacturer specifications"
     origin:
@@ -159,7 +159,7 @@ products:
       madeIn: "Japan"
       officialSeller: "Tiger Corporation brand store / authorized Amazon.com listings"
     usNotes:
-      - "12 menu settings and a 24-hour keep-warm cycle, per manufacturer specifications — a longer stated keep-warm window than typical for comparable Zojirushi IH models reviewed"
+      - "12 menu settings and a 24-hour keep-warm cycle, per manufacturer specifications -- a longer stated keep-warm window than typical for comparable Zojirushi IH models reviewed"
     whyPicked:
       - "Largest Tiger IH capacity confirmed with Made in Japan labeling during this research"
       - "UL certification and explicit 120V specification give a clear US-market manufacturing signal"
@@ -173,7 +173,7 @@ japanContext:
     - >-
       Japan price-comparison sources reviewed for this guide (August 2026) place Zojirushi
       first and Tiger second in domestic rice cooker market share, making the two brands
-      each other's closest direct competitor in their home market — not just two Japanese
+      each other's closest direct competitor in their home market -- not just two Japanese
       brands that happen to be sold in the same US stores.
     - >-
       That domestic rivalry extends to each brand's flagship tier: Zojirushi's Enbu Taki
@@ -190,7 +190,7 @@ japanContext:
   forUsBuyers:
     - >-
       Because Tiger includes Tacook at its entry Micom tier, a US buyer who wants
-      simultaneous side-dish cooking doesn't need to pay Tiger's IH-tier prices to get it —
+      simultaneous side-dish cooking doesn't need to pay Tiger's IH-tier prices to get it --
       that's a different pattern than Zojirushi, where added functionality tends to track
       with the heating-technology upgrade. Buyers comparing "similarly priced" Zojirushi
       and Tiger models should check what each brand bundles into that price tier rather
@@ -207,33 +207,33 @@ japanContext:
       available information, competitive pressure between the two brands in Japan may help
       explain why each brand's US lineup emphasizes a different primary feature (heating
       precision versus synchronized cooking) rather than converging on identical
-      specifications — though the sources reviewed do not directly confirm this as a
+      specifications -- though the sources reviewed do not directly confirm this as a
       deliberate strategic decision by either company.
 usBuyerNotes:
-  - "Check what feature differentiates each brand's tier structure — Zojirushi's tiers primarily track heating technology, Tiger's Micom tier already includes the Tacook side-dish accessory"
+  - "Check what feature differentiates each brand's tier structure -- Zojirushi's tiers primarily track heating technology, Tiger's Micom tier already includes the Tacook side-dish accessory"
   - "Neither brand's Japan-market flagship tier (Zojirushi's Enbu Taki, Tiger's donabe-style line) was not found in official US retail channels in the listings reviewed as of this research (August 2026)"
-  - "Both brands featured here have confirmed official Amazon.com brand stores and Made in Japan labeling on the specific models listed — verify this on any other model before purchasing"
+  - "Both brands featured here have confirmed official Amazon.com brand stores and Made in Japan labeling on the specific models listed -- verify this on any other model before purchasing"
   - "If a one-pot meal (rice plus a steamed side) matters more than heating precision, Tiger's Tacook-equipped models are worth pricing against Zojirushi's higher IH or Pressure IH tiers rather than comparing only within one brand"
 verdict:
   rating: "conditional"
-  summary: "Zojirushi and Tiger aren't interchangeable Japanese rice cooker brands — their domestic rivalry has pushed them toward genuinely different feature priorities that carry into their US lineups. Buyers who want the most heating precision available in the US should lean toward Zojirushi's Pressure IH tier; buyers who want simultaneous side-dish cooking without paying for a premium tier should look at Tiger's Tacook-equipped Micom models first."
+  summary: "Zojirushi and Tiger aren't interchangeable Japanese rice cooker brands -- their domestic rivalry has pushed them toward genuinely different feature priorities that carry into their US lineups. Buyers who want the most heating precision available in the US should lean toward Zojirushi's Pressure IH tier; buyers who want simultaneous side-dish cooking without paying for a premium tier should look at Tiger's Tacook-equipped Micom models first."
   bestPick: "zojirushi-nw-jec10ba"
 ---
 
 ## Two Competitors, Not Two Interchangeable Brands
 
-It's easy to treat "Zojirushi or Tiger" as a coin flip between two similarly positioned Japanese appliance makers. Based on the Japan market data and US product listings reviewed for this guide, that's not quite accurate — the two companies are direct domestic rivals, and rivals tend to differentiate rather than converge. That shows up here as genuinely different feature priorities, not just different price tags on similar hardware.
+It's easy to treat "Zojirushi or Tiger" as a coin flip between two similarly positioned Japanese appliance makers. Based on the Japan market data and US product listings reviewed for this guide, that's not quite accurate -- the two companies are direct domestic rivals, and rivals tend to differentiate rather than converge. That shows up here as genuinely different feature priorities, not just different price tags on similar hardware.
 
 ## Where Each Brand Puts Its Engineering
 
-Zojirushi's tiers, reviewed across Micom, IH, and Pressure IH, are organized primarily around the heating method itself — each step up changes how heat reaches the rice. Tiger's lineup takes a different approach: the Tacook synchronized cooking plate, which lets a side dish steam above the rice using the same heat cycle, shows up as early as Tiger's entry Micom tier, well before its own IH pricing kicks in.
+Zojirushi's tiers, reviewed across Micom, IH, and Pressure IH, are organized primarily around the heating method itself -- each step up changes how heat reaches the rice. Tiger's lineup takes a different approach: the Tacook synchronized cooking plate, which lets a side dish steam above the rice using the same heat cycle, shows up as early as Tiger's entry Micom tier, well before its own IH pricing kicks in.
 
-Neither approach is objectively better — they solve different problems. Zojirushi's approach is about texture precision on the rice itself. Tiger's approach (at least at the tier levels reviewed here) is about consolidating a full meal into one appliance and one cook cycle.
+Neither approach is objectively better -- they solve different problems. Zojirushi's approach is about texture precision on the rice itself. Tiger's approach (at least at the tier levels reviewed here) is about consolidating a full meal into one appliance and one cook cycle.
 
 ## What Neither Brand Sells in the US
 
-Neither company's most Japan-oriented flagship tier was found in official US retail channels in the listings reviewed: Zojirushi's Enbu Taki and Tiger's donabe-inspired top line. If either brand's flagship comes up in your research, treat it as a Japan-market reference point rather than an available US option — see our [Enbu Taki import guide](/kitchen/zojirushi-enbu-taki-us-import-guide) for the specific risks of trying to buy around that gap.
+Neither company's most Japan-oriented flagship tier was found in official US retail channels in the listings reviewed: Zojirushi's Enbu Taki and Tiger's donabe-inspired top line. If either brand's flagship comes up in your research, treat it as a Japan-market reference point rather than an available US option -- see our [Enbu Taki import guide](/kitchen/zojirushi-enbu-taki-us-import-guide) for the specific risks of trying to buy around that gap.
 
 ## Which One to Buy
 
-If heating precision and rice texture are the priority — especially for brown rice or mixed grains — Zojirushi's Pressure IH tier is the stronger choice among the models compared here. If getting a full one-pot meal (rice plus a steamed vegetable or protein) without stepping up to a premium price tier matters more, Tiger's Tacook-equipped Micom models are worth pricing against Zojirushi's higher tiers rather than comparing only within a single brand.
+If heating precision and rice texture are the priority -- especially for brown rice or mixed grains -- Zojirushi's Pressure IH tier is the stronger choice among the models compared here. If getting a full one-pot meal (rice plus a steamed vegetable or protein) without stepping up to a premium price tier matters more, Tiger's Tacook-equipped Micom models are worth pricing against Zojirushi's higher tiers rather than comparing only within a single brand.

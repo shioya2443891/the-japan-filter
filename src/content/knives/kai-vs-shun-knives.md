@@ -15,7 +15,7 @@ researchSteps:
     detail: "Confirmed via KAI Corporation and Shun official sources that Shun products are manufactured in Seki City, Gifu Prefecture, the same production base associated with the parent company."
 sourcesChecked:
   - "KAI Corporation official company information (kai-group.com)"
-  - "Shun Cutlery — Wikipedia"
+  - "Shun Cutlery -- Wikipedia"
   - "shun.kaiusa.com official product and pricing pages"
   - "Kakaku.com (Seki Magoroku domestic pricing, August 2026)"
   - "Amazon.com Shun brand store"
@@ -36,7 +36,7 @@ reviewLog:
       note: "japanContext および verdict は日本市場での人気・知名度をおすすめ根拠にしていない。Japan Context は Seki Magoroku vs Shun の国内/輸出ブランド構造と価格データの提示に留まり、forUsBuyers での具体的な US 購入者向け示唆へ適切に接続されている。"
     - item: "Japan Context の独自性"
       result: "pass"
-      note: "Kakaku.com の Seki Magoroku 具体価格（¥2,550–¥2,660 エントリー、¥7,209 ダマスカス）・Shun が 2002 年に輸出専用ブランドとして設計された事実・国内で Shun がフラグシップとして訴求されていないという研究所見は、他の Shun 記事（shun-vs-miyabi / where-are-shun-knives-made / shun-vs-wusthof）の japanContext に存在しない独自視点である。"
+      note: "Kakaku.com の Seki Magoroku 具体価格（JPY 2,550-JPY 2,660 エントリー、JPY 7,209 ダマスカス）・Shun が 2002 年に輸出専用ブランドとして設計された事実・国内で Shun がフラグシップとして訴求されていないという研究所見は、他の Shun 記事（shun-vs-miyabi / where-are-shun-knives-made / shun-vs-wusthof）の japanContext に存在しない独自視点である。"
     - item: "Final Verdict 推薦偏り"
       result: "pass"
       note: "verdict は 'conditional'。全記事の verdict 分布の中でバランスを保っている。conditional の根拠（KAI と Shun が別製品ティアであること、買い手のニーズに応じた選択が必要なこと）は本文に明記されている。"
@@ -70,7 +70,7 @@ products:
       madeIn: "Japan"
       officialSeller: "Kai USA Ltd. / authorized Amazon.com listings"
     usNotes:
-      - "This is the entry point into the Shun brand specifically, not into KAI Corporation's product range as a whole — the parent company's domestic Seki Magoroku line starts at a fraction of this price in Japan"
+      - "This is the entry point into the Shun brand specifically, not into KAI Corporation's product range as a whole -- the parent company's domestic Seki Magoroku line starts at a fraction of this price in Japan"
       - "Verify the Amazon listing is sold by an authorized Shun retailer to ensure warranty and sharpening service eligibility"
     whyPicked:
       - "Represents the core tier of the Shun line KAI Corporation built specifically for Western export markets"
@@ -112,15 +112,15 @@ japanContext:
   inJapan:
     - >-
       KAI Corporation is headquartered in Seki City, Gifu Prefecture, and has sold
-      cutlery domestically under the Seki Magoroku (関孫六) brand name — a name that
+      cutlery domestically under the Seki Magoroku (関孫六) brand name -- a name that
       references a legendary Muromachi-era swordsmith associated with the city. Based
       on Kakaku.com listings reviewed (August 2026), Seki Magoroku knives are priced
-      from roughly ¥2,550–¥2,660 for entry santoku models, with Damascus-clad models
-      reaching approximately ¥7,209.
+      from roughly JPY 2,550-JPY 2,660 for entry santoku models, with Damascus-clad models
+      reaching approximately JPY 7,209.
     - >-
       Shun was introduced by KAI Corporation in 2002 specifically for Western export
       markets, according to Wikipedia's Shun Cutlery entry and the brand's own
-      materials — it was not an existing domestic Japanese product line that was
+      materials -- it was not an existing domestic Japanese product line that was
       later exported. Shun's US pricing (Classic tier MSRP $237, roughly $189.95 at
       official-site pricing reviewed in August 2026) sits well above Seki Magoroku's
       domestic pricing even after currency conversion.
@@ -133,7 +133,7 @@ japanContext:
   forUsBuyers:
     - >-
       The large price difference between budget KAI-branded knives and Shun-branded
-      knives sold on Amazon isn't a markup on an identical product — it reflects two
+      knives sold on Amazon isn't a markup on an identical product -- it reflects two
       genuinely different product tiers built by the same parent company for
       different markets and price points. Comparing a budget KAI listing to a Shun
       listing as if they should cost the same misreads what each product actually is.
@@ -141,41 +141,41 @@ japanContext:
       Buyers who want the KAI Corporation name specifically at a lower price point,
       rather than the Shun sub-brand, should not expect Shun-tier steel (VG-MAX),
       Damascus cladding, or Shun's US warranty and sharpening program on a
-      budget-tier KAI listing — those features are specific to the Shun product line,
-      not a KAI Corporation—wide standard.
+      budget-tier KAI listing -- those features are specific to the Shun product line,
+      not a KAI Corporation--wide standard.
     - >-
       Because Shun was built for export markets rather than adapted from an existing
       domestic product, US buyers are not missing out on a "real" or more authentic
-      domestic version by buying Shun in the US — based on the sources reviewed, the
+      domestic version by buying Shun in the US -- based on the sources reviewed, the
       Shun product line as sold in the US largely is the primary market for this
       specific brand.
 usBuyerNotes:
-  - "Check whether a listing says 'Shun' or a generic 'KAI' brand name before comparing prices — they are different product tiers from the same parent company, not the same product at different discounts"
+  - "Check whether a listing says 'Shun' or a generic 'KAI' brand name before comparing prices -- they are different product tiers from the same parent company, not the same product at different discounts"
   - "Shun's official warranty and free-sharpening program (US, Canada, Mexico purchases from authorized retailers) applies to Shun-branded products; confirm this coverage does not automatically extend to unrelated KAI-branded budget items before assuming it does"
   - "If budget is the primary constraint, the Sora line is the lowest-priced official entry point into the Shun brand itself, rather than a separately branded KAI product"
-  - "Verify the seller on any Amazon listing is an authorized Shun retailer — this affects both authenticity and eligibility for Kai USA's warranty and sharpening service"
+  - "Verify the seller on any Amazon listing is an authorized Shun retailer -- this affects both authenticity and eligibility for Kai USA's warranty and sharpening service"
 verdict:
   rating: "conditional"
-  summary: "KAI Corporation and Shun are the same parent company, but Shun is a distinct, purpose-built export line rather than a rebrand of KAI's budget domestic knives — the price gap reflects a genuine difference in materials, construction, and target market, not simple markup. Buyers should decide based on which tier they actually need rather than assuming the cheaper KAI-branded listing is a discount version of Shun."
+  summary: "KAI Corporation and Shun are the same parent company, but Shun is a distinct, purpose-built export line rather than a rebrand of KAI's budget domestic knives -- the price gap reflects a genuine difference in materials, construction, and target market, not simple markup. Buyers should decide based on which tier they actually need rather than assuming the cheaper KAI-branded listing is a discount version of Shun."
   bestPick: "shun-classic-8in-chef"
 ---
 
 ## Why the Same Name Shows Up at Two Different Prices
 
-A shopper searching "Japanese kitchen knife" on Amazon will run into both budget knives labeled simply "KAI" and considerably pricier knives labeled "Shun." Because both ultimately come from KAI Corporation, it's easy to assume one is just a cheaper version of the other, sold under a different name for marketing reasons. Based on the sources reviewed for this guide, that assumption doesn't hold up — the two represent genuinely different product development efforts aimed at different markets.
+A shopper searching "Japanese kitchen knife" on Amazon will run into both budget knives labeled simply "KAI" and considerably pricier knives labeled "Shun." Because both ultimately come from KAI Corporation, it's easy to assume one is just a cheaper version of the other, sold under a different name for marketing reasons. Based on the sources reviewed for this guide, that assumption doesn't hold up -- the two represent genuinely different product development efforts aimed at different markets.
 
 ## What Shun Actually Is
 
-Shun was introduced by KAI Corporation in 2002, built specifically for Western export markets rather than adapted from an existing Japanese domestic line. That distinction matters: it means design choices in the Classic and Premier tiers — the D-shaped handle profile, the VG-MAX steel formulation, the Damascus cladding pattern — were made with a Western kitchen and Western hand in mind from the start, not retrofitted from a Japan-market product.
+Shun was introduced by KAI Corporation in 2002, built specifically for Western export markets rather than adapted from an existing Japanese domestic line. That distinction matters: it means design choices in the Classic and Premier tiers -- the D-shaped handle profile, the VG-MAX steel formulation, the Damascus cladding pattern -- were made with a Western kitchen and Western hand in mind from the start, not retrofitted from a Japan-market product.
 
 ## What KAI Corporation Sells at Home
 
-Domestically, KAI's recognized cutlery brand is Seki Magoroku, named for a legendary swordsmith associated with the company's home base in Seki City. Based on Kakaku.com pricing reviewed in August 2026, entry Seki Magoroku santoku knives run roughly ¥2,550–¥2,660 — a small fraction of Shun Classic's $189.95–$237 range even after currency conversion. That gap is not evidence that Shun is overpriced; it reflects that Seki Magoroku and Shun are different products built for different markets and price expectations, made by the same parent company.
+Domestically, KAI's recognized cutlery brand is Seki Magoroku, named for a legendary swordsmith associated with the company's home base in Seki City. Based on Kakaku.com pricing reviewed in August 2026, entry Seki Magoroku santoku knives run roughly JPY 2,550-JPY 2,660 -- a small fraction of Shun Classic's $189.95-$237 range even after currency conversion. That gap is not evidence that Shun is overpriced; it reflects that Seki Magoroku and Shun are different products built for different markets and price expectations, made by the same parent company.
 
 ## What This Means When You're Comparing Amazon Listings
 
-If a listing is labeled generically "KAI" rather than "Shun," it is reasonable to expect it sits closer to a budget product than to the Shun Classic or Premier tiers — different steel, different construction, and, notably, not automatically covered by Shun's US-specific warranty and free-sharpening program. The Shun name specifically is what carries that coverage and the VG-MAX/Damascus construction associated with the brand's core and premium tiers.
+If a listing is labeled generically "KAI" rather than "Shun," it is reasonable to expect it sits closer to a budget product than to the Shun Classic or Premier tiers -- different steel, different construction, and, notably, not automatically covered by Shun's US-specific warranty and free-sharpening program. The Shun name specifically is what carries that coverage and the VG-MAX/Damascus construction associated with the brand's core and premium tiers.
 
 ## Bottom Line
 
-KAI Corporation and Shun are not two price points on the same product — they're two separate product strategies from one parent company, one built for the Japanese domestic market under the Seki Magoroku name, and one built from the ground up for Western export under the Shun name. Buyers comparing Amazon listings should treat "KAI" and "Shun" as different brand tiers with different specifications, not the same knife at two different discounts.
+KAI Corporation and Shun are not two price points on the same product -- they're two separate product strategies from one parent company, one built for the Japanese domestic market under the Seki Magoroku name, and one built from the ground up for Western export under the Shun name. Buyers comparing Amazon listings should treat "KAI" and "Shun" as different brand tiers with different specifications, not the same knife at two different discounts.

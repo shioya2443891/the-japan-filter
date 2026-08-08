@@ -1,16 +1,16 @@
 ---
 title: "Zojirushi Stainless Steel Water Bottles: Complete Buying Guide for US Buyers"
 description: "Zojirushi sells dozens of stainless bottle and mug models built for different daily habits, not one bottle in different colors. A guide to matching the right model to your actual use case."
-intro: "Zojirushi's US stainless bottle and mug catalog runs to dozens of models, split across several distinct product lines — one-touch mugs, straw tumblers, sports-style straw bottles, and more. That range exists because the lineup is built around specific daily habits rather than a single general-purpose design. This guide walks through the main lines and which use case each one actually fits."
+intro: "Zojirushi's US stainless bottle and mug catalog runs to dozens of models, split across several distinct product lines -- one-touch mugs, straw tumblers, sports-style straw bottles, and more. That range exists because the lineup is built around specific daily habits rather than a single general-purpose design. This guide walks through the main lines and which use case each one actually fits."
 publishDate: 2026-08-08
 whySelected: "Zojirushi's stainless bottle and mug catalog is large enough (dozens of models across several distinct product lines) that buyers researching 'Zojirushi water bottle' often land on the wrong line for their actual use case. A guide organized by use case rather than by individual model fills a real gap in how the catalog is typically presented."
 researchSteps:
   - label: "Catalogued Zojirushi's distinct US bottle and mug product lines"
-    detail: "Identified at least four structurally different lines in Zojirushi's US catalog — SM-KHE and SM-SF stainless mugs, SX straw tumblers, and SD sports-type straw bottles — and reviewed official specifications for a representative model in each."
+    detail: "Identified at least four structurally different lines in Zojirushi's US catalog -- SM-KHE and SM-SF stainless mugs, SX straw tumblers, and SD sports-type straw bottles -- and reviewed official specifications for a representative model in each."
   - label: "Reviewed Japan's competitive stainless bottle market"
     detail: "Cross-referenced sources describing Japan's stainless bottle and mug market as a high-density three-way competition between Zojirushi, Thermos, and Tiger on insulation, lid mechanism, cleanability, and slimness."
   - label: "Compared Japan domestic and US retail pricing"
-    detail: "Cross-referenced Japan domestic pricing (¥3,828–¥4,928 per Zojirushi's direct-sale channel, August 2026) against US Amazon pricing ($33–$76) for the stainless bottle and mug category, noting that identical model matching between the two markets was not confirmed."
+    detail: "Cross-referenced Japan domestic pricing (JPY 3,828-JPY 4,928 per Zojirushi's direct-sale channel, August 2026) against US Amazon pricing ($33-$76) for the stainless bottle and mug category, noting that identical model matching between the two markets was not confirmed."
 sourcesChecked:
   - "Amazon.com official Zojirushi brand store listings (stainless mug, tumbler, and sports bottle categories)"
   - "store.zojirushi.com and zojirushi.com official product pages"
@@ -64,7 +64,7 @@ products:
       madeIn: null
       officialSeller: "Zojirushi brand store / authorized Amazon.com listings"
     usNotes:
-      - "Smallest capacity in the stainless mug line — sized for a single coffee or tea serving rather than all-day hydration"
+      - "Smallest capacity in the stainless mug line -- sized for a single coffee or tea serving rather than all-day hydration"
     whyPicked:
       - "Compact size fits most desk cupholders and bag side pockets"
       - "SlickSteel polished interior, per manufacturer specifications, is designed to resist coffee and tea staining"
@@ -148,7 +148,7 @@ products:
       madeIn: null
       officialSeller: "Zojirushi brand store / authorized Amazon.com listings"
     usNotes:
-      - "Marketed as a sports-type bottle, per manufacturer description — the pop-up straw allows drinking without tilting the bottle back"
+      - "Marketed as a sports-type bottle, per manufacturer description -- the pop-up straw allows drinking without tilting the bottle back"
     whyPicked:
       - "Straw deploys automatically on opening, useful for one-handed drinking during activity"
       - "Mid-range capacity suited to a single workout or activity session rather than all-day carry"
@@ -163,43 +163,43 @@ japanContext:
       Sources reviewed for this guide describe Japan's stainless bottle and mug market as
       a high-density three-way competition between Zojirushi, Thermos, and Tiger, fought
       specifically on insulation performance, lid mechanism, cleanability, and overall
-      slimness — a narrower and more mechanically-focused set of competitive dimensions
+      slimness -- a narrower and more mechanically-focused set of competitive dimensions
       than color or capacity alone.
     - >-
       Zojirushi's direct-sale pricing in Japan for stainless mugs, reviewed at the time of
-      this research (August 2026), ran from approximately ¥3,828 to ¥4,928 (roughly $26 to
-      $33 at a ¥150/$1 reference rate). US Amazon pricing for the stainless mug and bottle
+      this research (August 2026), ran from approximately JPY 3,828 to JPY 4,928 (roughly $26 to
+      $33 at a JPY 150/$1 reference rate). US Amazon pricing for the stainless mug and bottle
       category reviewed here runs from roughly $33 to $76. Whether these are directly
       equivalent models was not confirmed during this research, so this comparison should
       be read as a general price-band observation rather than a same-product comparison.
   forUsBuyers:
     - >-
-      Because the Japan domestic market rewards lid mechanism refinement specifically —
-      not just insulation or price — the variety of lid types in Zojirushi's US catalog
+      Because the Japan domestic market rewards lid mechanism refinement specifically --
+      not just insulation or price -- the variety of lid types in Zojirushi's US catalog
       (one-touch push-button, flip-open, pop-up straw, splash-proof straw) is not
       incidental variety. Each is a distinct mechanical answer to a different daily
       drinking habit, and matching lid type to habit matters more here than it would for a
       brand with a single standard lid design.
     - >-
       Based on the pricing reviewed, US buyers should not expect Zojirushi bottles to be
-      meaningfully cheaper if sourced through Japan — the price bands reviewed for this
+      meaningfully cheaper if sourced through Japan -- the price bands reviewed for this
       guide were broadly comparable to, and in some cases higher than, Amazon US pricing
       once the currency conversion is applied, though exact model matching between the two
       markets was not confirmed.
 usBuyerNotes:
   - "Match lid type to your actual habit first: one-touch or flip lids for hot drinks sipped occasionally, straw tumblers for continuous cold-drink sipping, pop-up straw bottles for active use"
-  - "Capacity ranges from about 12 oz (desk mug) to 30 oz (straw tumbler) across the lines featured here — decide use case before comparing capacity"
-  - "Country of manufacture was not confirmed for any of the specific bottle or mug models featured in this guide — check the individual Amazon listing if this matters to your purchase"
-  - "Don't assume importing from Japan is cheaper — the domestic and US price bands reviewed for this guide were broadly comparable once converted, and exact model matching between markets wasn't confirmed"
+  - "Capacity ranges from about 12 oz (desk mug) to 30 oz (straw tumbler) across the lines featured here -- decide use case before comparing capacity"
+  - "Country of manufacture was not confirmed for any of the specific bottle or mug models featured in this guide -- check the individual Amazon listing if this matters to your purchase"
+  - "Don't assume importing from Japan is cheaper -- the domestic and US price bands reviewed for this guide were broadly comparable once converted, and exact model matching between markets wasn't confirmed"
 verdict:
   rating: "recommended"
-  summary: "Zojirushi's stainless bottle and mug catalog is worth navigating by use case rather than by browsing the full lineup — the lid mechanism differences across lines are functional, not cosmetic. For most desk or commute use, the SM-KHE or SM-SF mugs cover it; for all-day cold drinks, the SX straw tumbler is the better fit; for workouts, the SD sports-type bottle's pop-up straw is purpose-built for that use."
+  summary: "Zojirushi's stainless bottle and mug catalog is worth navigating by use case rather than by browsing the full lineup -- the lid mechanism differences across lines are functional, not cosmetic. For most desk or commute use, the SM-KHE or SM-SF mugs cover it; for all-day cold drinks, the SX straw tumbler is the better fit; for workouts, the SD sports-type bottle's pop-up straw is purpose-built for that use."
   bestPick: "sm-sf48"
 ---
 
 ## The Catalog Is Organized by Habit, Not by Size
 
-It's easy to treat Zojirushi's bottle lineup as one product available in different sizes and colors. Based on the official specifications reviewed for this guide, that's not how the lineup is actually built — the SM-KHE and SM-SF mugs, SX straw tumblers, and SD sports bottles use meaningfully different lid mechanisms aimed at different drinking habits, not just different capacities.
+It's easy to treat Zojirushi's bottle lineup as one product available in different sizes and colors. Based on the official specifications reviewed for this guide, that's not how the lineup is actually built -- the SM-KHE and SM-SF mugs, SX straw tumblers, and SD sports bottles use meaningfully different lid mechanisms aimed at different drinking habits, not just different capacities.
 
 ## Matching a Line to Your Use Case
 
@@ -210,8 +210,8 @@ It's easy to treat Zojirushi's bottle lineup as one product available in differe
 
 ## Why the Lid Variety Isn't Just Marketing
 
-Based on the Japan market context reviewed for this guide, lid mechanism is one of the specific dimensions Zojirushi competes on domestically against Thermos and Tiger — alongside insulation performance and slimness. That competitive pressure is a plausible reason the US catalog carries this many distinct lid designs rather than one standard cap across the whole lineup. Buyers get the practical benefit: a mechanism built for their specific habit, rather than a single general-purpose lid stretched across every use case.
+Based on the Japan market context reviewed for this guide, lid mechanism is one of the specific dimensions Zojirushi competes on domestically against Thermos and Tiger -- alongside insulation performance and slimness. That competitive pressure is a plausible reason the US catalog carries this many distinct lid designs rather than one standard cap across the whole lineup. Buyers get the practical benefit: a mechanism built for their specific habit, rather than a single general-purpose lid stretched across every use case.
 
 ## Don't Assume the Japan Price Is Lower
 
-Based on the domestic and US pricing reviewed for this guide, buying through Japan doesn't come with an obvious cost advantage for this category — the price bands were broadly comparable once converted to dollars. Exact model matching between the two markets wasn't confirmed during this research, so treat this as a general expectation rather than a guarantee for any specific model.
+Based on the domestic and US pricing reviewed for this guide, buying through Japan doesn't come with an obvious cost advantage for this category -- the price bands were broadly comparable once converted to dollars. Exact model matching between the two markets wasn't confirmed during this research, so treat this as a general expectation rather than a guarantee for any specific model.

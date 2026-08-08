@@ -1,9 +1,9 @@
 ---
 title: "Shun vs. Miyabi: Two Premium Brands, Both Made in Seki City"
 description: "Shun and Miyabi are both manufactured in the same Japanese city, but one is a Japanese company's export brand and the other is a German company's Japanese-made line. Here's why that distinction matters more than either brand's marketing."
-intro: "Shun and Miyabi come up together constantly in premium Japanese knife comparisons, both priced in the $150–$300+ range, both manufactured in Seki City, Japan. It's easy to assume that shared production location means a shared corporate identity — it doesn't. Shun is KAI Corporation's export brand, built by a Japanese company for Western markets. Miyabi is manufactured in a Seki City facility owned by Zwilling J.A. Henckels, a German company. This guide compares the two on what actually differs — steel, construction, and company ownership — rather than treating \"made in Japan\" as a single, interchangeable label."
+intro: "Shun and Miyabi come up together constantly in premium Japanese knife comparisons, both priced in the $150-$300+ range, both manufactured in Seki City, Japan. It's easy to assume that shared production location means a shared corporate identity -- it doesn't. Shun is KAI Corporation's export brand, built by a Japanese company for Western markets. Miyabi is manufactured in a Seki City facility owned by Zwilling J.A. Henckels, a German company. This guide compares the two on what actually differs -- steel, construction, and company ownership -- rather than treating \"made in Japan\" as a single, interchangeable label."
 publishDate: 2026-08-08
-whySelected: "Shun vs. Miyabi is a common comparison search for buyers in the premium Japanese knife category, and the ownership structure behind each brand — a fact not obvious from either brand's US marketing — provides a concrete, verifiable Japan Context distinction that goes beyond general reputation."
+whySelected: "Shun vs. Miyabi is a common comparison search for buyers in the premium Japanese knife category, and the ownership structure behind each brand -- a fact not obvious from either brand's US marketing -- provides a concrete, verifiable Japan Context distinction that goes beyond general reputation."
 researchSteps:
   - label: "Confirmed KAI Corporation's ownership of Shun"
     detail: "Verified via KAI Corporation official materials and Wikipedia's Shun Cutlery entry that Shun is a brand of KAI Corporation, a Japanese company headquartered in Seki City."
@@ -83,7 +83,7 @@ products:
     award: "GERMAN-OWNED, JAPANESE-MADE"
     name: "Miyabi SG2-Series 8-Inch Chef's Knife"
     priceTier: "$$$"
-    priceNote: "Reference range $180–$300+ based on listings reviewed (August 2026); verify current price on Amazon before purchasing"
+    priceNote: "Reference range $180-$300+ based on listings reviewed (August 2026); verify current price on Amazon before purchasing"
     setContents: "1 chef's knife, per manufacturer specifications"
     specs:
       - label: "Steel"
@@ -100,7 +100,7 @@ products:
       officialSeller: "Verify listing is sold by an authorized Miyabi retailer"
     usNotes:
       - "Manufactured in the same city as Shun, but developed and owned by a German cutlery company rather than a Japanese one"
-      - "Specific steel type (SG2, FC61, or other) varies significantly by Miyabi series — confirm the exact model's steel before comparing to a specific Shun line"
+      - "Specific steel type (SG2, FC61, or other) varies significantly by Miyabi series -- confirm the exact model's steel before comparing to a specific Shun line"
     whyPicked:
       - "Most directly comparable Miyabi tier to Shun Classic in price range and premium positioning"
       - "Illustrates that Seki City production doesn't indicate a single company or national ownership"
@@ -113,14 +113,14 @@ japanContext:
   inJapan:
     - >-
       KAI Corporation, Shun's parent company, is headquartered in Seki City and was
-      founded there in 1908, per official company materials — Shun is a Japanese
+      founded there in 1908, per official company materials -- Shun is a Japanese
       company's brand, manufactured in its home city.
     - >-
       Miyabi, by contrast, is manufactured at a Seki City facility owned by Zwilling
       J.A. Henckels, a German cutlery company, with production beginning in 2004,
       according to multiple sources reviewed for this guide. Based on available
       information, this appears to reflect the region's established cutlery
-      infrastructure and skilled labor pool — a German company choosing to produce
+      infrastructure and skilled labor pool -- a German company choosing to produce
       in Japan, rather than a Japanese company exporting its own brand.
     - >-
       Both companies' products are accurately labeled "Made in Japan," and both draw
@@ -130,14 +130,14 @@ japanContext:
   forUsBuyers:
     - >-
       "Made in Seki City" does not tell a US buyer which company designed the knife,
-      set its specifications, or stands behind its warranty — that depends on
+      set its specifications, or stands behind its warranty -- that depends on
       whether the brand is KAI Corporation's own line (Shun) or a Japanese-made
       product line owned by a non-Japanese company (Miyabi). Buyers who specifically
       want a Japanese company's product, rather than a Japanese-manufactured
       product, should check ownership rather than assuming from the "Made in Japan"
       label alone.
     - >-
-      This doesn't make Miyabi a lesser or less "authentic" product — based on
+      This doesn't make Miyabi a lesser or less "authentic" product -- based on
       available information, Zwilling's choice to manufacture there appears to
       reflect the same regional expertise Shun draws on. But it does mean warranty
       terms, customer service, and company policy for Miyabi run through Zwilling's
@@ -149,27 +149,27 @@ japanContext:
       different hardness and edge-retention characteristics, and the specific model
       within each brand's lineup matters more than which parent company it belongs to.
 usBuyerNotes:
-  - "Check which specific Miyabi series (steel type varies significantly) you're comparing to a specific Shun line — the SG2 and FC61 lines differ meaningfully in hardness and price"
-  - "Warranty and customer service for Miyabi route through Zwilling J.A. Henckels' corporate structure; for Shun, through Kai USA Ltd. — confirm which applies before purchasing"
+  - "Check which specific Miyabi series (steel type varies significantly) you're comparing to a specific Shun line -- the SG2 and FC61 lines differ meaningfully in hardness and price"
+  - "Warranty and customer service for Miyabi route through Zwilling J.A. Henckels' corporate structure; for Shun, through Kai USA Ltd. -- confirm which applies before purchasing"
   - "Verify the Amazon listing for either brand is sold by an authorized retailer before purchasing, to preserve warranty coverage"
-  - "Neither brand's Seki City manufacturing location is, by itself, evidence that one product is more \"authentically Japanese\" than the other — both are made there for genuine manufacturing reasons"
+  - "Neither brand's Seki City manufacturing location is, by itself, evidence that one product is more \"authentically Japanese\" than the other -- both are made there for genuine manufacturing reasons"
 verdict:
   rating: "conditional"
-  summary: "Shun and Miyabi share a manufacturing city but not a parent company — Shun is KAI Corporation's own export brand, while Miyabi is manufactured in Seki City for Zwilling J.A. Henckels, a German company. The choice between them should come down to specific steel type, price tier, and warranty structure rather than assuming either is the more \"authentic\" Japanese option based on where it's made."
+  summary: "Shun and Miyabi share a manufacturing city but not a parent company -- Shun is KAI Corporation's own export brand, while Miyabi is manufactured in Seki City for Zwilling J.A. Henckels, a German company. The choice between them should come down to specific steel type, price tier, and warranty structure rather than assuming either is the more \"authentic\" Japanese option based on where it's made."
   bestPick: "shun-classic-8in-chef-miyabi"
 ---
 
 ## The Same City, Two Different Companies
 
-Shun and Miyabi both carry the weight of Seki City's cutlery reputation in their marketing, and both are accurately described as made in Japan. What often goes unmentioned is that the two brands come from entirely different corporate structures — one Japanese, one German — that happen to manufacture in the same city for related but distinct reasons.
+Shun and Miyabi both carry the weight of Seki City's cutlery reputation in their marketing, and both are accurately described as made in Japan. What often goes unmentioned is that the two brands come from entirely different corporate structures -- one Japanese, one German -- that happen to manufacture in the same city for related but distinct reasons.
 
 ## KAI Corporation's Own Brand vs. Zwilling's Japanese Facility
 
-Shun is developed and owned by KAI Corporation, a Japanese cutlery company founded in Seki City in 1908. It is the company's own export brand, built specifically for Western markets. Miyabi, by contrast, comes from a Seki City manufacturing facility that Zwilling J.A. Henckels — a German company — established in 2004, specifically to produce Miyabi's Japanese-style cutlery line. Both companies are drawing on the same regional manufacturing expertise; only one of them is headquartered there.
+Shun is developed and owned by KAI Corporation, a Japanese cutlery company founded in Seki City in 1908. It is the company's own export brand, built specifically for Western markets. Miyabi, by contrast, comes from a Seki City manufacturing facility that Zwilling J.A. Henckels -- a German company -- established in 2004, specifically to produce Miyabi's Japanese-style cutlery line. Both companies are drawing on the same regional manufacturing expertise; only one of them is headquartered there.
 
 ## Why This Matters More Than It Sounds
 
-This isn't a quality signal in either direction — based on available information, Zwilling's choice to manufacture in Seki City appears to reflect the same regional expertise and forging tradition that KAI Corporation draws on for its own products made there. But it does mean the two brands' warranty terms, customer service structure, and long-term company backing run through different corporate entities. A buyer troubleshooting a warranty issue or sharpening service request needs to know which company they're actually dealing with.
+This isn't a quality signal in either direction -- based on available information, Zwilling's choice to manufacture in Seki City appears to reflect the same regional expertise and forging tradition that KAI Corporation draws on for its own products made there. But it does mean the two brands' warranty terms, customer service structure, and long-term company backing run through different corporate entities. A buyer troubleshooting a warranty issue or sharpening service request needs to know which company they're actually dealing with.
 
 ## Steel and Construction: Where the Real Comparison Should Happen
 
@@ -177,4 +177,4 @@ Beyond ownership, the more useful comparison is steel type and construction. Shu
 
 ## Bottom Line
 
-"Made in Seki City" describes a manufacturing location, not a single company or a guarantee of comparable specifications. Shun is a Japanese company's own export line; Miyabi is a Japanese-made product from a German company. Buyers should compare the two on steel type, price tier, and warranty structure — the manufacturing city both brands share is a starting point for research, not a reason to prefer one over the other.
+"Made in Seki City" describes a manufacturing location, not a single company or a guarantee of comparable specifications. Shun is a Japanese company's own export line; Miyabi is a Japanese-made product from a German company. Buyers should compare the two on steel type, price tier, and warranty structure -- the manufacturing city both brands share is a starting point for research, not a reason to prefer one over the other.

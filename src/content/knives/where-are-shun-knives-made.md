@@ -1,12 +1,12 @@
 ---
 title: "Where Are Shun Knives Made? A Buyer's Guide to Seki City"
-description: "Shun's \"Made in Japan\" label points to one specific city with a 700-year cutlery history — but that same city also makes knives for a German company and a separate Japanese brand. Here's what \"made in Seki City\" actually tells you, and what it doesn't."
-intro: "\"Made in Japan\" is the extent of what most Shun product listings tell a US buyer about where the knives actually come from. The fuller answer is Seki City, Gifu Prefecture — a specific region with a cutlery-making history that predates the modern knife industry by centuries. But Seki City isn't exclusive to Shun: it's also home to Miyabi (owned by a German company) and MAC Professional's manufacturing facility, among others. This guide covers what Seki City's history actually means, and why \"made there\" doesn't automatically mean \"the same as Shun.\""
+description: "Shun's \"Made in Japan\" label points to one specific city with a 700-year cutlery history -- but that same city also makes knives for a German company and a separate Japanese brand. Here's what \"made in Seki City\" actually tells you, and what it doesn't."
+intro: "\"Made in Japan\" is the extent of what most Shun product listings tell a US buyer about where the knives actually come from. The fuller answer is Seki City, Gifu Prefecture -- a specific region with a cutlery-making history that predates the modern knife industry by centuries. But Seki City isn't exclusive to Shun: it's also home to Miyabi (owned by a German company) and MAC Professional's manufacturing facility, among others. This guide covers what Seki City's history actually means, and why \"made there\" doesn't automatically mean \"the same as Shun.\""
 publishDate: 2026-08-08
 whySelected: "\"Where are Shun knives made\" is a common informational search for buyers trying to understand what a Made in Japan claim actually means, and Seki City's specific, verifiable manufacturing history and its role as a shared production base for multiple competing brands provides substantive Japan Context beyond a generic country-of-origin statement."
 researchSteps:
   - label: "Researched Seki City's historical cutlery industry"
-    detail: "Reviewed multiple historical sources confirming Seki City's swordsmithing origins dating to the Kamakura period (1185–1333) and its transition to kitchen cutlery, scissors, and razors following the 1876 sword-carrying ban."
+    detail: "Reviewed multiple historical sources confirming Seki City's swordsmithing origins dating to the Kamakura period (1185-1333) and its transition to kitchen cutlery, scissors, and razors following the 1876 sword-carrying ban."
   - label: "Confirmed Shun's specific manufacturing claims"
     detail: "Verified via shun.kaiusa.com and KAI Corporation official materials that Shun products are manufactured in Seki City by KAI Corporation, headquartered in the same city."
   - label: "Identified other brands manufactured in the same region"
@@ -80,13 +80,13 @@ products:
 japanContext:
   inJapan:
     - >-
-      Seki City's cutlery industry traces to the Kamakura period (1185–1333),
+      Seki City's cutlery industry traces to the Kamakura period (1185-1333),
       according to multiple historical sources reviewed for this guide, when the
       legendary swordsmith Motoshige is credited with establishing forging in the
-      area. By the Muromachi period (1338–1573), more than 300 swordsmiths were
+      area. By the Muromachi period (1338-1573), more than 300 swordsmiths were
       reportedly working in Seki, establishing its reputation as a center of blade
-      production. Following the 1876 sword-carrying ban (haitōrei), the region's
-      swordsmiths shifted toward kitchen cutlery, scissors, and razors — the
+      production. Following the 1876 sword-carrying ban (haitorei), the region's
+      swordsmiths shifted toward kitchen cutlery, scissors, and razors -- the
       foundation of the modern industry. Seki City is commonly cited alongside
       Solingen (Germany) and Sheffield (England) as one of the world's three
       historically significant cutlery-producing regions.
@@ -99,8 +99,8 @@ japanContext:
       manufacturing base for multiple companies and brands, not a single
       brand-exclusive production site.
     - >-
-      This is different from Tsubame-Sanjo, Niigata Prefecture — the production
-      region for Global knives — which developed from a metalworking and Western
+      This is different from Tsubame-Sanjo, Niigata Prefecture -- the production
+      region for Global knives -- which developed from a metalworking and Western
       tableware manufacturing tradition rather than swordsmithing, per Yoshikin's
       official materials and historical sources reviewed. Both regions are
       legitimate centers of Japanese cutlery manufacturing with different origins,
@@ -110,50 +110,50 @@ japanContext:
     - >-
       A "Made in Japan" label on a knife doesn't specify which of Japan's several
       distinct cutlery-producing regions it came from, or which company designed
-      and stands behind it — those are two separate facts a buyer has to check
+      and stands behind it -- those are two separate facts a buyer has to check
       independently, usually by looking at the specific brand's official materials
       rather than the country-of-origin label alone.
     - >-
       Seki City manufacturing is not, by itself, a way to distinguish Shun from its
-      competitors — Miyabi and MAC Professional are also made there, by different
+      competitors -- Miyabi and MAC Professional are also made there, by different
       companies with different market positioning and warranty structures. What
       distinguishes Shun specifically is that KAI Corporation, the company that
-      designs it, is also headquartered in the city where it's made — a fact worth
+      designs it, is also headquartered in the city where it's made -- a fact worth
       knowing but not one that necessarily makes Shun's knives functionally
       different from Seki City-made competitors.
     - >-
       For a buyer comparing multiple Japanese knife brands, checking the specific
-      production region — Seki City's forged, layered tradition versus
-      Tsubame-Sanjo's molded, one-piece tradition, for example — is more useful for
+      production region -- Seki City's forged, layered tradition versus
+      Tsubame-Sanjo's molded, one-piece tradition, for example -- is more useful for
       predicting how a given knife will be constructed than the general "Made in
       Japan" label.
 usBuyerNotes:
-  - "\"Made in Japan\" and \"made by a Japanese company\" are not the same claim — check whether the brand's parent company is Japanese-owned if that specifically matters to you, since some Seki City-made brands (like Miyabi) are owned by non-Japanese companies"
-  - "Seki City's manufacturing tradition (forged, layered blades) and Tsubame-Sanjo's (molded, one-piece construction) tend to produce different knife styles — use production region as a rough predictor of construction style, not just origin"
-  - "A shared manufacturing city between two brands doesn't mean shared warranty, customer service, or company backing — confirm which corporate entity actually stands behind a specific product"
+  - "\"Made in Japan\" and \"made by a Japanese company\" are not the same claim -- check whether the brand's parent company is Japanese-owned if that specifically matters to you, since some Seki City-made brands (like Miyabi) are owned by non-Japanese companies"
+  - "Seki City's manufacturing tradition (forged, layered blades) and Tsubame-Sanjo's (molded, one-piece construction) tend to produce different knife styles -- use production region as a rough predictor of construction style, not just origin"
+  - "A shared manufacturing city between two brands doesn't mean shared warranty, customer service, or company backing -- confirm which corporate entity actually stands behind a specific product"
   - "Verify the Amazon listing for any Seki City-made brand is sold by an authorized retailer before purchasing"
 verdict:
   rating: "conditional"
-  summary: "Seki City has a genuine, centuries-deep cutlery manufacturing history, and Shun is a legitimate product of that tradition — but so are several of its direct competitors, made by different companies with different ownership. \"Made in Seki City\" is useful context for understanding construction style, not a reason on its own to prefer Shun over other brands made in the same place."
+  summary: "Seki City has a genuine, centuries-deep cutlery manufacturing history, and Shun is a legitimate product of that tradition -- but so are several of its direct competitors, made by different companies with different ownership. \"Made in Seki City\" is useful context for understanding construction style, not a reason on its own to prefer Shun over other brands made in the same place."
   bestPick: "shun-classic-8in-chef-made"
 ---
 
 ## A City With a 700-Year Head Start
 
-Seki City's reputation as a cutlery-producing region didn't start with export brands or Amazon listings — it dates back roughly 700 years, to swordsmiths who settled in the area during the Kamakura period. By the time Japan's 1876 sword-carrying ban pushed the region's forges toward kitchen cutlery, scissors, and razors, Seki already had generations of specialized forging expertise to draw on. That history is real, and it's a large part of why Shun's construction — layered Damascus steel around a hardened core — looks the way it does.
+Seki City's reputation as a cutlery-producing region didn't start with export brands or Amazon listings -- it dates back roughly 700 years, to swordsmiths who settled in the area during the Kamakura period. By the time Japan's 1876 sword-carrying ban pushed the region's forges toward kitchen cutlery, scissors, and razors, Seki already had generations of specialized forging expertise to draw on. That history is real, and it's a large part of why Shun's construction -- layered Damascus steel around a hardened core -- looks the way it does.
 
 ## But Seki City Isn't Shun's Alone
 
-Here's the part that gets lost in most "Made in Japan" marketing: Seki City makes knives for more than just KAI Corporation. Miyabi, owned by the German company Zwilling J.A. Henckels, has manufactured there since 2004. MAC Professional, headquartered in Sakai (a different, also historically significant Japanese cutlery region), has run a Gifu factory in Seki City since 1964. The city functions as shared manufacturing infrastructure — skilled labor, forging facilities, generations of technique — that multiple competing brands draw on.
+Here's the part that gets lost in most "Made in Japan" marketing: Seki City makes knives for more than just KAI Corporation. Miyabi, owned by the German company Zwilling J.A. Henckels, has manufactured there since 2004. MAC Professional, headquartered in Sakai (a different, also historically significant Japanese cutlery region), has run a Gifu factory in Seki City since 1964. The city functions as shared manufacturing infrastructure -- skilled labor, forging facilities, generations of technique -- that multiple competing brands draw on.
 
 ## What Actually Makes Shun Specific to Seki City
 
-The detail that does distinguish Shun from Miyabi and MAC in this context is that KAI Corporation, the company that designs and owns the Shun brand, is also headquartered in Seki City. That's a tighter relationship between company and production location than either of its Seki-made competitors have. It doesn't make Shun's knives better — it just means the company designing them and the city making them are the same place, which isn't true of a Zwilling-owned or Sakai-headquartered competitor.
+The detail that does distinguish Shun from Miyabi and MAC in this context is that KAI Corporation, the company that designs and owns the Shun brand, is also headquartered in Seki City. That's a tighter relationship between company and production location than either of its Seki-made competitors have. It doesn't make Shun's knives better -- it just means the company designing them and the city making them are the same place, which isn't true of a Zwilling-owned or Sakai-headquartered competitor.
 
 ## Comparing Regions, Not Just Countries
 
-If you're comparing Japanese knife brands more broadly, the more useful geographic distinction isn't "Japan vs. not Japan" — it's which region within Japan. Seki City's swordsmithing lineage tends to produce forged, layered blade construction. Tsubame-Sanjo, Niigata — home to Global — grew out of metalworking and Western tableware production, and tends to produce molded, one-piece construction instead. Knowing the region tells you more about how a knife is likely built than the country label alone.
+If you're comparing Japanese knife brands more broadly, the more useful geographic distinction isn't "Japan vs. not Japan" -- it's which region within Japan. Seki City's swordsmithing lineage tends to produce forged, layered blade construction. Tsubame-Sanjo, Niigata -- home to Global -- grew out of metalworking and Western tableware production, and tends to produce molded, one-piece construction instead. Knowing the region tells you more about how a knife is likely built than the country label alone.
 
 ## Bottom Line
 
-Seki City's cutlery history is genuine and well-documented, and it's a legitimate part of what Shun is. But it's shared infrastructure, not a Shun exclusive — treat "made in Seki City" as useful context about manufacturing tradition and likely construction style, not as a standalone reason to choose Shun over Seki-made competitors like Miyabi or MAC.
+Seki City's cutlery history is genuine and well-documented, and it's a legitimate part of what Shun is. But it's shared infrastructure, not a Shun exclusive -- treat "made in Seki City" as useful context about manufacturing tradition and likely construction style, not as a standalone reason to choose Shun over Seki-made competitors like Miyabi or MAC.
