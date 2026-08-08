@@ -32,7 +32,7 @@ products:
     name: "Noritake Colorwave Sky 16-Piece Set"
     priceTier: "$"
     priceNote: "~$80—0 at time of research (August 2026)"
-    setContents: "16 pcs ﾂｷ Service for 4 ﾂｷ dinner plate, salad plate, bowl, mug ﾃ・"
+    setContents: "16 pcs · Service for 4 · dinner plate, salad plate, bowl, mug ×4"
     specs:
       - label: "Material"
         value: "Stoneware"
@@ -63,7 +63,7 @@ products:
     name: "Mikasa Swirl White 16-Piece Dinnerware Set"
     priceTier: "$"
     priceNote: "~$40—0 at time of research (August 2026)"
-    setContents: "16 pcs ﾂｷ Service for 4 ﾂｷ dinner plate, salad plate, bowl, mug ﾃ・"
+    setContents: "16 pcs · Service for 4 · dinner plate, salad plate, bowl, mug ×4"
     specs:
       - label: "Material"
         value: "Porcelain"

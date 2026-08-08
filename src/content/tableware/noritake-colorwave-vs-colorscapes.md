@@ -28,7 +28,7 @@ products:
     name: "Noritake Colorwave Graphite 20-Piece Set"
     priceTier: "$$"
     priceNote: "~$126 at time of research (August 2026)"
-    setContents: "20 pcs ﾂｷ Service for 4 ﾂｷ dinner plate, salad plate, bowl, mug ﾃ・ + serving pieces"
+    setContents: "20 pcs · Service for 4 · dinner plate, salad plate, bowl, mug ×4 + serving pieces"
     specs:
       - label: "Material"
         value: "Stoneware"
@@ -61,7 +61,7 @@ products:
     name: "Noritake Colorscapes Navy 16-Piece Set"
     priceTier: "$$$"
     priceNote: "~$200 at time of research (August 2026)"
-    setContents: "16 pcs ﾂｷ Service for 4 ﾂｷ dinner plate, salad plate, bowl, mug ﾃ・"
+    setContents: "16 pcs · Service for 4 · dinner plate, salad plate, bowl, mug ×4"
     specs:
       - label: "Material"
         value: "Stoneware"

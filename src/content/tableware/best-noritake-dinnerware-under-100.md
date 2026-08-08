@@ -28,7 +28,7 @@ products:
     name: "Noritake Colorwave Graphite 16-Piece Set"
     priceTier: "$"
     priceNote: "~$80–90 at time of research (August 2026)"
-    setContents: "16 pcs ﾂｷ Service for 4 ﾂｷ dinner plate, salad plate, bowl, mug ﾃ・"
+    setContents: "16 pcs · Service for 4 · dinner plate, salad plate, bowl, mug ×4"
     specs:
       - label: "Material"
         value: "Stoneware"
@@ -59,7 +59,7 @@ products:
     name: "Noritake Colorwave Graphite 5-Piece Pasta/Salad Set"
     priceTier: "$"
     priceNote: "~$56 at time of research (August 2026)"
-    setContents: "5 pcs ﾂｷ 1 large serving bowl + 4 individual pasta/salad bowls"
+    setContents: "5 pcs · 1 large serving bowl + 4 individual pasta/salad bowls"
     specs:
       - label: "Material"
         value: "Stoneware"
@@ -92,7 +92,7 @@ products:
     name: "Noritake Colorwave 4-Piece Place Setting"
     priceTier: "$"
     priceNote: "~$25–35 per setting at time of research (August 2026)"
-    setContents: "4 pcs ﾂｷ 1 place setting ﾂｷ dinner plate, salad plate, bowl, mug"
+    setContents: "4 pcs · 1 place setting · dinner plate, salad plate, bowl, mug"
     specs:
       - label: "Material"
         value: "Stoneware"

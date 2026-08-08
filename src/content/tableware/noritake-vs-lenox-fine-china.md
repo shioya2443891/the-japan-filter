@@ -32,7 +32,7 @@ products:
     name: "Noritake Crestwood Platinum 5-Piece Place Setting"
     priceTier: "$$"
     priceNote: "~$85 per place setting at time of research (August 2026)"
-    setContents: "5 pcs ﾂｷ 1 place setting ﾂｷ dinner plate, salad plate, bread & butter plate, cup & saucer"
+    setContents: "5 pcs · 1 place setting · dinner plate, salad plate, bread & butter plate, cup & saucer"
     specs:
       - label: "Material"
         value: "Bone China"
@@ -63,7 +63,7 @@ products:
     name: "Lenox Opal Innocence 5-Piece Place Setting"
     priceTier: "$$"
     priceNote: "~$90—10 per place setting at time of research (August 2026)"
-    setContents: "5 pcs ﾂｷ 1 place setting ﾂｷ dinner plate, salad plate, bread & butter plate, cup & saucer"
+    setContents: "5 pcs · 1 place setting · dinner plate, salad plate, bread & butter plate, cup & saucer"
     specs:
       - label: "Material"
         value: "Bone China"
