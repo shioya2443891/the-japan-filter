@@ -2,7 +2,7 @@
 title: "The Best Noritake Dinnerware Sets for Wedding Gifts"
 description: "A gift-buyer's guide to Noritake dinnerware, verified against what's actually available on Amazon.com."
 intro: "Noritake has been making tableware in Nagoya since 1904, and it remains one of the few Japanese dinnerware brands with a fully official presence on Amazon.com —sold directly by Noritake U.S.A., Inc. rather than third-party resellers. That matters for a gift purchase: you're not gambling on authenticity or warranty coverage. The four sets below cover the $50—00 range where most wedding and housewarming gift-givers are searching."
-publishDate: 2026-08-10
+publishDate: 2026-08-07
 whySelected: "Noritake is one of Japan's oldest and most internationally established tableware brands, with an official US storefront on Amazon —removing the authenticity concerns common in other Japanese product categories."
 researchSteps:
   - label: "Confirmed official brand presence"

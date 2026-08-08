@@ -1,7 +1,7 @@
 ﻿---
 title: "Noritake Colorwave: Everyday Dinnerware Worth Registering For"
 description: "An honest look at Noritake's casual Colorwave line —colors, durability, and whether it holds up as a registry pick or everyday upgrade."
-publishDate: 2026-08-10
+publishDate: 2026-08-07
 whySelected: "Colorwave is Noritake's most accessible casual line, sold directly by Noritake U.S.A., Inc. on Amazon. It offers the brand's quality pedigree at a price point that makes sense for everyday use —and the wide color range makes it a perennial wedding registry staple."
 researchSteps:
   - label: "Verified official seller status"

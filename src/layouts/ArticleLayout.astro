@@ -35,6 +35,7 @@ interface Props {
   title: string;
   description: string;
   publishDate: Date;
+  updatedDate?: Date;
   researchSteps: { label: string; detail: string }[];
   sourcesChecked: string[];
   lastVerified: string;
@@ -48,10 +49,12 @@ interface Props {
   categoryHref?: string;
 }
 const {
-  title, description, publishDate, researchSteps, sourcesChecked, lastVerified,
+  title, description, publishDate, updatedDate, researchSteps, sourcesChecked, lastVerified,
   ogImage, intro, products, japanContext, usBuyerNotes, verdict,
   categoryLabel = 'Guides', categoryHref = '/',
 } = Astro.props;
+
+const fmtDate = (d: Date) => d.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
 
 const hasProducts      = products && products.length > 0;
 const hasUsBuyerNotes  = usBuyerNotes && usBuyerNotes.length > 0;
@@ -69,7 +72,7 @@ const bestPickProduct = (verdict?.bestPick && products)
     <p class="mb-2 font-data text-[10px] uppercase tracking-wide2 text-indigo/60"><a href={categoryHref} class="hover:text-indigo">{categoryLabel}</a></p>
     <h1 class="mb-3 font-display text-3xl text-indigo md:text-4xl">{title}</h1>
     <p class="mb-8 font-body text-sm text-ink/50">
-      Published {publishDate.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}
+      Published {fmtDate(publishDate)}{updatedDate && ` · Updated ${fmtDate(updatedDate)}`}
     </p>
 
     <!-- 1. INTRO -->
