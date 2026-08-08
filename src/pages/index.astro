@@ -29,13 +29,25 @@ const categories = [
   },
 ];
 
-const latest = [
-  ...tableware.filter(a => a.data.status === 'published').map(a => ({ ...a, _cat: 'Tableware', _href: `/tableware/${a.slug}` })),
-  ...knives.filter(a => a.data.status === 'published').map(a => ({ ...a, _cat: 'Knives',    _href: `/knives/${a.slug}` })),
-  ...kitchen.filter(a => a.data.status === 'published').map(a => ({ ...a, _cat: 'Kitchen',  _href: `/kitchen/${a.slug}` })),
-]
-  .sort((a, b) => b.data.publishDate.getTime() - a.data.publishDate.getTime())
-  .slice(0, 6);
+const byDate = (a: any, b: any) => b.data.publishDate.getTime() - a.data.publishDate.getTime();
+const pubOf = (arr: any[], cat: string, base: string) =>
+  arr
+    .filter((a: any) => a.data.status === 'published')
+    .map((a: any) => ({ ...a, _cat: cat, _href: `${base}/${a.slug}` }))
+    .sort(byDate);
+
+const twPub = pubOf(tableware, 'Tableware', '/tableware');
+const knPub = pubOf(knives,   'Knives',    '/knives');
+const ktPub = pubOf(kitchen,  'Kitchen',   '/kitchen');
+
+// Guarantee the newest 1 article per category, then fill remaining 3 slots
+// from the rest of the pool in publishDate order.
+const pinned = [twPub[0], knPub[0], ktPub[0]].filter(Boolean);
+const pool   = [...twPub.slice(1), ...knPub.slice(1), ...ktPub.slice(1)]
+  .sort(byDate)
+  .slice(0, 6 - pinned.length);
+
+const latest = [...pinned, ...pool].sort(byDate);
 ---
 <BaseLayout
   title="Japan's Best-Reviewed Products, Re-Verified for Buyers Outside Japan"
