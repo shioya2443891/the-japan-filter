@@ -309,6 +309,7 @@ brand-scout エージェントを使って初回調査を行い、プロファ�
 - `src/data/brands/noritake.md` — Noritake（ノリタケ）、食器、August 2026
 - `src/data/brands/zojirushi.md` — Zojirushi（象印マホービン）、キッチン家電、August 2026
 - `src/data/brands/shun.md` — Shun（旬 / KAI Corporation）、刃物、August 2026
+- `src/data/brands/hario.md` — HARIO（ハリオ）、コーヒー・ティー器具、August 2026
 
 ---
 
