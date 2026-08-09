@@ -21,7 +21,7 @@ sourcesChecked:
   - "The Kitchn, Remodelista (US media coverage of Vermicular)"
   - "Amazon.com (Vermicular USA listings for gift purchasing)"
 lastVerified: "August 2026"
-status: draft
+status: published
 reviewLog:
   reviewedAt: "August 2026"
   verdict: "fixed"

@@ -20,7 +20,7 @@ sourcesChecked:
   - "Amazon.com listings for Vermicular Oven Pot 2.0"
   - "Vermicular US warranty page"
 lastVerified: "August 2026"
-status: draft
+status: published
 reviewLog:
   reviewedAt: "August 2026"
   verdict: "pass"

@@ -20,7 +20,7 @@ sourcesChecked:
   - "Vermicular US help center (stockists page)"
   - "Amazon.com search results for Vermicular products"
 lastVerified: "August 2026"
-status: draft
+status: published
 reviewLog:
   reviewedAt: "August 2026"
   verdict: "fixed"

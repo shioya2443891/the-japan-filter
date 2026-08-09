@@ -19,7 +19,7 @@ sourcesChecked:
   - "Amazon.com search results for Vermicular products"
   - "brand-scout research on Vermicular Japan-market model identifiers (August 2026)"
 lastVerified: "August 2026"
-status: draft
+status: published
 reviewLog:
   reviewedAt: "August 2026"
   verdict: "fixed"

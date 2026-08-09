@@ -22,7 +22,7 @@ sourcesChecked:
   - "Vermicular US warranty terms"
   - "Le Creuset US lifetime warranty terms"
 lastVerified: "August 2026"
-status: draft
+status: published
 reviewLog:
   reviewedAt: "August 2026"
   verdict: "fixed"

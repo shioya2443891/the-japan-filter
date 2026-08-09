@@ -24,7 +24,7 @@ sourcesChecked:
   - "nihonmono.jp English edition (Aichi Dobby manufacturing history)"
   - "Vermicular brand history page (vermicular.us/journal/vermicular-brand-story)"
 lastVerified: "August 2026"
-status: draft
+status: published
 reviewLog:
   reviewedAt: "August 2026"
   verdict: "fixed"

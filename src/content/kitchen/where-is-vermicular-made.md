@@ -19,7 +19,7 @@ sourcesChecked:
   - "Nikkei articles on Aichi Dobby Corporation and Vermicular US expansion"
   - "vermicular.us product pages (manufacturing specifications)"
 lastVerified: "August 2026"
-status: draft
+status: published
 reviewLog:
   reviewedAt: "August 2026"
   verdict: "fixed"

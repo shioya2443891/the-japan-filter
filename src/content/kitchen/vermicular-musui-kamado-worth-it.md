@@ -20,7 +20,7 @@ sourcesChecked:
   - "Zojirushi NP-NVC10 and NP-NWC10 product pages (premium rice cooker comparison)"
   - "Customer review patterns for Musui-Kamado on Amazon.com"
 lastVerified: "August 2026"
-status: draft
+status: published
 reviewLog:
   reviewedAt: "August 2026"
   verdict: "fixed"
