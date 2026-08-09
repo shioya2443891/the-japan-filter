@@ -1,4 +1,5 @@
 @echo off
+chcp 65001 > nul
 cd /d C:\Users\shioy\Documents\the-japan-filter
 
 if not exist logs mkdir logs
