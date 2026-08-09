@@ -19,7 +19,7 @@ sourcesChecked:
   - "shop.hariocorp.co.jp Japan domestic pricing (Buono stovetop kettle)"
   - "Amazon.com listings for both kettle lines"
 lastVerified: "August 2026"
-status: draft
+status: published
 reviewLog:
   reviewedAt: "August 2026"
   verdict: "fixed"

@@ -18,7 +18,7 @@ sourcesChecked:
   - "Amazon.com listings for Hario Technica siphon coffee makers and replacement parts"
   - "Multiple specialty coffee and coffee-industry sources on kissaten coffeehouse siphon brewing history"
 lastVerified: "August 2026"
-status: draft
+status: published
 reviewLog:
   reviewedAt: "August 2026"
   verdict: "fixed"

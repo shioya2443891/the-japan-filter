@@ -17,7 +17,7 @@ sourcesChecked:
   - "hario-usa.com official product pages (gift sets, collaboration products, kettles, cold brew pots)"
   - "Amazon.com listings for Hario coffee and tea equipment"
 lastVerified: "August 2026"
-status: draft
+status: published
 reviewLog:
   reviewedAt: "August 2026"
   verdict: "fixed"

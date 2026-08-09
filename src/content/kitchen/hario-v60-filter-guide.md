@@ -18,7 +18,7 @@ sourcesChecked:
   - "Amazon.com listings for Hario V60 paper filters"
   - "Customer review and comparison discussion on V60 filter compatibility"
 lastVerified: "August 2026"
-status: draft
+status: published
 reviewLog:
   reviewedAt: "August 2026"
   verdict: "pass"

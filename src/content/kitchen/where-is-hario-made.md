@@ -18,7 +18,7 @@ sourcesChecked:
   - "hario-usa.com official product pages (V60 dripper line, ChaCha Kyusu Maru)"
   - "Public sourcing information on Hario's Koga City, Ibaraki Prefecture glass factory"
 lastVerified: "August 2026"
-status: draft
+status: published
 reviewLog:
   reviewedAt: "August 2026"
   verdict: "pass"

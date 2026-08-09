@@ -18,7 +18,7 @@ sourcesChecked:
   - "hariocorp.co.jp Japan-market tea and cold brew product listings"
   - "Manufacturer and brewing-method descriptions of mizudashi extraction"
 lastVerified: "August 2026"
-status: draft
+status: published
 reviewLog:
   reviewedAt: "August 2026"
   verdict: "pass"

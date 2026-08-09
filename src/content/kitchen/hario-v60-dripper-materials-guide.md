@@ -18,7 +18,7 @@ sourcesChecked:
   - "Amazon.com listings for Hario V60 drippers (plastic, glass, ceramic, metal)"
   - "Customer review patterns across Amazon listings for each material (verified purchases)"
 lastVerified: "August 2026"
-status: draft
+status: published
 reviewLog:
   reviewedAt: "August 2026"
   verdict: "fixed"

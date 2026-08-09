@@ -18,7 +18,7 @@ sourcesChecked:
   - "Manufacturer press materials on the V60 NEO's June 2026 global colorway launch"
   - "Product review and comparison coverage of the V60 NEO's rib design change"
 lastVerified: "August 2026"
-status: draft
+status: published
 reviewLog:
   reviewedAt: "August 2026"
   verdict: "pass"
