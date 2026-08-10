@@ -19,6 +19,7 @@ interface AmazonData {
 }
 interface Product {
   id: string;
+  brand: string;
   award: string | null;
   name: string;
   priceTier: '$' | '$$' | '$$$';
@@ -35,7 +36,7 @@ interface Product {
 
 interface Props { product: Product; }
 const { product } = Astro.props;
-const { award, name, priceTier, priceNote, setContents, specs, origin, usNotes, whyPicked, ratings, amazon, ctaLabel } = product;
+const { brand, award, name, priceTier, priceNote, setContents, specs, origin, usNotes, whyPicked, ratings, amazon, ctaLabel } = product;
 ---
 
 <article class="my-10 overflow-hidden border border-line bg-paper" id={product.id}>
@@ -170,6 +171,8 @@ const { award, name, priceTier, priceNote, setContents, specs, origin, usNotes, 
         href={amazon.url}
         rel="nofollow sponsored noopener"
         target="_blank"
+        data-affiliate-product={name}
+        data-affiliate-brand={brand}
         class="whitespace-nowrap border border-seal px-4 py-2 font-data text-[11px] uppercase tracking-wide2 text-seal transition-colors hover:bg-seal hover:text-paper"
       >
         {ctaLabel} →

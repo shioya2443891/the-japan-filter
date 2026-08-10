@@ -30,6 +30,14 @@ const year = new Date().getFullYear();
   <link rel="manifest" href="/site.webmanifest" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@500;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <!-- Google Analytics 4 -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-KK9RKXPVSW"></script>
+  <script is:inline>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-KK9RKXPVSW');
+  </script>
 </head>
 <body class="bg-tint font-body text-ink">
 
@@ -156,5 +164,21 @@ const year = new Date().getFullYear();
 
   </footer>
 
+  <!-- Affiliate click tracking -->
+  <script is:inline>
+    document.addEventListener('click', function(e) {
+      var el = e.target instanceof Element ? e.target.closest('a[data-affiliate-product]') : null;
+      if (!el) return;
+      var parts = window.location.pathname.replace(/\/+$/, '').split('/');
+      var slug = parts[parts.length - 1] || '';
+      if (typeof gtag === 'function') {
+        gtag('event', 'affiliate_click', {
+          product_name: el.dataset.affiliateProduct || '',
+          article_slug: slug,
+          brand: el.dataset.affiliateBrand || ''
+        });
+      }
+    });
+  </script>
 </body>
 </html>

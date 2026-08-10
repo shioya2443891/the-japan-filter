@@ -8,8 +8,9 @@ interface Props {
   summary: string;
   bestPickName?: string | null;
   bestPickUrl?: string | null;
+  bestPickBrand?: string | null;
 }
-const { rating, summary, bestPickName, bestPickUrl } = Astro.props;
+const { rating, summary, bestPickName, bestPickUrl, bestPickBrand } = Astro.props;
 
 const isRecommended   = rating === 'recommended';
 const isConditional   = rating === 'conditional';
@@ -104,6 +105,8 @@ const label = isRecommended
                 href={bestPickUrl}
                 rel="nofollow sponsored noopener"
                 target="_blank"
+                data-affiliate-product={bestPickName || ''}
+                data-affiliate-brand={bestPickBrand || ''}
                 class="whitespace-nowrap border border-seal px-4 py-2 font-data text-[11px] uppercase tracking-wide2 text-seal transition-colors hover:bg-seal hover:text-paper"
               >
                 Check on Amazon →

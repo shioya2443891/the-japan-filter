@@ -7,13 +7,14 @@ import VerifiedBadge from './VerifiedBadge.astro';
 
 interface Product {
   rank: number;
-  name: string;           // 例: "Tojiro DP Santoku 170mm"
-  badgeLabel?: string;    // 例: "Best Overall"
-  priceTier: '$' | '$$' | '$$$'; // Amazon規約：価格の手動記載は不可のため価格帯のみ表示
-  material: string;       // 例: "VG-10 core, 3-layer clad"
-  hardnessHRC: string;    // 例: "60-61"
-  bladeLengthMm: string;  // 例: "170mm"
-  bestFor: string;        // 例: "Everyday prep, beginners"
+  name: string;           // e.g. "Tojiro DP Santoku 170mm"
+  brand?: string;         // e.g. "Tojiro"
+  badgeLabel?: string;    // e.g. "Best Overall"
+  priceTier: '$' | '$$' | '$$$'; // Amazon rules: no manual price display
+  material: string;       // e.g. "VG-10 core, 3-layer clad"
+  hardnessHRC: string;    // e.g. "60-61"
+  bladeLengthMm: string;  // e.g. "170mm"
+  bestFor: string;        // e.g. "Everyday prep, beginners"
   amazonUrl: string;
 }
 
@@ -71,6 +72,8 @@ const { title, products } = Astro.props;
             href={p.amazonUrl}
             rel="nofollow sponsored noopener"
             target="_blank"
+            data-affiliate-product={p.name}
+            data-affiliate-brand={p.brand || ''}
             class="whitespace-nowrap border border-seal px-3 py-1.5 text-center font-data text-[11px] uppercase tracking-wide2 text-seal transition-colors hover:bg-seal hover:text-paper"
           >
             View Price on Amazon
@@ -81,7 +84,7 @@ const { title, products } = Astro.props;
     ))}
   </div>
 
-  <!-- モバイル：カード積み上げ -->
+  <!-- Mobile: card stack -->
   <div class="block md:hidden divide-y divide-line">
     {products.map((p) => (
       <div class="px-5 py-5">
@@ -111,6 +114,8 @@ const { title, products } = Astro.props;
           href={p.amazonUrl}
           rel="nofollow sponsored noopener"
           target="_blank"
+          data-affiliate-product={p.name}
+          data-affiliate-brand={p.brand || ''}
           class="block border border-seal px-3 py-2 text-center font-data text-[11px] uppercase tracking-wide2 text-seal"
         >
           View Price on Amazon

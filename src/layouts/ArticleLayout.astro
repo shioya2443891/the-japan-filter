@@ -11,6 +11,7 @@ interface Ratings { stars: number | null; reviewCount: number | null; badge: str
 interface AmazonData { url: string; asin: string | null; affiliateTag: string | null; imageUrl: string | null; }
 interface Product {
   id: string;
+  brand: string;
   award: string | null;
   name: string;
   priceTier: '$' | '$$' | '$$$';
@@ -124,6 +125,7 @@ const bestPickProduct = (verdict?.bestPick && products)
         summary={verdict.summary}
         bestPickName={bestPickProduct?.name ?? null}
         bestPickUrl={bestPickProduct?.amazon.url ?? null}
+        bestPickBrand={bestPickProduct?.brand ?? null}
       />
     )}
 
