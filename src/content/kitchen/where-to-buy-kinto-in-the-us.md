@@ -19,7 +19,7 @@ sourcesChecked:
   - "kinto.co.jp company page (Japan domestic corporate information)"
   - "mistore.jp, takashimaya.co.jp, loft.co.jp (Japan domestic retail listings)"
 lastVerified: "August 2026"
-status: draft
+status: published
 reviewLog:
   reviewedAt: "August 2026"
   reviewedBy: "article-reviewer"

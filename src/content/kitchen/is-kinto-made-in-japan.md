@@ -18,7 +18,7 @@ sourcesChecked:
   - "kinto-usa.com journal entry on the CERAMIC LAB Hasami product center"
   - "kinto.co.jp company history page"
 lastVerified: "August 2026"
-status: draft
+status: published
 reviewLog: null
 ogImage: "/og/og-default.png"
 products:

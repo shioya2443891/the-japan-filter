@@ -16,7 +16,7 @@ sourcesChecked:
   - "kinto-usa.com product pages"
   - "Existing wedding gift guides on this site (Noritake, Vermicular, Shun)"
 lastVerified: "August 2026"
-status: draft
+status: published
 reviewLog:
   reviewedAt: "August 2026"
   reviewedBy: "article-reviewer"

@@ -18,7 +18,7 @@ sourcesChecked:
   - "kinto-usa.com journal: 'Story of CERAMIC LAB -- A Visit to Hasami Village'"
   - "kinto.co.jp product pages (Japan domestic pricing)"
 lastVerified: "August 2026"
-status: draft
+status: published
 reviewLog:
   reviewedAt: "August 2026"
   reviewedBy: "article-reviewer"

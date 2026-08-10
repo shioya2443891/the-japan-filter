@@ -16,7 +16,7 @@ sourcesChecked:
   - "kinto.co.jp product pages (Japan domestic pricing)"
   - "loft.co.jp, hands.net (Japan domestic retail listings)"
 lastVerified: "August 2026"
-status: draft
+status: published
 reviewLog:
   reviewedAt: "August 2026"
   reviewedBy: "article-reviewer"

@@ -19,7 +19,7 @@ sourcesChecked:
   - "corkcicle.com product pages"
   - "Amazon.com search results for all three products (August 2026)"
 lastVerified: "August 2026"
-status: draft
+status: published
 reviewLog:
   reviewedAt: "August 2026"
   reviewedBy: "article-reviewer"

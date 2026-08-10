@@ -16,7 +16,7 @@ sourcesChecked:
   - "blog.bluebottlecoffee.com (Blue Bottle Coffee x KINTO relationship)"
   - "mistore.jp, takashimaya.co.jp (Japan domestic department store listings)"
 lastVerified: "August 2026"
-status: draft
+status: published
 reviewLog:
   reviewedAt: "August 2026"
   reviewedBy: "article-reviewer"
