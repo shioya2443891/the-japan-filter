@@ -16,7 +16,7 @@ sourcesChecked:
   - "tiger-corporation-us.com official US pricing pages"
   - "kakaku.com Japan domestic pricing (Tiger MCZ-S060, August 2026)"
 lastVerified: "August 2026"
-status: draft
+status: published
 reviewLog:
   reviewedAt: "August 2026"
   verdict: "fixed"

@@ -19,7 +19,7 @@ sourcesChecked:
   - "kakaku.com Japan domestic pricing (Tiger stainless bottle models, August 2026)"
   - "Official Hydro Flask, Stanley, and YETI product specification pages"
 lastVerified: "August 2026"
-status: draft
+status: published
 reviewLog:
   reviewedAt: "August 2026"
   verdict: "fixed"

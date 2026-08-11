@@ -17,7 +17,7 @@ sourcesChecked:
   - "Amazon.com official Tiger Corporation and CUCKOO brand store listings"
   - "tiger-corporation.com/en/usa/ and cuckooamerica.com official product pages"
 lastVerified: "August 2026"
-status: draft
+status: published
 reviewLog:
   reviewedAt: "August 2026"
   verdict: "pass"

@@ -15,7 +15,7 @@ sourcesChecked:
   - "tiger-corporation.com/en/usa/product/rice-cooker/jkt-d10u-18u/ and /jpw-h10u-18u/ official product pages"
   - "Amazon.com official Tiger Corporation brand store listings"
 lastVerified: "August 2026"
-status: draft
+status: published
 reviewLog:
   reviewedAt: "August 2026"
   verdict: "pass"

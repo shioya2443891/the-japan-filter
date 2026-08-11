@@ -18,7 +18,7 @@ sourcesChecked:
   - "tiger-corporation.com/en/usa/ and /en/jpn/ official product pages"
   - "SalesNow and public company registration records (Tiger Corporation corporate structure)"
 lastVerified: "August 2026"
-status: draft
+status: published
 reviewLog:
   reviewedAt: "August 2026"
   verdict: "fixed"

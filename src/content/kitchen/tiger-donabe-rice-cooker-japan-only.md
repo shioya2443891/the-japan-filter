@@ -19,7 +19,7 @@ sourcesChecked:
   - "PR TIMES official press release for the JRT-A100 (June 2026)"
   - "Japan domestic retail pricing sources (August 2026)"
 lastVerified: "August 2026"
-status: draft
+status: published
 reviewLog:
   reviewedAt: "August 2026"
   verdict: "pass"

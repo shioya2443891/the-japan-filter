@@ -16,7 +16,7 @@ sourcesChecked:
   - "Amazon.com official Tiger Corporation brand store listings"
   - "PR TIMES official press release for the JRT-A100 (June 2026)"
 lastVerified: "August 2026"
-status: draft
+status: published
 reviewLog:
   reviewedAt: "August 2026"
   verdict: "fixed"

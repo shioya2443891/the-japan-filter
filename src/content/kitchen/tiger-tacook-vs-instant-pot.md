@@ -16,7 +16,7 @@ sourcesChecked:
   - "tiger-corporation.com/en/usa/ official product pages"
   - "Official Instant Pot product specification pages"
 lastVerified: "August 2026"
-status: draft
+status: published
 reviewLog:
   reviewedAt: "August 2026"
   verdict: "pass"
