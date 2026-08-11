@@ -1,5 +1,5 @@
 ---
-description: 日本ブランドの記事を一括生成する。brand-scout → theme-auditor → 記事執筆 → article-reviewer の全工程を自動実行し、draft 記事を作成してレポートする。引数: ブランド名（省略可）
+description: 日本ブランドの記事を一括生成する。brand-scout -> theme-auditor -> 記事執筆 -> article-reviewer の全工程を自動実行し、draft 記事を作成してレポートする。引数: ブランド名（省略可）
 ---
 
 # /next-brand 実行手順
@@ -121,15 +121,31 @@ STEP 2 で洗い出したテーマを審査する。
 
 各記事を `article-reviewer` エージェント（`.claude/agents/article-reviewer.md`）で審査する。
 
-- 7項目の全チェックを実施する
+- 8項目の全チェックを実施する（CHECK-1 から CHECK-8）
 - `reviewLog` を frontmatter に書き込む
 - **`status` は `draft` のまま変更しない**
 - fail 項目があれば記事を直接修正し、修正内容を `reviewLog.revisions` に記録する
 - 修正後に再審査し、`reviewLog.finalVerdict: "pass"` になったことを確認する
+- CHECK-8（Internal Linking）の candidates を記録しておく -- STEP 6 で使用する
 
 ---
 
-## STEP 6: ブランドプロファイルの更新
+## STEP 6: 内部リンクの追加（CONTENT_RULES.md Rule 13）
+
+STEP 5 の CHECK-8 で candidates が報告された記事について、
+実際にリンクを追加する。candidates がゼロの場合はこの STEP をスキップする。
+
+各候補について:
+1. 既存の同ブランド公開済み記事を Read する
+2. 自然な文脈でリンクを追加できるか最終判断する
+3. 追加できる場合: Edit で記事本文を修正する（1記事ペアにつき1箇所まで）
+4. 追加できない場合: 見送り（無理に入れない）
+
+追加したリンクの一覧は STEP 9 の完了報告に含める。
+
+---
+
+## STEP 7: ブランドプロファイルの更新
 
 `src/data/brands/[brand-slug].md` を更新する:
 
@@ -139,17 +155,19 @@ STEP 2 で洗い出したテーマを審査する。
 
 ---
 
-## STEP 7: コミット・プッシュ
+## STEP 8: コミット・プッシュ
 
 ```
-git add src/content/tableware/ src/data/brands/
-git commit -m "Add [brand] articles (draft) · [記事数]本"
+git add src/content/ src/data/brands/
+git commit -m "Add [brand] articles (draft) x[記事数]"
 git push
 ```
 
+STEP 6 で既存記事を編集した場合、それらも `src/content/` に含まれるため上記コマンドで一緒にステージングされる。
+
 ---
 
-## STEP 8: 完了報告（日本語）
+## STEP 9: 完了報告（日本語）
 
 以下の形式で報告する:
 
@@ -157,7 +175,7 @@ git push
 ## /next-brand 完了レポート
 
 ### 対象ブランド
-[ブランド名] — [選んだ理由または指定ブランドの確認]
+[ブランド名] -- [選んだ理由または指定ブランドの確認]
 
 ### テーマ審査結果
 - 候補: X本 / 合格: X本 / 却下: X本
@@ -173,6 +191,11 @@ git push
 - recommended: X本
 - conditional: X本
 - not-recommended: X本
+
+### 内部リンク追加（Rule 13）
+- 追加: X箇所
+  - [既存記事スラッグ] -> [新記事スラッグ]: "[アンカーテキスト]"
+- 見送り: X箇所（理由: 自然な文脈なし）
 
 ### 次のアクション
 公開したい記事があれば「[タイトル] を公開して」と指示してください。

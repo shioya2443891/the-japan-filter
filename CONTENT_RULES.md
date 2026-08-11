@@ -374,3 +374,27 @@ BOM (U+FEFF, codepoint 65279) も同じチェックで検出される。
 | `ﾂｷ` | `·` middle dot |
 | `笘・` | `★` 黒星 |
 2026-08-08 に一括修正済み。
+
+---
+
+## 13. Internal Linking
+
+When new articles are finalized for a brand, check whether existing same-brand
+articles have natural opportunities to link to the new article.
+
+**Scope:** Same brand only. Cross-brand links are appropriate only in direct
+comparison articles where the comparison itself is the subject.
+
+**Rules:**
+
+- One link per article pair is sufficient.
+- Only add a link where it genuinely helps the reader. Never add links to
+  satisfy a quota.
+- If no natural context exists, skip entirely. A forced link is worse than
+  no link.
+- Write anchor text that fits the sentence naturally -- not the article title
+  verbatim.
+- Link in the direction the reader would actually travel: from the broader topic
+  to the specific one, or from the earlier decision point to the later one.
+  Do not create reciprocal links for their own sake.
+- Anchor text must be ASCII-only (Rule 11).
