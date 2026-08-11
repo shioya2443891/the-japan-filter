@@ -4,7 +4,7 @@
   "version": "0.1.0",
   "scripts": {
     "dev": "astro dev",
-    "build": "node scripts/check-encoding.mjs && astro build",
+    "build": "node scripts/check-encoding.mjs && node scripts/generate-site-state.mjs && node scripts/generate-link-map.mjs && astro build",
     "preview": "astro preview"
   },
   "dependencies": {

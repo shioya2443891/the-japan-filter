@@ -17,6 +17,7 @@ researchCaveats:
   - "Whether Musui-Kamado ($670 US) and Japan Ricepot (JPY 95,370) are the same product under different names or distinct products was not confirmed in this research."
   - "Egg & Toast Pan and Oven Safe Skillet Japan availability not confirmed in this research."
   - "Individual product prices (frying pan, etc.) from Japan shop are approximate. Verify by model number at official Japan store before citing."
+priceTier: "high"
 ---
 
 ## Confirmed Facts from Primary Sources (LEVEL 1)

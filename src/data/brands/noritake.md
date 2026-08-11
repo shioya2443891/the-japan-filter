@@ -13,6 +13,7 @@ sourcedFrom:
   - "src/content/tableware/noritake-colorwave-vs-colorscapes.md"
   - "src/content/tableware/noritake-vs-lenox-fine-china.md"
   - "src/content/tableware/noritake-vs-mikasa-dinnerware.md"
+priceTier: "low"
 ---
 
 ## 一次情報で確認できた事実

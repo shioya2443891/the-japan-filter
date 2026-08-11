@@ -17,6 +17,7 @@ researchCaveats:
   - "MCZ/MTA シリーズのステンレスボトルの製造国は 2026-08-10 時点の公式商品ページから確認できなかった（LEVEL 3）。記事化時に要確認"
   - "JPA-X（変圧 Pressure IH）は Amazon.com に存在するが tiger-corporation.com/en/jpn/ 配下の商品ページ（/en/usa/ ではない）のため、米国向け公式商品か不明（LEVEL 3）。記事化時に Sold by セラー名と電圧（100V か 120V か）を確認すること"
   - "日米価格比較の為替換算は 150 円/ドルを使用。記事化時に実勢レートで再確認すること"
+priceTier: "high"
 ---
 
 ## 一次情報で確認できた事実
