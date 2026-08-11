@@ -51,7 +51,7 @@
       "articles": 6,
       "priceTier": "low",
       "verdicts": {
-        "recommended": 2,
+        "recommended": 3,
         "conditional": 3,
         "notRecommended": 0
       },
@@ -149,7 +149,7 @@
     }
   ],
   "verdictTotals": {
-    "recommended": 18,
+    "recommended": 19,
     "conditional": 33,
     "notRecommended": 4
   },

@@ -398,3 +398,31 @@ comparison articles where the comparison itself is the subject.
   to the specific one, or from the earlier decision point to the later one.
   Do not create reciprocal links for their own sake.
 - Anchor text must be ASCII-only (Rule 11).
+
+---
+
+## 14. Brand Portfolio Balance
+
+Before selecting a new brand, review the existing brand mix and
+choose in a way that keeps the site balanced across two axes.
+
+**Price tier:**
+- Aim for roughly two thirds of brands in the $150+ range and
+  one third below it
+- High-priced brands carry most of the revenue; low-priced
+  brands rank faster and convert more often
+
+**US availability:**
+- Prefer brands where Japanese and US pricing diverge, where
+  parallel imports or gray market listings are a known problem,
+  or where official US distribution is limited
+- These conditions produce not-recommended verdicts, which the
+  site needs in order to be credible
+
+State which side of each axis the chosen brand falls on, and
+why, before proceeding.
+
+**Reading the current brand mix:**
+Read `src/data/site-state.json` to get the current priceTier
+distribution and article counts. Do not re-scan articles from
+scratch -- the JSON is regenerated at every build.

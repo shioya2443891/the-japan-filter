@@ -20,6 +20,10 @@ lastVerified: "August 2026"
 status: published
 reviewLog: null
 ogImage: "/og/noritake-colorwave-everyday.png"
+verdict:
+  rating: "recommended"
+  summary: "Colorwave is the right pick for buyers who want everyday stoneware from a verified Japanese brand at a mid-range price. The official US storefront removes authenticity concerns, the glaze holds up better than cheaper casual lines after repeated dishwasher use, and the color range is broad enough to match most kitchen aesthetics without compromise."
+  bestPick: null
 ---
 
 Noritake's Colorwave line sits in an interesting position for the brand: it's casual

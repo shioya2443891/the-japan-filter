@@ -17,6 +17,7 @@ tools:
 
 1. `CONTENT_RULES.md` を必ず読むこと（パス: `CONTENT_RULES.md`）
 2. 既存記事を確認して重複テーマを把握すること（`src/content/tableware/*.md` を Glob で取得）
+3. `src/data/site-state.json` を Read で読み込み、現在のブランド構成（priceTier 分布・ブランド数・記事数）を把握すること。記事を直接スキャンして集計し直さないこと -- このファイルがビルドごとに自動更新される唯一の正とする。
 
 ## 入力
 
@@ -26,6 +27,7 @@ tools:
   - Amazon.com に公式ストアまたは認定セラーが存在する
   - The Japan Filter が扱っていない、または不十分にしか扱っていない
   - 米国市場での競合が明確に存在する
+  - **CONTENT_RULES.md Rule 14（Brand Portfolio Balance）を満たすこと**: `src/data/site-state.json` の priceTier 分布を確認し、2軸（価格帯・US 流通）のどちら側にこのブランドが位置するかを明示すること
 
 ## 調査プロセス
 
@@ -72,6 +74,14 @@ tools:
 ```
 # Brand Scout Report: [ブランド名]
 調査日: [今日の日付]
+
+## Portfolio Balance（Rule 14 チェック）
+- 価格帯軸: high（$150+） / low（$150 未満）
+  - 根拠: [主力製品の価格と priceTier を一文で]
+  - 追加後の分布: high X ブランド / low Y ブランド（現在 site-state.json 参照）
+- US 流通軸: [日米価格差あり / 並行輸入問題あり / 正規流通限定 / 該当なし]
+  - 根拠: [一文で]
+  - 期待する verdict 分布へのインパクト: [not-recommended が出やすい / 出にくい]
 
 ## ブランドサマリー
 - Amazon.com 公式ストア: あり / なし（セラー名）
