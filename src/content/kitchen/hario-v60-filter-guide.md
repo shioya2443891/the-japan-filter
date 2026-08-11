@@ -180,7 +180,7 @@ Most V60 buying advice focuses entirely on the dripper -- material, size, price 
 
 ## Filter Size, Not Material, Is What Matters
 
-The detail most first-time buyers miss: V60 filters are sized to match the dripper size number (01, 02, etc.), not the dripper material. A size 02 filter fits the plastic, glass, ceramic, and metal size 02 drippers interchangeably. If you're building out a V60 collection across multiple materials, you don't need a separate filter type for each -- one filter size covers all of them at that size.
+The detail most first-time buyers miss: V60 filters are sized to match the dripper size number (01, 02, etc.), not the dripper material. A size 02 filter fits the plastic, glass, ceramic, and metal size 02 drippers interchangeably. If you're building out a V60 collection across multiple materials, you don't need a separate filter type for each -- one filter size covers all of them at that size. The same size rule carries over to the 2025 V60 NEO -- if you are deciding between the original V60 and the NEO, filter compatibility is not a differentiating factor. See [our comparison of the two versions](/kitchen/hario-v60-neo-vs-original/) for what is.
 
 ## Bleached vs. Unbleached: Mostly a Preference Call
 

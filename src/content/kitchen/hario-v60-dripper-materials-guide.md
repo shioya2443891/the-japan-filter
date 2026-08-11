@@ -233,6 +233,8 @@ verdict:
 
 Every Hario V60 dripper shares the same cone angle, the single large hole at the base, and the spiral ribbing that runs up the interior wall. That geometry is the actual brewing design, and it doesn't change across materials. What changes is weight, heat retention, breakage risk, price, and -- for two of the four materials -- a documented production origin in Japan that the other two don't carry in the listings reviewed for this guide.
 
+If you are comparing the original V60 to Hario's 2025 V60 NEO -- which updated the interior rib pattern for the first time since the dripper's launch -- that is a generation-level decision separate from material choice. See [our comparison of the original V60 and the V60 NEO](/kitchen/hario-v60-neo-vs-original/) for that.
+
 ## Plastic: The Low-Risk Starting Point
 
 The plastic V60 is the least expensive version and the one most first-time buyers encounter. It's also the lightest and the least likely to break if dropped, which makes it a reasonable choice for travel or camping setups. Reviewers commonly describe it as producing coffee indistinguishable from the more expensive materials, since the extraction geometry is identical. Its main tradeoff is heat retention -- plastic loses heat faster during a pour than ceramic or glass, according to manufacturer specifications.
