@@ -8,8 +8,7 @@
  *
  * priceTier ("high" | "low") logic:
  *   1. Read priceTier from brand profile frontmatter (src/data/brands/<slug>.md)
- *   2. If not set, use FALLBACK_PRICE_TIERS (hardcoded based on brand's flagship price)
- *   3. Write back to brand profile so future runs use the stored value
+ *   2. If not set, write default "low" to brand profile and let user correct
  *
  * $150 threshold: brands whose flagship products are priced at or above $150 -> "high"
  */
@@ -28,41 +27,32 @@ const CONTENT_DIRS = [
 const BRANDS_DIR = join(rootDir, 'src', 'data', 'brands');
 const OUTPUT_FILE = join(rootDir, 'src', 'data', 'site-state.json');
 
-// Hardcoded fallback priceTier for known brands.
-// A brand is "high" if its flagship products are priced at or above $150.
-// Only used if priceTier is not already in the brand profile frontmatter.
-const FALLBACK_PRICE_TIERS = {
-  Noritake:   'low',   // everyday dinnerware $30-$150
-  Zojirushi:  'high',  // premium rice cookers $150-$350
-  Shun:       'high',  // knives $100-$400
-  Hario:      'low',   // coffee accessories $12-$130
-  Vermicular: 'high',  // cast iron $200-$500
-  Kinto:      'low',   // drinkware $20-$80
-  Tiger:      'high',  // premium rice cookers $100-$300
-  Miyabi:     'high',  // knives $150-$370
-};
+// Brand detection: loaded dynamically from src/data/brands/*.md.
+// The filename (without .md) is the slug keyword; brandEnglish is the canonical display name.
+// Which brand keyword appears earliest in the article slug wins.
+function loadBrandKeywords() {
+  const files = readdirSync(BRANDS_DIR).filter(f => f.endsWith('.md')).sort();
+  return files.map(f => {
+    const keyword = f.replace('.md', '');
+    const content = readFileSync(join(BRANDS_DIR, f), 'utf-8');
+    const { frontmatter } = splitContent(content);
+    const brandEnglish = yamlScalar(frontmatter, 'brandEnglish');
+    return { name: brandEnglish || keyword, keyword };
+  });
+}
 
-// Brand detection: which brand keyword appears earliest in the slug wins.
-const BRAND_KEYWORDS = [
-  { name: 'Noritake',   keyword: 'noritake'   },
-  { name: 'Zojirushi',  keyword: 'zojirushi'  },
-  { name: 'Shun',       keyword: 'shun'        },
-  { name: 'Hario',      keyword: 'hario'       },
-  { name: 'Vermicular', keyword: 'vermicular'  },
-  { name: 'Kinto',      keyword: 'kinto'       },
-  { name: 'Tiger',      keyword: 'tiger'       },
-  { name: 'Miyabi',     keyword: 'miyabi'      },
-];
+const BRAND_KEYWORDS = loadBrandKeywords();
 
+// Returns { name, keyword } where keyword is the brand profile filename (without .md).
 function detectBrand(slug) {
   let earliest = null;
   for (const { name, keyword } of BRAND_KEYWORDS) {
     const idx = slug.indexOf(keyword);
     if (idx !== -1 && (earliest === null || idx < earliest.idx)) {
-      earliest = { name, idx };
+      earliest = { name, keyword, idx };
     }
   }
-  return earliest ? earliest.name : 'Unknown';
+  return earliest ? { name: earliest.name, keyword: earliest.keyword } : { name: 'Unknown', keyword: null };
 }
 
 // Split raw markdown into frontmatter string and body string.
@@ -86,21 +76,23 @@ function extractVerdictRating(yaml) {
   return m ? m[1] : null;
 }
 
-// --- Brand profile helpers ---
+// --- Brand profile helpers (use keyword/filename, not the display name) ---
 
-function profilePath(brandName) {
-  return join(BRANDS_DIR, `${brandName.toLowerCase()}.md`);
+function profilePath(keyword) {
+  return join(BRANDS_DIR, `${keyword}.md`);
 }
 
-function readProfilePriceTier(brandName) {
-  const p = profilePath(brandName);
+function readProfilePriceTier(keyword) {
+  if (!keyword) return null;
+  const p = profilePath(keyword);
   if (!existsSync(p)) return null;
   const { frontmatter } = splitContent(readFileSync(p, 'utf-8'));
   return yamlScalar(frontmatter, 'priceTier');
 }
 
-function writeProfilePriceTier(brandName, priceTier) {
-  const p = profilePath(brandName);
+function writeProfilePriceTier(keyword, priceTier) {
+  if (!keyword) return;
+  const p = profilePath(keyword);
   if (!existsSync(p)) return;
   let content = readFileSync(p, 'utf-8');
   if (/^priceTier:/m.test(content)) return; // already set
@@ -113,7 +105,7 @@ function writeProfilePriceTier(brandName, priceTier) {
 
   content = content.slice(0, closeIdx) + `\npriceTier: "${priceTier}"` + content.slice(closeIdx);
   writeFileSync(p, content, 'utf-8');
-  process.stdout.write(`  Wrote priceTier="${priceTier}" -> brands/${brandName.toLowerCase()}.md\n`);
+  process.stdout.write(`  Wrote priceTier="${priceTier}" -> brands/${keyword}.md\n`);
 }
 
 // --- Main ---
@@ -125,7 +117,7 @@ for (const dir of CONTENT_DIRS) {
 
   for (const file of files) {
     const slug = file.replace('.md', '');
-    const brandName = detectBrand(slug);
+    const { name: brandName, keyword: brandKeyword } = detectBrand(slug);
 
     const raw = readFileSync(join(dir, file), 'utf-8');
     const { frontmatter } = splitContent(raw);
@@ -135,6 +127,7 @@ for (const dir of CONTENT_DIRS) {
     if (!brandMap[brandName]) {
       brandMap[brandName] = {
         name: brandName,
+        profileKey: brandKeyword,
         articles: 0,
         priceTier: null,
         verdicts: { recommended: 0, conditional: 0, notRecommended: 0 },
@@ -152,14 +145,13 @@ for (const dir of CONTENT_DIRS) {
   }
 }
 
-// Resolve and write back priceTier for each brand.
-for (const [brandName, brand] of Object.entries(brandMap)) {
-  let pt = readProfilePriceTier(brandName);
+// Resolve and write back priceTier for each brand (use profileKey = filename, not display name).
+for (const brand of Object.values(brandMap)) {
+  let pt = readProfilePriceTier(brand.profileKey);
 
   if (!pt) {
-    // Use hardcoded fallback; fall back to 'low' for unknown brands.
-    pt = FALLBACK_PRICE_TIERS[brandName] ?? 'low';
-    writeProfilePriceTier(brandName, pt);
+    pt = 'low';
+    writeProfilePriceTier(brand.profileKey, pt);
   }
 
   brand.priceTier = pt;

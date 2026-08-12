@@ -15,7 +15,7 @@ description: ポートフォリオ状態を読み取り、新ブランド追加�
 1. `CONTENT_RULES.md` -- 全ルールを把握する
 2. `src/data/site-state.json` -- brands[], totals, priceTierRatio を取得
 3. `src/data/link-map.json` -- Rule 13 内部リンク判断に使う
-4. `.claude/daily-log.md` -- 存在する場合のみ。連続ブランド判定に使う
+4. `logs/daily-log.md` -- 存在する場合のみ。連続ブランド判定に使う
 
 **集計の禁止**: 記事ファイルを直接スキャンして数えてはいけない。
 site-state.json の数値をそのまま使うこと。
@@ -52,7 +52,7 @@ Rule 1 が発動しなかった場合（比率 >= 0.67）、以下を評価:
 
 1. `priceTier = "high"` のブランドを候補とする
 2. 記事数が最も少ないブランドを選ぶ
-3. `.claude/daily-log.md` の直近エントリを読み、
+3. `logs/daily-log.md` の直近エントリを読み、
    同一ブランドが **3回連続** で選ばれている場合は次点のブランドを選ぶ
 4. `priceTier = "high"` のブランドが全て3連続回避対象の場合は
    `priceTier = "low"` で同様に選ぶ
@@ -129,7 +129,7 @@ article-reviewer の CHECK-8 で candidates が出た場合は追加する。
 
 ## STEP 3: daily-log の更新
 
-`.claude/daily-log.md` に以下の形式で追記する。
+`logs/daily-log.md` に以下の形式で追記する。
 ファイルが存在しない場合は新規作成する。
 
 ```markdown
@@ -153,7 +153,7 @@ npm run build
 ビルドが通ったら:
 
 ```
-git add src/content/ src/data/brands/ src/data/site-state.json src/data/link-map.json .claude/daily-log.md
+git add src/content/ src/data/brands/ src/data/site-state.json src/data/link-map.json logs/daily-log.md
 git commit -m "[深掘り/新ブランド]: [ブランド名] articles (draft) x[N]"
 git push
 ```

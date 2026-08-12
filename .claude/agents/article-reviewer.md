@@ -175,8 +175,8 @@ Japan Context が他の既存記事からの使い回しでないかを確認す
 
 1. fail の内容を `reviewLog.checks` に記録する（status は変えない）
 2. fail 箇所を修正する（Edit ツールで記事本文・frontmatter を直接修正）
-3. 修正が完了したら、修正内容を `reviewLog.revisions` に記録する
-4. 修正後に該当 CHECK を再審査し、pass になったら `reviewLog.finalVerdict` を `pass` にする
+3. 修正後に該当 CHECK を再審査し、全項目が pass になったら `reviewLog.verdict` を `"fixed"` に更新する
+4. 修正内容は `reviewLog.summary` フィールドに含める（`revisions` フィールドはスキーマに存在しないため使わない）
 5. **全項目が pass になっても `status: published` には変更しない。**
 6. 修正完了後に人間に報告する:
 
@@ -198,58 +198,65 @@ Japan Context が他の既存記事からの使い回しでないかを確認す
 
 ## reviewLog の書き込み形式
 
+**重要: `src/content/config.ts` の Zod スキーマに完全に従うこと。**
+スキーマ定義（抜粋）:
+```
+reviewLog: { reviewedAt, verdict: 'pass'|'fail'|'fixed', checks: [{ item, result: 'pass'|'fail', note }], summary }
+```
+
 既存の `reviewLog: null` を以下の YAML で置き換える。
 
 ```yaml
 reviewLog:
   reviewedAt: "[Month Year]"
-  reviewedBy: "article-reviewer"
-  initialVerdict: "pass"  # または "fail"
-  finalVerdict: "pass"    # 修正後に全通過した場合のみ "pass"
+  verdict: "pass"  # pass=全通過 / fail=失敗あり（修正前）/ fixed=修正後に全通過
   checks:
-    - id: "evidence-strength"
-      label: "Evidence Strength Rule"
-      status: "pass"
+    - item: "Evidence Strength Rule"
+      result: "pass"
       note: "[確認内容を一文で]"
-    - id: "prohibited-expressions"
-      label: "禁止表現"
-      status: "pass"
+    - item: "Prohibited Expressions"
+      result: "pass"
       note: "[確認内容を一文で]"
-    - id: "japan-popularity-logic"
-      label: "日本で人気だからロジック"
-      status: "pass"
+    - item: "Japan Context Logic"
+      result: "pass"
       note: "[確認内容を一文で]"
-    - id: "japan-context-uniqueness"
-      label: "Japan Context の独自性"
-      status: "pass"
+    - item: "Japan Context Uniqueness"
+      result: "pass"
       note: "[確認内容を一文で]"
-    - id: "verdict-bias"
-      label: "Final Verdict 推薦偏り"
-      status: "pass"
+    - item: "Verdict Bias"
+      result: "pass"
       note: "[確認内容を一文で]"
-    - id: "amazon-disclosure"
-      label: "Amazon 開示表記"
-      status: "layout-dependent"
-      note: "ArticleLayout.astro に委ねられている"
-    - id: "volatile-metrics"
-      label: "変動する数値の断定"
-      status: "pass"
+    - item: "Amazon Disclosure"
+      result: "pass"
+      note: "Handled by ArticleLayout.astro and ProductCard component (layout-dependent)."
+    - item: "Volatile Metrics"
+      result: "pass"
       note: "[確認内容を一文で]"
-    - id: "internal-linking"
-      label: "Internal Linking"
-      status: "none"  # or "candidates"
-      note: "[候補記事と箇所の説明。候補なしの場合は 'No same-brand articles with natural linking context found.']"
-  revisions: []  # 修正がない場合は空配列
-  summary: "[審査結果の日本語サマリー。1〜2文。]"
+    - item: "Internal Linking"
+      result: "pass"
+      note: "[候補なし: 'No same-brand articles with natural linking context found.' / 候補あり: 記事スラッグと追加箇所を一文で]"
+  summary: "[審査結果の日本語サマリー。1〜2文。修正があった場合はその内容も含める。]"
 ```
 
-修正があった場合は `revisions` に追記する:
+**フィールド禁止リスト（これらはスキーマに存在しないため書かないこと）:**
+- `reviewedBy` -- NG
+- `initialVerdict` -- NG
+- `finalVerdict` -- NG（`verdict` のみ使う）
+- `revisions` / `revisions[]` -- NG
+- `checks[].id` -- NG（`checks[].item` を使う）
+- `checks[].label` -- NG（`checks[].item` を使う）
+- `checks[].status` -- NG（`checks[].result` を使う。値は `pass` または `fail` のみ）
 
+**verdict の値の決め方:**
+- 初回審査で全 CHECK が pass → `verdict: "pass"`
+- 初回審査で fail があり Edit で修正、修正後に全 pass → `verdict: "fixed"`
+- 修正の途中状態（通常発生しない）→ `verdict: "fail"`
+
+**修正履歴の記録方法 (revisions の代替):**
+`revisions` フィールドはスキーマに存在しないため、修正内容は
+`summary` フィールドに含めること:
 ```yaml
-  revisions:
-    - fixedAt: "[Month Year]"
-      check: "[check id]"
-      description: "[何をどう修正したか]"
+  summary: "CHECK-2 に禁止表現 'tested' が含まれていたため削除。修正後は全 8 項目 pass。"
 ```
 
 ---
@@ -257,7 +264,6 @@ reviewLog:
 ## 重要な制約
 
 - **`status: published` への変更は、人間が明示的に「公開して」と言った場合のみ行うこと。審査通過だけでは公開しない。理由: Amazon 規約違反や FTC 開示漏れはアカウント停止に直結するため、公開前に必ず人間の承認を挟む。**
-- `reviewLog` は上書きせず、修正履歴として `revisions` に追記すること
 - fail 箇所の修正は Edit ツールで記事ファイルを直接編集すること（ユーザーへの指示にとどめない）
-- 修正後は必ず再審査して pass を確認してから finalVerdict を更新すること
+- 修正後は必ず再審査して pass を確認してから `reviewLog.verdict` を `"fixed"` に更新すること
 - 出力（審査レポートの説明）はすべて日本語で書くこと

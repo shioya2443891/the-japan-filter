@@ -9,6 +9,7 @@
   "brands": [
     {
       "name": "Hario",
+      "profileKey": "hario",
       "articles": 8,
       "priceTier": "low",
       "verdicts": {
@@ -28,7 +29,8 @@
       ]
     },
     {
-      "name": "Kinto",
+      "name": "KINTO",
+      "profileKey": "kinto",
       "articles": 7,
       "priceTier": "low",
       "verdicts": {
@@ -48,6 +50,7 @@
     },
     {
       "name": "Miyabi",
+      "profileKey": "miyabi",
       "articles": 5,
       "priceTier": "high",
       "verdicts": {
@@ -65,6 +68,7 @@
     },
     {
       "name": "Noritake",
+      "profileKey": "noritake",
       "articles": 6,
       "priceTier": "low",
       "verdicts": {
@@ -83,6 +87,7 @@
     },
     {
       "name": "Shun",
+      "profileKey": "shun",
       "articles": 11,
       "priceTier": "high",
       "verdicts": {
@@ -105,7 +110,8 @@
       ]
     },
     {
-      "name": "Tiger",
+      "name": "Tiger Corporation",
+      "profileKey": "tiger",
       "articles": 9,
       "priceTier": "high",
       "verdicts": {
@@ -127,6 +133,7 @@
     },
     {
       "name": "Vermicular",
+      "profileKey": "vermicular",
       "articles": 8,
       "priceTier": "high",
       "verdicts": {
@@ -147,6 +154,7 @@
     },
     {
       "name": "Zojirushi",
+      "profileKey": "zojirushi",
       "articles": 7,
       "priceTier": "high",
       "verdicts": {

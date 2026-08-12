@@ -51,7 +51,7 @@
         "outboundTo": []
       }
     ],
-    "Kinto": [
+    "KINTO": [
       {
         "slug": "best-kinto-coffee-gifts",
         "inboundFrom": [],
@@ -262,7 +262,7 @@
         "outboundTo": []
       }
     ],
-    "Tiger": [
+    "Tiger Corporation": [
       {
         "slug": "best-tiger-rice-cookers",
         "inboundFrom": [

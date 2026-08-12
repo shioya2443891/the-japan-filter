@@ -22,28 +22,34 @@ const CONTENT_DIRS = [
   join(rootDir, 'src', 'content', 'kitchen'),
 ];
 const OUTPUT_FILE = join(rootDir, 'src', 'data', 'link-map.json');
+const BRANDS_DIR = join(rootDir, 'src', 'data', 'brands');
 
-// Brand detection: same keyword-priority logic as generate-site-state.mjs.
-const BRAND_KEYWORDS = [
-  { name: 'Noritake',   keyword: 'noritake'   },
-  { name: 'Zojirushi',  keyword: 'zojirushi'  },
-  { name: 'Shun',       keyword: 'shun'        },
-  { name: 'Hario',      keyword: 'hario'       },
-  { name: 'Vermicular', keyword: 'vermicular'  },
-  { name: 'Kinto',      keyword: 'kinto'       },
-  { name: 'Tiger',      keyword: 'tiger'       },
-  { name: 'Miyabi',     keyword: 'miyabi'      },
-];
+// Brand detection: loaded dynamically from src/data/brands/*.md.
+// The filename (without .md) is the slug keyword; brandEnglish is the canonical display name.
+// Which brand keyword appears earliest in the article slug wins.
+function loadBrandKeywords() {
+  const files = readdirSync(BRANDS_DIR).filter(f => f.endsWith('.md')).sort();
+  return files.map(f => {
+    const keyword = f.replace('.md', '');
+    const content = readFileSync(join(BRANDS_DIR, f), 'utf-8');
+    const { frontmatter } = splitContent(content);
+    const brandEnglish = yamlScalar(frontmatter, 'brandEnglish');
+    return { name: brandEnglish || keyword, keyword };
+  });
+}
 
+const BRAND_KEYWORDS = loadBrandKeywords();
+
+// Returns { name, keyword } where keyword is the brand profile filename (without .md).
 function detectBrand(slug) {
   let earliest = null;
   for (const { name, keyword } of BRAND_KEYWORDS) {
     const idx = slug.indexOf(keyword);
     if (idx !== -1 && (earliest === null || idx < earliest.idx)) {
-      earliest = { name, idx };
+      earliest = { name, keyword, idx };
     }
   }
-  return earliest ? earliest.name : 'Unknown';
+  return earliest ? { name: earliest.name, keyword: earliest.keyword } : { name: 'Unknown', keyword: null };
 }
 
 // Split raw markdown into frontmatter and body.
@@ -51,6 +57,13 @@ function splitContent(raw) {
   const match = raw.match(/^---[\r\n]([\s\S]*?)[\r\n]---[\r\n]?([\s\S]*)$/);
   if (!match) return { frontmatter: '', body: raw };
   return { frontmatter: match[1], body: match[2] };
+}
+
+// Extract a top-level YAML scalar by key name.
+function yamlScalar(yaml, key) {
+  const re = new RegExp(`^${key}:\\s*["']?([^"'\\n]+)["']?`, 'm');
+  const m = yaml.match(re);
+  return m ? m[1].trim() : null;
 }
 
 // Extract outbound internal link slugs from the article body.
@@ -76,7 +89,7 @@ for (const dir of CONTENT_DIRS) {
   for (const file of files) {
     const slug = file.replace('.md', '');
     slugDir[slug] = dir;
-    slugBrand[slug] = detectBrand(slug);
+    slugBrand[slug] = detectBrand(slug).name;
     outbound[slug] = [];
   }
 }
