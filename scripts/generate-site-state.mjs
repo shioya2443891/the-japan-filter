@@ -39,6 +39,7 @@ const FALLBACK_PRICE_TIERS = {
   Vermicular: 'high',  // cast iron $200-$500
   Kinto:      'low',   // drinkware $20-$80
   Tiger:      'high',  // premium rice cookers $100-$300
+  Miyabi:     'high',  // knives $150-$370
 };
 
 // Brand detection: which brand keyword appears earliest in the slug wins.
@@ -50,6 +51,7 @@ const BRAND_KEYWORDS = [
   { name: 'Vermicular', keyword: 'vermicular'  },
   { name: 'Kinto',      keyword: 'kinto'       },
   { name: 'Tiger',      keyword: 'tiger'       },
+  { name: 'Miyabi',     keyword: 'miyabi'      },
 ];
 
 function detectBrand(slug) {

@@ -32,6 +32,7 @@ const BRAND_KEYWORDS = [
   { name: 'Vermicular', keyword: 'vermicular'  },
   { name: 'Kinto',      keyword: 'kinto'       },
   { name: 'Tiger',      keyword: 'tiger'       },
+  { name: 'Miyabi',     keyword: 'miyabi'      },
 ];
 
 function detectBrand(slug) {

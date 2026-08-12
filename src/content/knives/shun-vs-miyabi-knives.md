@@ -169,11 +169,11 @@ Shun is developed and owned by KAI Corporation, a Japanese cutlery company found
 
 ## Why This Matters More Than It Sounds
 
-This isn't a quality signal in either direction -- based on available information, Zwilling's choice to manufacture in Seki City appears to reflect the same regional expertise and forging tradition that KAI Corporation draws on for its own products made there. But it does mean the two brands' warranty terms, customer service structure, and long-term company backing run through different corporate entities. A buyer troubleshooting a warranty issue or sharpening service request needs to know which company they're actually dealing with.
+This isn't a quality signal in either direction -- based on available information, Zwilling's choice to manufacture in Seki City appears to reflect the same regional expertise and forging tradition that KAI Corporation draws on for its own products made there. But it does mean the two brands' warranty terms, customer service structure, and long-term company backing run through different corporate entities. A buyer troubleshooting a warranty issue or sharpening service request needs to know which company they're actually dealing with -- see our [Miyabi Japan vs. US price guide](/knives/miyabi-japan-vs-us-price/) for how that warranty distinction plays out if you're weighing a Japan-market purchase against buying through an authorized US retailer.
 
 ## Steel and Construction: Where the Real Comparison Should Happen
 
-Beyond ownership, the more useful comparison is steel type and construction. Shun's core lines use VG-MAX steel; Miyabi's lines vary by series, using SG2 powdered steel or FC61 steel depending on the specific product. These formulations differ in hardness and edge-retention characteristics, and matching the right Miyabi series to the right Shun line matters more for a purchase decision than either brand's country-of-manufacture label.
+Beyond ownership, the more useful comparison is steel type and construction. Shun's core lines use VG-MAX steel; Miyabi's lines vary by series, using SG2 powdered steel or FC61 steel depending on the specific product. These formulations differ in hardness and edge-retention characteristics, and matching the right Miyabi series to the right Shun line matters more for a purchase decision than either brand's country-of-manufacture label -- see our [Miyabi Kaizen II vs. Birchwood SG2 comparison](/knives/miyabi-kaizen-vs-birchwood/) for how that steel difference plays out within Miyabi's own lineup.
 
 ## Bottom Line
 
