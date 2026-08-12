@@ -19,7 +19,7 @@ sourcesChecked:
   - "Zwilling official company history materials confirming the Seki City facility"
   - "Multiple US cutlery retailer listings reviewed (August 2026)"
 lastVerified: "August 2026"
-status: draft
+status: published
 reviewLog:
   reviewedAt: "August 2026"
   verdict: "fixed"

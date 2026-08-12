@@ -18,7 +18,7 @@ sourcesChecked:
   - "Zwilling official warranty and service documentation"
   - "Manufacturer sharpening and care guidance for high-hardness Japanese steel"
 lastVerified: "August 2026"
-status: draft
+status: published
 reviewLog:
   reviewedAt: "August 2026"
   verdict: "pass"

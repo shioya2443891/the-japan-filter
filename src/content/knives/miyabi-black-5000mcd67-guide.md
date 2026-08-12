@@ -19,7 +19,7 @@ sourcesChecked:
   - "kakaku.com Japan price-comparison listings"
   - "Multiple US cutlery retailer listings reviewed (August 2026)"
 lastVerified: "August 2026"
-status: draft
+status: published
 reviewLog:
   reviewedAt: "August 2026"
   verdict: "fixed"

@@ -18,7 +18,7 @@ sourcesChecked:
   - "Zwilling Japan official online shop (5000FC-D and 5000MCD listings)"
   - "Multiple US cutlery retailer listings reviewed (August 2026)"
 lastVerified: "August 2026"
-status: draft
+status: published
 reviewLog:
   reviewedAt: "August 2026"
   verdict: "fixed"
