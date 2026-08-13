@@ -19,6 +19,7 @@ echo [START] %date% %time% > "%LOGFILE%"
 echo Command: /daily >> "%LOGFILE%"
 echo. >> "%LOGFILE%"
 
+set CLAUDE_CODE_PRINT_BG_WAIT_CEILING_MS=0
 claude -p "/daily" >> "%LOGFILE%" 2>&1
 
 set EXITCODE=%ERRORLEVEL%
