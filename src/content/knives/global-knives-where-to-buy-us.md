@@ -25,7 +25,7 @@ sourcesChecked:
   - "Amazon.com 'Global Cutlery' brand store page (August 2026)"
   - "Yoshikin official Japan retail channels FAQ -- yoshikin.co.jp (August 2026)"
 lastVerified: "August 2026"
-status: draft
+status: published
 reviewLog:
   reviewedAt: "August 2026"
   verdict: "fixed"

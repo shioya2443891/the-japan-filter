@@ -21,7 +21,7 @@ sourcesChecked:
   - "Wikipedia -- Yoshida Metal Industry and Global (cutlery) articles"
   - "Amazon.com -- SAI series listings (availability check, August 2026)"
 lastVerified: "August 2026"
-status: draft
+status: published
 reviewLog:
   reviewedAt: "August 2026"
   verdict: "fixed"

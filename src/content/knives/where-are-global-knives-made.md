@@ -22,7 +22,7 @@ sourcesChecked:
   - "Global Cutlery USA -- globalcutleryusa.com (brand history, counterfeit warning)"
   - "okamiblades.com -- Global brand manufacturing background"
 lastVerified: "August 2026"
-status: draft
+status: published
 reviewLog:
   reviewedAt: "August 2026"
   verdict: "fixed"

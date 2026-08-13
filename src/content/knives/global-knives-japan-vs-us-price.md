@@ -22,7 +22,7 @@ sourcesChecked:
   - "Global Cutlery USA authorized retailer policy page"
   - "Amazon.com listings for Global G-2 (price range reference, August 2026)"
 lastVerified: "August 2026"
-status: draft
+status: published
 reviewLog:
   reviewedAt: "August 2026"
   verdict: "fixed"

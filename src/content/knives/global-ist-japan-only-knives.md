@@ -22,7 +22,7 @@ sourcesChecked:
   - "Amazon.com -- searched for GLOBAL-IST availability (August 2026)"
   - "Multiple cutlery references for single-bevel vs. double-bevel professional Japanese knife conventions"
 lastVerified: "August 2026"
-status: draft
+status: published
 reviewLog:
   reviewedAt: "August 2026"
   verdict: "fixed"

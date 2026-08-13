@@ -42,7 +42,7 @@ reviewLog:
     - item: "変動する数値の断定"
       result: "pass"
       note: "星評価・レビュー数・販売ランキングの具体的数値は使用されていない。価格表記はaround/per listings reviewedの概算形式に加え、verify current priceの注記あり。"
-  summary: "Evidence Strength Rule（CHECK-1）でJRT-A100の米国未展開に関する4箇所のLEVEL 3違反（断定形）を検出し修正。修正後は全7項目がpass。status: draftは変更せず。"
+  summary: "Evidence Strength Rule（CHECK-1）でJRT-A100の米国未展開に関する4箇所のLEVEL 3違反（断定形）を検出し修正。修正後は全7項目がpass。status: publishedは変更せず。"
 ogImage: "/og/og-default.png"
 products:
   - id: confirmed-jkt-d18u

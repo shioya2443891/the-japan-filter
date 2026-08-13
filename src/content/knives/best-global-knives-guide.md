@@ -21,7 +21,7 @@ sourcesChecked:
   - "Wikipedia -- Yoshida Metal Industry (company history and founding)"
   - "Amazon.com -- G-2 price range reference (August 2026)"
 lastVerified: "August 2026"
-status: draft
+status: published
 reviewLog:
   reviewedAt: "August 2026"
   verdict: "fixed"
