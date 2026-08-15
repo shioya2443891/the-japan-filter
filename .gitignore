@@ -22,5 +22,6 @@ pnpm-debug.log*
 # jetbrains setting folder
 .idea/
 
-# run logs
-logs/
+# run logs (daily-log.md は管理対象)
+logs/*
+!logs/daily-log.md
