@@ -18,7 +18,7 @@ sourcesChecked:
   - "Multiple cutlery-history sources on santoku and gyuto blade-shape origin, cross-referenced via web search (reviewed August 2026)"
   - "Multiple US retail listings for Kaizen II santoku and gyuto reviewed (August 2026)"
 lastVerified: "August 2026"
-status: draft
+status: published
 reviewLog:
   reviewedAt: "August 2026"
   verdict: "fixed"

@@ -20,7 +20,7 @@ sourcesChecked:
   - "Historical sources on Seki City and Tsubame-Sanjo manufacturing traditions"
   - "Multiple US retail listings for both brands reviewed (August 2026)"
 lastVerified: "August 2026"
-status: draft
+status: published
 reviewLog:
   reviewedAt: "August 2026"
   verdict: "fixed"

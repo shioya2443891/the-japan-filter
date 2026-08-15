@@ -23,7 +23,7 @@ sourcesChecked:
   - "zwilling.com/us official Miyabi Black 5000MCD67 product pages (steel/hardness comparison)"
   - "Multiple US cutlery retailer listings reviewed (August 2026)"
 lastVerified: "August 2026"
-status: draft
+status: published
 reviewLog:
   reviewedAt: "August 2026"
   verdict: "fixed"

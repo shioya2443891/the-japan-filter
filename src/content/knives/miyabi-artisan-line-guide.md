@@ -21,7 +21,7 @@ sourcesChecked:
   - "src/data/brands/miyabi.md brand profile (Miyabi line pricing table and manufacturing process notes)"
   - "Multiple third-party US cutlery retailer listings reviewed for cross-checking (August 2026)"
 lastVerified: "August 2026"
-status: draft
+status: published
 reviewLog:
   reviewedAt: "August 2026"
   verdict: "pass"

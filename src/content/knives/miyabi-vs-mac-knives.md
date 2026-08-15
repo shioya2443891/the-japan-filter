@@ -21,7 +21,7 @@ sourcesChecked:
   - "zwilling.com/us official Miyabi Evolution product and specification pages"
   - "Multiple US cutlery retailer listings reviewed for both brands (August 2026)"
 lastVerified: "August 2026"
-status: draft
+status: published
 reviewLog:
   reviewedAt: "August 2026"
   verdict: "pass"

@@ -36,7 +36,7 @@ sourcesChecked:
   - "cutleryandmore.com Zwilling knife series guide"
   - "Target.com and Amazon.com listings for Henckels Statement and Classic knife products (August 2026)"
 lastVerified: "August 2026"
-status: draft
+status: published
 reviewLog:
   reviewedAt: "August 2026"
   verdict: "pass"

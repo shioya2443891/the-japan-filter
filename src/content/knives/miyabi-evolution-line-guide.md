@@ -22,7 +22,7 @@ sourcesChecked:
   - "Multiple US cutlery retailer listings for Miyabi Evolution 400FC reviewed (August 2026), including knifemerchant.com, cutleryandmore.com, and knifecenter.com product listings"
   - "Existing Miyabi articles on file reviewed for pricing and specification consistency (miyabi-kaizen-vs-birchwood.md, miyabi-japan-vs-us-price.md, miyabi-vs-wusthof.md)"
 lastVerified: "August 2026"
-status: draft
+status: published
 reviewLog:
   reviewedAt: "August 2026"
   verdict: "pass"
