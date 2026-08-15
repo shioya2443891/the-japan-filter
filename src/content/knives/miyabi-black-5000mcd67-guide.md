@@ -124,9 +124,11 @@ japanContext:
       We were not able to fully confirm within this research scope that the
       Japan-market 5000MCD67 santoku and the US Miyabi Black 8-inch chef's
       knife are an identical product beyond sharing a model code and steel
-      type -- blade shape (santoku vs. chef's knife) differs between the two
+      type -- blade shape (santoku vs. gyuto) differs between the two
       listings we compared, which limits how directly the prices can be
-      read against each other.
+      read against each other. See our [santoku vs. gyuto blade shape
+      guide](/knives/miyabi-santoku-vs-gyuto/) for what that shape
+      difference actually changes about the knife.
     - >-
       MC66 micro-carbide powder steel, used in the Black line, is a
       manufacturing approach associated with Japan's broader tradition of
@@ -182,7 +184,7 @@ Based on the pricing we reviewed, Japan-market pricing at Miyabi's mid tier ran 
 
 ## Who Should Actually Spend $300+
 
-The flagship premium makes the most sense for cooks who already have experience with premium Japanese steel, sharpen carefully and infrequently, and want the longest possible interval between sharpenings. Cooks newer to premium Japanese knives, or those who want a lower-maintenance daily knife, get most of Miyabi's core advantages from Kaizen II at a meaningfully lower price. Whichever tier you choose, the edge is hand-finished using the same honbazuke process -- see our [Miyabi honbazuke sharpening guide](/knives/miyabi-honbazuke-sharpening-guide/) for how to maintain it at home without damaging the edge geometry.
+The flagship premium makes the most sense for cooks who already have experience with premium Japanese steel, sharpen carefully and infrequently, and want the longest possible interval between sharpenings. Cooks newer to premium Japanese knives, or those who want a lower-maintenance daily knife, get most of Miyabi's core advantages from Kaizen II at a meaningfully lower price. For a middle option between Kaizen II and Black, see our [Miyabi Artisan line guide](/knives/miyabi-artisan-line-guide/) -- it uses the same SG2 core steel as Birchwood at a price just below Black. Whichever tier you choose, the edge is hand-finished using the same honbazuke process -- see our [Miyabi honbazuke sharpening guide](/knives/miyabi-honbazuke-sharpening-guide/) for how to maintain it at home without damaging the edge geometry. Buyers weighing this same steel and hardness against a limited-edition design instead of a mainline finish should see our [Miyabi IKI 20th anniversary guide](/knives/miyabi-iki-series-guide/), which uses the identical MC66 steel at a higher price.
 
 ## Bottom Line
 

@@ -194,4 +194,4 @@ A cook doing careful, precise prep work -- thin vegetable slices, boneless prote
 
 ## Bottom Line
 
-Miyabi and W&uuml;sthof aren't a straightforward "Japan vs. Germany" comparison -- they're two knives from German companies that made different manufacturing decisions about where and how to build a chef's knife. The better buy depends on cutting style and maintenance tolerance, not which country's name comes to mind first when you think "quality knife."
+Miyabi and W&uuml;sthof aren't a straightforward "Japan vs. Germany" comparison -- they're two knives from German companies that made different manufacturing decisions about where and how to build a chef's knife. The better buy depends on cutting style and maintenance tolerance, not which country's name comes to mind first when you think "quality knife." That's a different comparison from Miyabi's own corporate sibling brand -- see our [Miyabi vs. Henckels comparison](/knives/miyabi-vs-henckels/) for what changes when the two brands share a parent company instead of just a home country.

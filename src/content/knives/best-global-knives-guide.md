@@ -217,7 +217,7 @@ Understanding those differences is more useful than comparing model names, so th
 
 ## G-Series: The Original, Still the Core
 
-The G-2 launched in 1985 and has remained largely unchanged since. Cromova 18 steel at HRC 56-58 sits in the middle of the hardness range for premium kitchen knives -- harder than German-style knives (HRC 52-56), softer than the high-end Japanese steels used by Shun and Miyabi (HRC 60-66+). That position has practical implications: the G-2 resharpens more easily on a standard whetstone but needs more frequent attention than higher-hardness alternatives.
+The G-2 launched in 1985 and has remained largely unchanged since. Cromova 18 steel at HRC 56-58 sits in the middle of the hardness range for premium kitchen knives -- harder than German-style knives (HRC 52-56), softer than the high-end Japanese steels used by Shun and Miyabi (HRC 60-66+). That position has practical implications: the G-2 resharpens more easily on a standard whetstone but needs more frequent attention than higher-hardness alternatives. See our [Miyabi vs. Global Knives guide](/knives/miyabi-vs-global-knives/) for a closer look at what that hardness gap changes in daily use.
 
 The hollow sand-weighted handle, unchanged from the original design, distributes weight so the knife feels lighter than it looks and slightly forward-balanced. Reviewers consistently describe this balance as well-suited to a pinch grip. The one-piece all-stainless construction creates no seams where food particles can collect.
 

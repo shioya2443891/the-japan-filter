@@ -178,7 +178,7 @@ Kaizen II and Birchwood SG2 look similar at a glance -- both Damascus-clad, both
 
 ## Steel: FC61 vs. SG2
 
-Kaizen II uses FC61, a fine-carbide stainless steel hardened to approximately 61 HRC, per manufacturer specifications. Birchwood SG2 steps up to SG2 powdered steel, hardened to 63 HRC or higher. The harder steel holds a fine edge longer between sharpenings, but higher hardness generally comes with a tradeoff in chip resistance -- a harder edge is more prone to small chips when it contacts bone or a frozen surface.
+Kaizen II uses FC61, a fine-carbide stainless steel hardened to approximately 61 HRC, per manufacturer specifications. Birchwood SG2 steps up to SG2 powdered steel, hardened to 63 HRC or higher. The harder steel holds a fine edge longer between sharpenings, but higher hardness generally comes with a tradeoff in chip resistance -- a harder edge is more prone to small chips when it contacts bone or a frozen surface. That same FC61 steel also shows up a tier below Kaizen II, in the entry-level Evolution line -- see our [Miyabi Evolution line guide](/knives/miyabi-evolution-line-guide/) for what Evolution's lower price does and doesn't change about the steel itself.
 
 ## Handle Material: A Non-Japanese Detail
 
@@ -190,4 +190,4 @@ For a cook who sharpens a few times a year and wants the sharpest possible edge 
 
 ## Bottom Line
 
-The step from Kaizen II to Birchwood SG2 is a real materials upgrade, not a cosmetic one -- harder steel, a different handle material, and a documented jump in edge-retention potential. Most home cooks will get more everyday value from Kaizen II's lower price and easier-care handle; the Birchwood upgrade is worth the premium mainly for cooks who sharpen infrequently and prioritize edge longevity above ease of maintenance. Cooks who want to go a step further still should see our [Miyabi Black 5000MCD67 guide](/knives/miyabi-black-5000mcd67-guide/), which covers whether the flagship tier above Birchwood is worth the additional cost.
+The step from Kaizen II to Birchwood SG2 is a real materials upgrade, not a cosmetic one -- harder steel, a different handle material, and a documented jump in edge-retention potential. Most home cooks will get more everyday value from Kaizen II's lower price and easier-care handle; the Birchwood upgrade is worth the premium mainly for cooks who sharpen infrequently and prioritize edge longevity above ease of maintenance. Cooks who want to go a step further still should see our [Miyabi Black 5000MCD67 guide](/knives/miyabi-black-5000mcd67-guide/), which covers whether the flagship tier above Birchwood is worth the additional cost. Birchwood isn't the only option in that same price band, either -- our [Miyabi Artisan line guide](/knives/miyabi-artisan-line-guide/) covers a similarly priced line that skips the Damascus pattern in favor of a hammered Tsuchime finish.

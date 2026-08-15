@@ -171,7 +171,7 @@ The practical result is real: no seams between blade and handle, easier sanitati
 
 ## Seki City vs. Tsubame City: Different Systems
 
-When comparing Global to Shun or Miyabi, both of which are Seki City products, the comparison involves two different metalworking systems under the same "Made in Japan" label. Seki's forge-and-grind process and the steel specifications it enables (Shun's VG-MAX at HRC 60-61, Miyabi's SG2 at HRC 63+) produce different edge characteristics than Tsubame's one-piece stamped and hollow-ground construction. Neither is inherently superior -- they are different.
+When comparing Global to Shun or Miyabi, both of which are Seki City products, the comparison involves two different metalworking systems under the same "Made in Japan" label. Seki's forge-and-grind process and the steel specifications it enables (Shun's VG-MAX at HRC 60-61, Miyabi's SG2 at HRC 63+) produce different edge characteristics than Tsubame's one-piece stamped and hollow-ground construction. Neither is inherently superior -- they are different. See our [Miyabi vs. Global Knives guide](/knives/miyabi-vs-global-knives/) for a direct comparison between the two manufacturing traditions.
 
 ## Authenticity Verification
 

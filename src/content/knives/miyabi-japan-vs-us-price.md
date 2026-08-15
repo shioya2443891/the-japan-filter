@@ -188,7 +188,7 @@ That pattern did not hold at higher tiers. At the premium and flagship levels, t
 
 ## What the Price Gap Doesn't Include
 
-The mid-tier price difference looks like a straightforward reason to buy from Japan, until the warranty terms are factored in. Zwilling's official US warranty documentation ties coverage to purchases made from Zwilling or an authorized US retailer. A knife bought in Japan and brought into the US would not be covered under those terms, based on the documentation we reviewed. For a knife meant to last years, that is a real cost even if it doesn't show up on the price tag.
+The mid-tier price difference looks like a straightforward reason to buy from Japan, until the warranty terms are factored in. Zwilling's official US warranty documentation ties coverage to purchases made from Zwilling or an authorized US retailer. A knife bought in Japan and brought into the US would not be covered under those terms, based on the documentation we reviewed. For a knife meant to last years, that is a real cost even if it doesn't show up on the price tag. Miyabi isn't unusual here -- competing Seki City-made knives carry similar authorized-seller warranty conditions; see our [Miyabi vs. MAC Knives guide](/knives/miyabi-vs-mac-knives/) for how that plays out with another Seki-manufactured brand.
 
 ## Bottom Line
 
