@@ -4,6 +4,16 @@
 
 ---
 
+## 2026-08-17
+
+- 作業種別: 新ブランド追加
+- 対象ブランド: Snow Peak（スノーピーク）
+- 生成記事数: 10本
+- 判断理由: Rule 14 高単価比率 = 6/9 = 66.67% < 67%（priceTierRatio.high / (high+low) の厳密計算）のため発動。priceTier: high のブランドを追加。brand-scout が Snow Peak（アウトドア用チタン食器・調理器具、high tier）を選定。IGT テーブル等の家具系テーマは既存 content collection（tableware/knives/kitchen）に適合しないため除外し、チタン調理器具・ドリンクウェアに絞って kitchen collection に配置。
+- 実行時ポートフォリオ: ブランド数 9 / 平均記事数 8.2（build前）/ 高単価比率 66.67%（6 high / 3 low、build前）
+
+---
+
 ## 2026-08-15
 
 - 作業種別: 深掘り

@@ -312,6 +312,7 @@ brand-scout エージェントを使って初回調査を行い、プロファ�
 - `src/data/brands/hario.md` — HARIO（ハリオ）、コーヒー・ティー器具、August 2026
 - `src/data/brands/vermicular.md` — Vermicular（バーミキュラ / 愛知ドビー）、鋳物鍋、August 2026
 - `src/data/brands/miyabi.md` — Miyabi（雅 / Zwilling J.A. Henckels）、刃物、August 2026
+- `src/data/brands/snow-peak.md` — Snow Peak（スノーピーク）、アウトドア用チタン食器・調理器具、August 2026
 
 ---
 
