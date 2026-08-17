@@ -16,7 +16,7 @@ sourcesChecked:
   - "snowpeak.com/pages/refund-policy (August 2026)"
   - "snowpeak.com/pages/faq-2 (August 2026)"
 lastVerified: "August 2026"
-status: draft
+status: published
 reviewLog:
   reviewedAt: "August 2026"
   verdict: "pass"

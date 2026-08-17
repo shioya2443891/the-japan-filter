@@ -18,7 +18,7 @@ sourcesChecked:
   - "snowpeak.com official US product pages (August 2026)"
   - "Third-party US Snow Peak engraving vendor listings (August 2026)"
 lastVerified: "August 2026"
-status: draft
+status: published
 reviewLog:
   reviewedAt: "August 2026"
   verdict: "fixed"

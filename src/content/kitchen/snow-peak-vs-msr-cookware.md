@@ -15,7 +15,7 @@ sourcesChecked:
   - "snowpeak.com official US product pages (August 2026)"
   - "rei.com and cascadedesigns.com listings for MSR Titan Kettle and PocketRocket 2 Stove (August 2026)"
 lastVerified: "August 2026"
-status: draft
+status: published
 reviewLog:
   reviewedAt: "August 2026"
   verdict: "pass"

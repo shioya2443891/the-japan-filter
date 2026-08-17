@@ -16,7 +16,7 @@ sourcesChecked:
   - "ec.snowpeak.co.jp and kakaku.com Japan retail listings (August 2026)"
   - "Prior brand research on US competitor pricing (Stanley, GSI Outdoors) conducted for this site's Snow Peak brand profile (August 2026)"
 lastVerified: "August 2026"
-status: draft
+status: published
 reviewLog:
   reviewedAt: "August 2026"
   verdict: "pass"

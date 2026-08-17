@@ -23,7 +23,7 @@ sourcesChecked:
   - "snowpeak.com/pages/warranty-repair (August 2026)"
   - "ec.snowpeak.co.jp (cross-referenced via this site's Snow Peak Japan-vs-US price comparison research, August 2026)"
 lastVerified: "August 2026"
-status: draft
+status: published
 reviewLog:
   reviewedAt: "August 2026"
   verdict: "fixed"

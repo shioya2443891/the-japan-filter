@@ -19,7 +19,7 @@ sourcesChecked:
   - "Japanese-language search results referencing flagship-store-exclusive ('chokuei-ten gentei') titanium colorways (August 2026)"
   - "Amazon.com and snowpeak.com catalog search (August 2026) -- items above not found"
 lastVerified: "August 2026"
-status: draft
+status: published
 reviewLog:
   reviewedAt: "August 2026"
   verdict: "pass"

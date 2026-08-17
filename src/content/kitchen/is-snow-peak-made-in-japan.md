@@ -19,7 +19,7 @@ sourcesChecked:
   - "snowpeak.com official product pages (August 2026)"
   - "Background sources on the Tsubame-Sanjo, Niigata Prefecture metalworking industry"
 lastVerified: "August 2026"
-status: draft
+status: published
 reviewLog:
   reviewedAt: "August 2026"
   verdict: "pass"
