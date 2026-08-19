@@ -3,7 +3,7 @@ brand: "Global（グローバル）"
 brandEnglish: "Global"
 manufacturer: "吉田金属工業株式会社（Yoshida Metal Industry Co., Ltd. / Yoshikin）"
 category: cutlery
-profileUpdated: "2026-08-13"
+profileUpdated: "2026-08-20"
 articlesCreated: "2026-08-13"
 lastResearched: "2026-08-13"
 volatility: "medium"
@@ -60,6 +60,16 @@ researchCaveats:
 - Amazon.com 個別商品ページの「Sold by」表記を直接確認できなかった（HTTP 503）
 - SAI・UKON シリーズ日本国内価格: 本調査スコープ内で未確認
 - GLOBAL-IST シリーズの米国市場での販売有無: 明示的確認が取れなかった
+
+**追加調査（2026年8月19-20日、global.yoshikin.co.jp 直接確認）**
+
+- Yoshikin 公式日本直販サイトのカテゴリページ 2 件（SHOP/200778, SHOP/206392、G-Series・GS-series・GLOBAL-IST 合計 90 点以上を掲載）を確認したが、SAI・UKON は 1 点も掲載されていなかった（LEVEL 3、調査範囲は上記 2 ページのみ、2026年8月19日時点）
+- UKON は Global Cutlery USA と Williams Sonoma の両社が「made in Japan exclusively for Williams Sonoma」と明記する Williams-Sonoma 専売コラボレーションライン（LEVEL 1、globalcutleryusa.com・williams-sonoma.com 確認、2026年8月）。これが日本直販サイトに掲載されない一因と考えられる（LEVEL 4 推論、記事化時は要ラベル付け）
+- SAI は既存記事（global-sai-series-guide.md）にて日本国内の実店舗流通（百貨店・東急ハンズ・ロフト・212キッチンストア・六本木直営店）が LEVEL 1 で確認済み。オンライン直販カタログには掲載がないが、実店舗流通は別途確認されているため「SAI は日本で売っていない」と解釈しないこと
+- GLOBAL-IST の詳細モデル別日本価格（IST-01〜IST-07、Black仕様込み）: multipurpose 13,200円、small 11,000円、peeler 9,900円、bread 12,100円、small deba 12,100円、yanagiba 15,400円、deba 16,500円、Black仕様は+6,600円前後（LEVEL 1、global.yoshikin.co.jp 確認、2026年8月19日）
+- 日本国内のGlobalナイフセット構成（LEVEL 1、2026年8月19日）: GST-A（2本、13,200円）、GST-B（3本、23,100円）、GST-C（4本、33,000円）、GBX-C463（4本アソート、26,950円）。いずれもウッドブロック非付属の箱入りセット
+- 米国のGlobalナイフセット・ブロックセット構成（LEVEL 1、globalcutleryusa.com、2026年8月19日）: G-2220GB 2本スターターセット（G-2+シャープナー、$149.99）、Masuta 5本ブロックセット（$249.99）、Kanpeki 10本ブロックセット（$699.99）、SAI 7本ブロックセット（$449.99）、SAI-3001 3本セット（$349.99）、UKON GU-6001 6本ブロックセット（$299.99）
+- Yoshikin 六本木直営店の名入れサービス: 1,100円/本、ギフト包装・研ぎ直し受付も同店で対応（LEVEL 1、yoshikin.co.jp/en_shop/、既存プロファイル記載の再確認）。Global Cutlery USA のギフトページ（gifts.html 等）には同等サービスの記載なし（LEVEL 3、調査範囲は同ページ、2026年8月19日）
 
 ---
 
@@ -168,22 +178,37 @@ researchCaveats:
   - 米国 authorized チャネルでの販売は未確認（LEVEL 3）
   -- 使用記事: `global-ist-japan-only-knives.md`
 
+**使用済み（2026年8月20日）**
+
+- Yoshikin 六本木直営店の名入れサービス（1,100円/本）と米国側の同等サービス不在（LEVEL 1/3）
+  -- 使用記事: `global-knives-gift-guide.md`
+
+- G-Series/UKON/SAI の両刃・対称構造が燕市洋食器製造伝統に由来し、左利き・右利きで性能差がないという設計事実。GLOBAL-IST の deba/yanagiba が両刃な点との対比（LEVEL 1）
+  -- 使用記事: `global-knives-left-handed.md`
+
+- 日本国内セット構成（GST-A/B/C、箱入り・ブロックなし）と米国セット構成（Masuta/Kanpeki/SAI、ウッドブロック中心）のライン構成差（LEVEL 1）
+  -- 使用記事: `global-knife-sets-japan-vs-us.md`
+
+- UKON が Williams-Sonoma 専売コラボレーションラインである事実（LEVEL 1）と、日本直販サイト2カテゴリページに掲載がなかった事実（LEVEL 3、範囲限定）
+  -- 使用記事: `global-ukon-williams-sonoma-exclusive.md`
+
 **未使用**
 
-1. GLOBAL-IST の両刃・同一価格設計（LEVEL 1）
-   - 左利き対応が伝統的な和包丁より優れている可能性（IST 記事では触れたが深堀り余地あり）
+1. SAI シリーズの日本国内価格（LEVEL 3、実店舗流通は確認済みだがオンライン価格は未確認）
+   - 要調査。百貨店・東急ハンズ等での実売価格を直接確認できれば新規記事の余地あり
 
-2. SAI・UKON シリーズの日本国内価格（LEVEL 3）
-   - 未確認。要調査
+2. GLOBAL-IST の詳細モデル別価格差（IST-01〜07、Black仕様）の活用
+   - IST santoku/gyuto の代表価格は既存記事で使用済みだが、フルラインナップの価格帯分析は未使用
 
 ---
 
 ## 調査記録
 
 - 初回調査日: 2026年8月13日（brand-scout エージェント）
-- 主要情報源: global.yoshikin.co.jp、globalcutleryusa.com、yoshikin.co.jp、kakaku.com、en.wikipedia.org/wiki/Yoshida_Metal_Industry、knifecenter.com
+- 追加調査日: 2026年8月19-20日（/daily 深掘り、global.yoshikin.co.jp・globalcutleryusa.com・williams-sonoma.com 直接確認）
+- 主要情報源: global.yoshikin.co.jp、globalcutleryusa.com、williams-sonoma.com、yoshikin.co.jp、kakaku.com、en.wikipedia.org/wiki/Yoshida_Metal_Industry、knifecenter.com
 - 要追加確認:
   - Amazon.com 個別商品「Sold by」セラー名（HTTP 503 のため未取得）
   - G-2 の Amazon.com 最新実売価格
-  - SAI・UKON シリーズの日本国内価格
+  - SAI シリーズの日本国内実店舗価格
   - GLOBAL-IST の米国市場での販売有無

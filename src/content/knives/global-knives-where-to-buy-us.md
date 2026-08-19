@@ -163,6 +163,8 @@ Global Cutlery USA's authorized retailer policy, which we reviewed directly, pro
 
 The 'Global Cutlery' brand store on Amazon.com is operated by SCANPAN USA Inc., which holds the exclusive US sales rights for Global Knives as Global Cutlery USA. Purchasing from this store is the most straightforward authorized US route. The globalcutleryusa.com direct site is another authorized option, operated by the same distributor.
 
+Buyers shopping for a gift should also check our guide on [Global knife gift options](/knives/global-knives-gift-guide/), which covers what personalization services are and are not confirmed available through these same authorized channels.
+
 ## The Distributor Structure Is Unusual
 
 The distributor situation is worth understanding: Yoshikin (the Japanese manufacturer) has its global distribution rights held by Master Cutlery, and SCANPAN USA -- a US subsidiary of Danish cookware company SCANPAN A/S -- holds the exclusive US sales rights. A US buyer purchasing Global Knives is transacting with a Danish company's US subsidiary, not with the Japanese manufacturer.

@@ -207,4 +207,6 @@ The SAI-01 (7.5-inch chef's knife) is the clearest starting point in the SAI lin
 
 Both are available through the Global Cutlery brand store on Amazon.com, operated by SCANPAN USA Inc. Purchasing from the brand store maintains US warranty coverage -- third-party sellers require SCANPAN's prior written consent to be authorized. See our [guide on where to buy Global Knives in the US](/knives/global-knives-where-to-buy-us/) for the seller verification process.
 
+For a mid-tier option with the same Cromova 18 steel as the G-2 but a redesigned ergonomic handle rather than a harder edge, see our guide to the [Williams-Sonoma-exclusive UKON line](/knives/global-ukon-williams-sonoma-exclusive/).
+
 For a comparison between the SAI and the G-2 at a higher level, see our [complete Global Knives guide](/knives/best-global-knives-guide/) covering all three active lines.

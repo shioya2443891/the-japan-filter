@@ -223,7 +223,7 @@ The hollow sand-weighted handle, unchanged from the original design, distributes
 
 ## UKON: Same Steel, Ergonomic Update
 
-The UKON line uses the same Cromova 18 steel at the same HRC 56-58 as the G-Series. The practical difference is a thumb rest on the spine of the blade and a revised handle profile. For buyers who find the original G-Series handle tapered in a way that feels insecure with a pinch grip, the UKON thumb rest addresses that directly. At $10 more than the G-2 official price, the decision is ergonomic preference rather than a material or performance upgrade.
+The UKON line uses the same Cromova 18 steel at the same HRC 56-58 as the G-Series. The practical difference is a thumb rest on the spine of the blade and a revised handle profile. For buyers who find the original G-Series handle tapered in a way that feels insecure with a pinch grip, the UKON thumb rest addresses that directly. At $10 more than the G-2 official price, the decision is ergonomic preference rather than a material or performance upgrade. UKON is also developed as a Williams-Sonoma-exclusive collaboration rather than a standard Yoshikin retail line -- see our [UKON guide](/knives/global-ukon-williams-sonoma-exclusive/) for what that partnership means for buyers.
 
 ## SAI: The Hardness Step-Up
 
@@ -237,8 +237,10 @@ For a detailed breakdown of SAI model differences and the SANSO steel specificat
 
 ## Which Line Fits Which Buyer
 
-For a buyer new to Japanese-style knives, the G-2 is the most accessible starting point: well-documented, widely available from the authorized brand store, and priced below the SAI without a significant performance gap at typical home-kitchen tasks. The UKON is worth considering if the G-Series handle profile feels insecure. The SAI is the right choice when longer edge retention is a priority and the buyer is comfortable with fine-grit resharpening or professional service.
+For a buyer new to Japanese-style knives, the G-2 is the most accessible starting point: well-documented, widely available from the authorized brand store, and priced below the SAI without a significant performance gap at typical home-kitchen tasks. The UKON is worth considering if the G-Series handle profile feels insecure. The SAI is the right choice when longer edge retention is a priority and the buyer is comfortable with fine-grit resharpening or professional service. Hand dominance is not a factor in any of these choices -- all three lines use a double-bevel edge that performs identically for left- and right-handed cooks; see our guide on [Global Knives for left-handed cooks](/knives/global-knives-left-handed/) for the design reasoning.
 
 All three are available through the Global Cutlery brand store on Amazon.com, operated by SCANPAN USA. Purchasing from that store maintains US warranty coverage. See our [guide on authorized US purchase channels](/knives/global-knives-where-to-buy-us/) for details on why the seller name matters.
 
 Yoshikin also makes GLOBAL-IST, a separate Japan-domestic line with different blade shapes (including deba and yanagiba) and lower Japan pricing. It was not found in the US authorized lineup as of August 2026. See our [GLOBAL-IST guide](/knives/global-ist-japan-only-knives/) if you encounter the IST line through resellers or during Japan travel.
+
+For buyers weighing a pre-configured set against buying pieces individually, see our comparison of [Global's Japan and US knife set formats](/knives/global-knife-sets-japan-vs-us/).
