@@ -18,7 +18,7 @@ sourcesChecked:
   - "Williams Sonoma -- williams-sonoma.com (Global UKON collection pages, August 2026)"
   - "Yoshikin Japan direct shop -- global.yoshikin.co.jp (SHOP/200778, SHOP/206392 listing pages, August 19, 2026)"
 lastVerified: "August 2026"
-status: draft
+status: published
 reviewLog:
   reviewedAt: "August 2026"
   verdict: "pass"

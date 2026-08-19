@@ -18,7 +18,7 @@ sourcesChecked:
   - "Global Cutlery USA -- globalcutleryusa.com/gifts.html and related gift category pages (August 2026)"
   - "Global Cutlery USA individual product pages for SAI-3001 and G-2220GB (August 2026)"
 lastVerified: "August 2026"
-status: draft
+status: published
 reviewLog:
   reviewedAt: "August 2026"
   verdict: "fixed"

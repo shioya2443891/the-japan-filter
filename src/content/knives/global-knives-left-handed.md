@@ -18,7 +18,7 @@ sourcesChecked:
   - "Wikipedia -- Yoshida Metal Industry entry (August 2026)"
   - "The Japan Filter -- global-ist-japan-only-knives.md (internal research on single-bevel vs. double-bevel Japanese blade conventions)"
 lastVerified: "August 2026"
-status: draft
+status: published
 reviewLog:
   reviewedAt: "August 2026"
   verdict: "fixed"

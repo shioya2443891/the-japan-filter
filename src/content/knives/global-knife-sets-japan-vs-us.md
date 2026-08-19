@@ -19,7 +19,7 @@ sourcesChecked:
   - "Global Cutlery USA individual product pages for G-2220GB and G-79598 (August 2026)"
   - "Third-party retailer listings (Williams Sonoma, Chef's Arsenal) for set-content cross-verification (August 2026)"
 lastVerified: "August 2026"
-status: draft
+status: published
 reviewLog:
   reviewedAt: "August 2026"
   verdict: "fixed"
